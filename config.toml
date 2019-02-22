@@ -1,9 +1,20 @@
-baseURL = "https://http://fotographicparets.com/"
+baseURL = "https://fotographicparets.com/"
 languageCode = "es"
 defaultContentLanguage = "es"
 title = "FOTOgraphic Parets 2019"
 theme = "bibiano-foundation-theme"
-
+sectionPagesMenu = "main"
+[menu]
+    [[menu.main]]
+        name = "Home"
+        identifier = "home"
+        url = "/"
+        weight = 10
+    [[menu.main]]
+        name = "Programa"
+        identifier = "programa"
+        url = "/programa/"
+        weight = 20
 [params]
   author = "Alex Bibiano"
   description = "FOTOgraphic Parets 2019, 7ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."
