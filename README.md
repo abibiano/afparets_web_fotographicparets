@@ -1,6 +1,6 @@
 # fotographicparets
 
-Site para https://fotographicparets.com de la Associaci√≥ Fotogr√†fica Parets
+Site para https://fotographicparets.com de la AssociaciÛ Fotogr‡fica Parets
 
 ## Empezando
 
@@ -25,10 +25,10 @@ Add additional notes about how to deploy this on a live system
 
 ## Autores
 
-* **ALex Bibiano**
+* **Alex Bibiano**
 
 ## Licencia
 
-Este proyecto est√° licenciado bajo la licencia MIT; consulte el archivo [LICENSE.md] (LICENSE.md) para obtener detalles
+Este proyecto est· licenciado bajo la licencia MIT; consulte el archivo [LICENSE.md] (LICENSE.md) para obtener detalles
 
 ## Agradecimientos
