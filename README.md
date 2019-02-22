@@ -1,18 +1,17 @@
 # fotographicparets
 
-Site para https://fotographicparets.com de la AssociaciÛ Fotogr‡fica Parets
+Site para https://fotographicparets.com de la Associaci√≥ Fotogr√†fica Parets
 
 ## Empezando
 
-* Instalar [Hugo](https://gohugo.io/getting-started/installing/)
+```
+npm install
+```
 
 ### Prerrequisitos
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* Instalar [Hugo](https://gohugo.io/getting-started/installing/)
+* Instalar [npm](https://www.npmjs.com/get-npm/)
 
 ## Despliegue
 
@@ -29,6 +28,6 @@ Add additional notes about how to deploy this on a live system
 
 ## Licencia
 
-Este proyecto est· licenciado bajo la licencia MIT; consulte el archivo [LICENSE.md] (LICENSE.md) para obtener detalles
+Este proyecto est√° licenciado bajo la licencia MIT; consulte el archivo [LICENSE.md] (LICENSE.md) para obtener detalles
 
 ## Agradecimientos
