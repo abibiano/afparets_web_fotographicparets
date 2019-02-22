@@ -1,0 +1,6 @@
+{{ $jquery := resources.Get "js/vendor/jquery.min.js" }}
+{{ $whatinput := resources.Get "js/vendor/what-input.js" }}
+{{ $foundation := resources.Get "js/vendor/foundation.min.js" }}
+{{ $js := slice $jquery $whatinput $foundation | resources.Concat "js/bundle.js" | resources.Minify }}
+
+<script src="{{$js.RelPermalink}}"></script>

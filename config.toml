@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://http://fotographicparets.com/"
+languageCode = "es"
+defaultContentLanguage = "es"
+title = "FOTOgraphic Parets 2019"
+theme = "bibiano-foundation-theme"
+
+[params]
+  author = "Alex Bibiano"
+  description = "FOTOgraphic Parets 2019, 7ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."
