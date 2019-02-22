@@ -4,19 +4,15 @@
 {{- partial "head.html" . -}}
 
 <body>
+    {{- partial "header.html" . -}}
     <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-                {{- partial "header.html" . -}}
-            </div>
-        </div>
         <div id="content" class="grid-x grid-padding-x">
             <div class="large-12 cell">
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
-        {{- partial "footer.html" . -}}
     </div>
+    {{- partial "footer.html" . -}}
     {{- partial "script.html" . -}}
 </body>
 

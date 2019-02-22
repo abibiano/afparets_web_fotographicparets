@@ -5,8 +5,9 @@
   <meta name="description" content="{{ $.Site.Params.description }}" />
   <title> {{ .Site.Title }} | {{ .Page.Title }} </title>
 
-  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-  {{ $style := resources.Get "sass/app.scss" | toCSS $options | postCSS | minify | fingerprint }}
+  <!-- {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }} -->
+  <!-- {{ $style := resources.Get "sass/main.scss" | toCSS $options | postCSS | minify | fingerprint }} -->
+  {{ $options := (dict "targetPath" "css/style.css") }}
+  {{ $style := resources.Get "sass/main.scss" | toCSS $options }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity={{ $style.Data.Integrity }}>
-
 </head>
