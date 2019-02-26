@@ -1,7 +1,15 @@
 <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">{{ .Site.Title }}</li>
+      <li class="menu-text">
+        <div class="header-logo">
+          <a href="#"><img src="img/logotipo-fotographic.png"></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="dropdown menu" data-dropdown-menu>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{ end }}

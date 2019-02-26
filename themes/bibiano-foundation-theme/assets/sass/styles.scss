@@ -1,7 +1,26 @@
-$topbar-padding: 1rem;
-
 .top-bar {
   margin-bottom: 1rem;
+  ul {
+    li {
+      a {
+        color: #fff;
+        &:hover {
+          color: $light-gray;
+        }
+      }
+    }
+  }
+}
+  .dropdown.menu > li > .header-logo > a {
+    padding: 0rem; 
+  }
+
+  .top-bar-right .menu:last-child {
+    border-left: 1px solid #3B4951;
+  }
+
+.header-logo {
+  padding: 0rem; 
 }
 
 .footer-nav {
@@ -10,10 +29,16 @@ $topbar-padding: 1rem;
   color: white;
   padding: 1rem;
   align-items: center;
+  a {
+    color: #fff;
+    &:hover {
+      color: $light-gray;
+    }
+  }
 }
 
 .footer-nav-left {
-  @include xy-cell(2); 
+  @include xy-cell(3); 
   margin-bottom: 0;
 }
 
@@ -24,7 +49,8 @@ $topbar-padding: 1rem;
 }
 
 .footer-nav-right {
-  @include xy-cell(2);
+  @include xy-cell(3);
+  text-align: right;
   margin-bottom: 0;
 }
 
