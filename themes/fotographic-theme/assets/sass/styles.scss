@@ -1,0 +1,11 @@
+body {
+    padding-top: 5rem;
+}
+
+.footer-nav {
+    background: $dark;
+    color: $navbar-dark-color;
+    a {
+        color: $navbar-dark-color;
+    }
+}

@@ -2,7 +2,7 @@ baseURL = "https://fotographicparets.com/"
 languageCode = "es"
 defaultContentLanguage = "es"
 title = "FOTOgraphic Parets 2019"
-theme = "bibiano-foundation-theme"
+theme = "fotographic-theme"
 sectionPagesMenu = "main"
 [menu]
     [[menu.main]]

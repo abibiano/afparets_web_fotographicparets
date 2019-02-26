@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ $.Site.Params.description }}" />
+  <meta name="author" content="{{ $.Site.Params.author }}">
+  <title> {{ .Site.Title }} | {{ .Page.Title }} </title>
+
+  <!-- {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }} -->
+  <!-- {{ $style := resources.Get "sass/main.scss" | toCSS $options | postCSS | minify | fingerprint }} -->
+  <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity={{ $style.Data.Integrity }}> -->
+
+  {{ $options := (dict "targetPath" "css/style.css" "includePaths" (slice "node_modules")) }}
+  {{ $sass := resources.Get "sass/main.scss" }}
+  {{ $style := $sass | resources.ToCSS $options }}
+
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+</head>
