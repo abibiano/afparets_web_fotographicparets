@@ -4,7 +4,11 @@ body {
 
 .navbar {
     min-height: 80px;
-  }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 .footer-nav {
     background: $dark;
