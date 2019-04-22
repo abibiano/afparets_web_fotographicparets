@@ -2,16 +2,30 @@
 
 Site para https://fotographicparets.com de la Associació Fotogràfica Parets
 
-## Empezando
-
-```
-npm install
-```
-
-### Prerrequisitos
+## Prerrequisitos
 
 * Instalar [Hugo](https://gohugo.io/getting-started/installing/)
 * Instalar [npm](https://www.npmjs.com/get-npm/)
+* Clonar repositorio
+* Instalar paquetes
+
+  ```bash
+  npm install
+  ```
+
+## Desarollo
+
+* Arrancar servidor local
+
+  ```bash
+  hugo server
+  ```
+
+* Actualizar paquetes
+
+  ```bash
+  npm update
+  ```
 
 ## Despliegue
 

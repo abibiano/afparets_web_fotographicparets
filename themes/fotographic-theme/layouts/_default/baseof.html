@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{{ $lang := .Site.Language.Lang | default "en" }}
+{{ $lang := .Site.Language.Lang | default "es" }}
 <html lang="{{ $lang }}">
 {{- partial "head.html" . -}}
 
@@ -11,26 +11,23 @@
                 <div class="col-10">
                     {{- block "main" . }}{{- end }}
                 </div>
-                <div class="col-2 text-center">
-                    <h4>Patrocinadores</h1>
+                <div class="col-2 text-center text-secondary">
+                    <h4 class="mb-2">Patrocinador</h4>
                     <ul class="list-unstyled">
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
-                        <li class="mb-3"><img src="https://via.placeholder.com/150x50" alt=""></li>
+                        <li class="mb-3"><img src="/img/logos/logo-fotok.png" width=150 alt=""></li>
                     </ul>
+                    <h4 class="mt-4 mb-2">Organizador</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><img src="/img/logos/logo-afparets.png" width=100 alt=""></li>
+                    </ul>
+                    <!-- <h4 class="mt-4 mb-2">Colaboradores</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><img src="/img/logos/logo-canon.png" width=100 alt=""></li>
+                        <li class="mb-3"><img src="/img/logos/logo-olympus.png" width=100 alt=""></li>
+                        <li class="mb-3"><img src="/img/logos/logo-profoto.png" width=100 alt=""></li>
+                        <li class="mb-3"><img src="/img/logos/logo-vanguard.png" width=100 alt=""></li>
+                        <li class="mb-3"><img src="/img/logos/logo-ziclop.jpg" width=60 alt=""></li>
+                    </ul> -->
                 </div>
             </div>
         </div>
