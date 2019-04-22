@@ -10,41 +10,47 @@ sectionPagesMenu = "main"
         identifier = "Inicio"
         url = "/"
         weight = 10
+        pre = ""
     [[menu.main]]
         name = "Programa"
         identifier = "programa"
         url = "/programa/"
         weight = 20
+        pre = "disabled"
     [[menu.main]]
         name = "Ponentes"
         identifier = "ponentes"
         url = "/ponentes/"
         weight = 30
+        pre = "disabled"
     [[menu.main]]
         name = "Exposición"
         identifier = "exposicion"
         url = "/exposicion/"
         weight = 40
+        pre = "disabled"
     [[menu.main]]
         name = "Guía"
         identifier = "guia-visitante"
         url = "/guia-visitante/"
-        weight = 50
+        pre = "disabled"
     [[menu.main]]
         name = "Agradecimientos"
         identifier = "agradecimientos"
         url = "/agradecimientos/"
         weight = 60   
+        pre = "disabled"
     [[menu.main]]
         name = "AFParets"
-        identifier = "quines-somos"
-        url = "/agradecimientos/"
-        weight = 70  
-    [[menu.main]]
-        name = "Opiniones"
-        identifier = "profesional-opina"
-        url = "/agradecimientos/"
-        weight = 80  
+        identifier = "quienes-somos"
+        url = "/quienes-somos/"
+        weight = 70 
+        pre = ""
+    # [[menu.main]]
+    #     name = "Opiniones"
+    #     identifier = "profesional-opina"
+    #     url = "/agradecimientos/"
+    #     weight = 80  
 [params]
   author = "Alex Bibiano"
   description = "FOTOgraphic Parets 2019, 7ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."

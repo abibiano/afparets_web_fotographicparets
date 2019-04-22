@@ -8,7 +8,7 @@
     <ul class="navbar-nav mr-auto">
       {{ range .Site.Menus.main }}
       <li class="nav-item">
-        <a class="nav-link disabled" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link {{ .Pre }}" href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
