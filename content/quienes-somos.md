@@ -1,6 +1,8 @@
 ---
 title: "Quienes Somos"
-date: 2019-02-22T12:14:46+01:00
+LinkTitle : "AFParets"
+menu: "main"
+weight: 60
 ---
 <img src="/img/logos/logo-afparets.png" alt="">
 

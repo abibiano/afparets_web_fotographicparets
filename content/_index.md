@@ -1,5 +1,8 @@
 ---
 title: FOTOGraphic 2019
+LinkTitle: "Inicio"
+menu: "main"
+weight: 10
 ---
 ## 7, 8 i 9 DE JUNIO
 
