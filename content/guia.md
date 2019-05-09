@@ -5,7 +5,7 @@ menu: "main"
 weight: 40  
 ---
 
-### Cómo llegar
+## Cómo llegar
 
 Parets del Vallés se encuentra a 7 km de Granollers y a 23 km de Barcelona.
 
@@ -13,7 +13,7 @@ Dispone de una buena red de comunicaciones, ya que por su término circulan las 
 
 Además, dispone de estación de ferrocarril de la línea R3 de Rodalies de Catalunya L'Hospitalet-Vic [(ver Horarios)](http://rodalies.gencat.cat/web/.content/pdf/horaris/R3.pdf) y parada de autobús de la compañía Sagalés entre Barcelona-Mollet-Parets-Granollers [(consultar horarios)](http://www.sagales.com).
 
-### Dónde Aparcar
+## Dónde Aparcar
 
 [Poliesportiu Municipal Joaquim Rodríguez Oliver](http://www.parets.cat/la-vila/guia-del-municipi/equipaments/poliesportiu-municipal-joaquim-rodriguez-oliver)\
 Passeig Fluvial\
@@ -21,7 +21,7 @@ Parets del Vallès, Barcelona, 08150
 
 <iframe width="500" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5VPpZaW4pBIRDkje1hls32c&key=AIzaSyBECd4GIw3O7OyPSVIp8Q2zuinVsk3nsi8" allowfullscreen></iframe>
 
-### Situación
+## Situación
 
 Todos los eventos se realizarán en la Sala Cooperativa de Parets del Vallès.
 
@@ -31,7 +31,7 @@ Parets del Vallès, Barcelona, 08150
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8169857353228!2d2.232501316064497!3d41.5732053792476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a59568d37f%3A0xa1e01ead5a8d455a!2sSala+Cooperativa!5e0!3m2!1ses!2ses!4v1520600006094" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-### Dónde Comer
+## Dónde Comer
 
 [Restaurante el Jardí](https://goo.gl/maps/MQqjFxaKX1k)\
 Carrer Barcelona, 1\

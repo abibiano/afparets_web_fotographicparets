@@ -1,5 +1,17 @@
 {{ define "main" }}
-<h1 class="display-4">{{ .Title }}</h1>
+<h1>
+  {{ .Title }}
+  {{ if isset .Params "description" }}
+    <br/> <small class="text-muted">{{ .Description }}</small>
+  {{ end }}
+</h1>
+{{ if isset .Params "ponente" }}
+  {{ if isset .Params "ponente_link" }}
+  <h3>
+    Ponente: <a href="{{ ref . .Params.ponente_link }}">{{ .Params.ponente }}</a>
+  </h3>
+  {{ end }}
+{{ end }}
 {{ .Content }}
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
