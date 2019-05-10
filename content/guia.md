@@ -2,7 +2,7 @@
 title: "Guía del Visitante"
 LinkTitle : "Guía"
 menu: "main"
-weight: 40  
+weight: 60  
 ---
 
 ## Cómo llegar
