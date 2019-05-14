@@ -2,8 +2,12 @@
 title: "Dando luz a tu creatividad"
 description: "Light Painting Paradise"
 ponente: Ivan Barco y Iris Cebrián 
+horario_dia: Sábado 8
+horario_hora: 22:00 - 24:00
 ponente_link: "/ponentes/ivan-iris.md"
 imagenes_ponencia: ["/img/ponencias/dando-luz/Imagen Ivan Barco.jpeg", "/img/ponencias/dando-luz/Iris Shyroii.jpg"] 
+logo_patricinadores: ["/img/logos/lightpaintingparadise.jpg"]
+eventbrite_link: "https://www.eventbrite.es/e/entradas-fotographic2019-61801209080"
 ---
 Durante nuestra conferencia haremos una breve introducción sobre lo que es el Light Painting y contaremos cómo surgió la idea de crear la empresa, con qué fin nació, nuestra filosofía y como hemos evolucionado hasta llegar a ser hoy Light Painting Paradise.
 

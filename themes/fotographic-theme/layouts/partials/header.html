@@ -7,8 +7,19 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       {{ range .Site.Menus.main }}
-      <li class="nav-item">
-          <a class="nav-link {{ .Pre }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ if .HasChildren }}
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle {{ .Pre }}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {{ range .Children }}
+            <a class="dropdown-item {{ .Pre }}" href="{{ .URL }}">{{ .Name }}</a>
+            
+          {{ end }}
+        </div>
+      {{ else }}
+        <li class="nav-item">
+        <a class="nav-link {{ .Pre }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
       </li>
       {{ end }}
     </ul>

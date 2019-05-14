@@ -2,8 +2,12 @@
 title: "La belleza de la luz"
 description: "Taller de iluminación con José Sanabria"
 ponente: José Sanabria
+horario_dia: Sábado 8
+horario_hora: 16:00 - 18:00
 ponente_link: "/ponentes/jose-sanabria.md"
-imagenes_ponencia: ["/img/ponencias/lm-328/_D1_6289.jpg", "/img/ponencias/lm-328/avatar.jpg"] 
+imagenes_ponencia: ["/img/ponencias/la-belleza-de-la-luz/sanabria.jpeg"] 
+logo_patricinadores: ["/img/logos/Profoto_Logo_Tagline_Black_RGB.png"] 
+eventbrite_link: "https://www.eventbrite.es/e/entradas-fotographic2019-61801209080"
 ---
 En este taller, José Sanabria nos contará quién es, cómo ha llegado a convertirse en un fotógrafo profesional y por qué hoy por hoy es un referente en la fotografía de retrato y boudoir.
 

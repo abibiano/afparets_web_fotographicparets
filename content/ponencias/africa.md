@@ -2,8 +2,12 @@
 title: "África"
 description: 
 ponente: Egoitz Ikaza
+horario_dia: Sábado 8
+horario_hora: 09:30 - 11:30
 ponente_link: "/ponentes/egoitz-ikaza.md"
-imagenes_ponencia: ["/img/ponencias/africa/africa1.jpg", "/img/ponencias/africa/africa2.jpg"] 
+imagenes_ponencia: ["/img/ponencias/africa/africa1.jpg", "/img/ponencias/africa/africa2.jpg"]
+logo_patricinadores: ["/img/logos/logo-olympus.png"]
+eventbrite_link: "https://www.eventbrite.es/e/entradas-fotographic2019-61801209080"
 ---
 Tierra de gigantes, lugar donde se concentran miles de herbívoros, dando cabida a que algunos de los depredadores más emblemáticos y fascinantes de la tierra convivan allí.
 

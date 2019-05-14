@@ -1,0 +1,44 @@
+{{ define "main" }}
+<h1>
+  {{ .Title }}
+  {{ if isset .Params "description" }}
+  <br /> <small class="text-muted">{{ .Description }}</small>
+  {{ end }}
+</h1>
+{{ .Content }}
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Sábado 8</th>
+      <th scope="col">Ponencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09:30</td>
+      <td>Inaguración Fotographic 2019</td>
+    </tr>
+    {{ range sort .Pages ".Params.horario_hora"}}
+    <tr>
+      <td>{{ .Params.horario_hora }}</td>
+      <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Domingo 9</th>
+        <th scope="col">Evento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>10:00 -13:00</td>
+        <td><a href="/concurso">II CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC 201</a></td>
+      </tr>
+    </tbody>
+  </table>
+{{ end }}

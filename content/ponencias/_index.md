@@ -1,5 +1,5 @@
 ---
-title: Ponencias
+title: Programa
 LinkTitle: "Ponencias"
 weight: 20
 ---

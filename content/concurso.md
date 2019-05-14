@@ -1,6 +1,6 @@
 ---
 title: "II CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC 2019"
-LinkTitle : "Concurso Fotographic"
+LinkTitle : "Concurso"
 menu: "main"
 weight: 40
 ---

@@ -38,11 +38,6 @@ Carrer Barcelona, 1\
 Parets del Vallès, Barcelona, 08150\
 935 62 01 03
 
-[El Racó de les Brases](https://goo.gl/maps/kD6qKZGtjKU2)\
-Carrer del Raval, 1\
-Parets del Vallès, Barcelona, 08180\
-935 73 00 61
-
 [Hotel Restaurante Can Parera](https://goo.gl/maps/73TWEEHYNQR2)\
 Carrer Sant Joan Bosco, 6-8\
 Parets del Vallès, Barcelona, 08150\

@@ -5,6 +5,12 @@ title = "FOTOgraphic Parets 2019"
 theme = "fotographic-theme"
 sectionPagesMenu = "main"
 staticDir = ["static"]
+[menu]
+  [[menu.main]]
+    identifier = "exposiciones"
+    name = "Exposiciones"
+    url = ""
+    weight = 50
 [params]
   author = "Alex Bibiano"
   description = "FOTOgraphic Parets 2019, 7ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."
