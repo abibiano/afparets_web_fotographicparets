@@ -15,3 +15,12 @@ El punto de encuentro será en la Cooperativa, donde se explicará cómo funcion
 Las fotografías no se podrán publicar en las redes sociales, hasta que el jurado del concurso dé el veredicto.
 
 CONSULTA LAS BASES DEL CONCURSO EN ESTE [TRÍPTICO](/bases2019.pdf)
+
+<p class="text-center">
+<a href="https://www.eventbrite.es/e/entradas-ii-concurso-nacional-de-fotografia-fotographic-2019-61926858902" class="btn btn-info btn-lg" role="button">Inscripción Gratuita</a>
+</p>
+<p class="text-center">
+  <small>
+    La entrada a este evento es gratuita previo registro
+  </small>
+</p>
