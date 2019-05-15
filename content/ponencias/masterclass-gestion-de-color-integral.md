@@ -6,8 +6,9 @@ horario_dia: Sábado 8
 horario_hora: 12:00 - 14:00
 ponente_link: "/ponentes/joan-roig.md"
 imagenes_ponencia: ["/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_001.jpg", "/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_002.jpg", "/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_003.jpg", "/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_004.jpg", "/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_005.jpg"] 
-logo_patricinadores: ["/img/logos/BenQ-purple-words.png", "/img/logos/Rotolight_logo_batwing.png", "/img/logos/x-rite orange grey.png"] 
+logo_patricinadores: ["/img/logos/BenQ-purple-words.png", "/img/logos/x-rite orange grey.png"] 
 eventbrite_link: "https://www.eventbrite.es/e/entradas-fotographic2019-61801209080"
+og_image: "/img/ponencias/masterclass-gestion-de-color-integral/ROIGLLASERA_PARETS_001.jpg"
 ---
 En esta masterclass profundizaremos en el flujo de trabajo integral de una sesión fotográfica profesional. Partiremos por uno de los pasos más importantes, la iluminación, utilizando los focos de luz continua Rotolight Aeos y Neo 2, que nos permitirán dar unas texturas y volúmenes muy cinematográficos a nuestras imágenes. La iluminación continua es cada vez más popular, nos permite controlar de forma más intuitiva las luces y ser más versátiles en el movimiento dentro del set.
 

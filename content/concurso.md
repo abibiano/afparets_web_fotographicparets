@@ -4,8 +4,18 @@ LinkTitle : "Concurso"
 menu: "main"
 weight: 40
 ---
-<img src="/img/II CONCURS NACIONAL.jpg" alt="">
-
+<img src="/img/II-CONCURS-NACIONAL.jpg" class="img-fluid" alt="">
+<p><strong>Por cortesía de:</strong></p>
+<div class="text-center">
+  <ul class="list-inline d-flex align-items-center justify-content-center">
+    <li class="list-inline-item mr-3">
+      <img src="/img/logos/canon-press-centre-canon-logo.png" class="d-block mx-auto" width="200" alt="">
+    </li>
+    <li class="list-inline-item mr-3">
+      <img src="/img/logos/logo-fotok.png" class="d-block mx-auto" width="200" alt="">
+    </li>
+  </ul>
+</div>
 El Shooting se realizará con luz natural en varias ubicaciones del casco antiguo de Parets del Vallés, habrá varios modelos ambientados con estilismo de steampunk.
 
 El punto de encuentro será en la Cooperativa, donde se explicará cómo funcionará el shootting y las zonas donde estarán los modelos. Se podrán realizar todas las fotos que se deseen pero respetando al resto de participantes.

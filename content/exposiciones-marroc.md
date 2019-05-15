@@ -6,7 +6,7 @@ menu:
     parent: "exposiciones"
 weight: 50
 ---
-<img src="/img/exposicio-fotographic-2019.jpg" width="800"alt="">
+<img src="/img/exposicio-fotographic-2019.jpg" class="img-fluid" alt="">
 
 Una pequeña muestra de la experiencia vivida en Marruecos por un grupo de socios y amigos de la Asociación amantes de la fotografía.
 

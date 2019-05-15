@@ -6,8 +6,9 @@ horario_dia: Sábado 8
 horario_hora: 16:00 - 18:00
 ponente_link: "/ponentes/jose-sanabria.md"
 imagenes_ponencia: ["/img/ponencias/la-belleza-de-la-luz/sanabria.jpeg"] 
-logo_patricinadores: ["/img/logos/Profoto_Logo_Tagline_Black_RGB.png"] 
+logo_patricinadores: ["/img/logos/Profoto_Logo_Tagline_Black_RGB.png", "/img/logos/vanguard-logo-dark_x40@2x.png"] 
 eventbrite_link: "https://www.eventbrite.es/e/entradas-fotographic2019-61801209080"
+og_image: "/img/ponencias/la-belleza-de-la-luz/sanabria.jpeg"
 ---
 En este taller, José Sanabria nos contará quién es, cómo ha llegado a convertirse en un fotógrafo profesional y por qué hoy por hoy es un referente en la fotografía de retrato y boudoir.
 

@@ -6,7 +6,7 @@ menu:
     parent: "exposiciones"
 weight: 20
 ---
-<img src="/img/Exposición I concurso.jpg" width="800"alt="">
+<img src="/img/Exposición I concurso.jpg" class="img-fluid" alt="">
 
 En esta edición, podréis ver la exposición de los ganadores i finalistas del primer concurso nacional de fotografía Fotographic Parets 2018, podrá observar
 diferentes puntos de vista de las fotografías que se realizaron en el shooting del Fotographic 2018.

@@ -1,19 +1,45 @@
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="{{ $.Site.Params.description }}" />
   <meta name="author" content="{{ $.Site.Params.author }}">
   <title> {{ .Site.Title }} | {{ .Page.Title }} </title>
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  {{ if isset .Page.Params "title" }}
+  <meta property="og:title" content="{{ .Site.Title }} | {{ .Page.Title }}" />
+  {{ else }}
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  {{ end }}
 
-  <!-- {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }} -->
-  <!-- {{ $style := resources.Get "sass/main.scss" | toCSS $options | postCSS | minify | fingerprint }} -->
-  <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity={{ $style.Data.Integrity }}> -->
+  <meta property="og:description" content="{{ $.Site.Params.description }}" />
+  {{ if isset .Page.Params "og_image"}}
+  <meta property="og:image" itemprop="image" content="{{ .Params.og_image | absURL }}">
+  {{ else }}
+  <meta property="og:image" itemprop="image" content="{{ "/img/logo-fotographic.png" | absURL }}">
+  {{ end }}
+  <meta property="og:type" content="website" />
 
-  {{ $options := (dict "targetPath" "css/style.css" "includePaths" (slice "node_modules")) }}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112385239-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112385239-5');
+  </script>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="52804cf2-5e0d-4a26-b55c-35a6de04e9d1"
+    type="text/javascript" async></script>
+
+  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+  {{ $style := resources.Get "sass/main.scss" | toCSS $options | postCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity={{ $style.Data.Integrity }}>
+
+  <!-- {{ $options := (dict "targetPath" "css/style.css" "includePaths" (slice "node_modules")) }}
   {{ $sass := resources.Get "sass/main.scss" }}
   {{ $style := $sass | resources.ToCSS $options }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}"> -->
 
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,400,700" rel="stylesheet">
 </head>
