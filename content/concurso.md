@@ -16,6 +16,9 @@ weight: 40
     </li>
   </ul>
 </div>
+
+Con la participación de [Elite Dance](https://www.elitedance.es/) e [Imatges solidàries](/imagenes-solidarias/).
+
 El Shooting se realizará con luz natural en varias ubicaciones del casco antiguo de Parets del Vallés, habrá varios modelos ambientados con estilismo de steampunk.
 
 El punto de encuentro será en la Cooperativa, donde se explicará cómo funcionará el shootting y las zonas donde estarán los modelos. Se podrán realizar todas las fotos que se deseen pero respetando al resto de participantes.
