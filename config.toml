@@ -7,6 +7,11 @@ title = "FOTOgraphic Parets 2021"
   author = "Alex Bibiano"
   description = "FOTOgraphic Parets 2021, 8ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/scss"

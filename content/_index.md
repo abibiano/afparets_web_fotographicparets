@@ -1,5 +1,5 @@
 ---
-title: FOTOGraphic 2019
+title: FOTOGraphic 2021
 LinkTitle: "Inicio"
 menu: "main"
 weight: 10

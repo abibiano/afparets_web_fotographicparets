@@ -1,39 +1,23 @@
 ---
-title: "II CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC 2019"
-LinkTitle : "Concurso"
+title: "III CONCURSO NACIONAL DE FOTOGRAFIA"
+LinkTitle: "Concurso"
 menu: "main"
 weight: 40
 ---
-<img src="/img/II-CONCURS-NACIONAL.jpg" class="img-fluid" alt="">
-<p><strong>Por cortesía de:</strong></p>
-<div class="text-center">
-  <ul class="list-inline d-flex align-items-center justify-content-center">
-    <li class="list-inline-item mr-3">
-      <img src="/img/logos/canon-press-centre-canon-logo.png" class="d-block mx-auto" width="200" alt="">
-    </li>
-    <li class="list-inline-item mr-3">
-      <img src="/img/logos/logo-fotok.png" class="d-block mx-auto" width="200" alt="">
-    </li>
-  </ul>
-</div>
 
-Con la participación de [Elite Dance](https://www.elitedance.es/) e [Imatges solidàries](/imagenes-solidarias/).
+## FOTOGraphic PARETS 2021
 
-El Shooting se realizará con luz natural en varias ubicaciones del casco antiguo de Parets del Vallés, habrá varios modelos ambientados con estilismo de steampunk.
+<img src="/img/concurs-fotographic.jpg" class="img-fluid rounded mx-auto d-block m-4" alt="logo-consurso" width=500>
 
-El punto de encuentro será en la Cooperativa, donde se explicará cómo funcionará el shootting y las zonas donde estarán los modelos. Se podrán realizar todas las fotos que se deseen pero respetando al resto de participantes.
+Con la participación de **Club patinaje Parets del Vallés**, **Espai Taiji Chen de Parets del Vallés** y del **Club de esgrima Granollers**.
 
-¡ATENCIÓN! LAS FOTOS REALIZADAS EN ÉSTE SHOOTING SERÁN LAS VÁLIDAS PARA PRESENTARSE AL II CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC PARETS 2019, AMPARADO POR LA FEDERACIÓN CATALANA DE FOTOGRAFÍA CON SUCULENTOS PREMIOS.
+El shooting se realizará con Luz Natural en la [plaza de la Vila de Parets del Vallés](https://goo.gl/maps/YfBHswn9ftAymMPb6).
+Aprovechando que este año 2021 es año olímpico la temática será el deporte.
+
+El punto de encuentro será en la plaza de la Vila de Parets del Vallés, donde se explicará cómo funcionará el Shooting. El funcionamiento puede variar según las medidas que tengamos que tomar por la COVID-19.
+
+¡ATENCIÓN! LAS FOTOS REALIZADAS EN ÉSTE SHOOTING SERÁN LAS VÁLIDAS PARA PRESENTARSE AL III CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC PARETS 2021, AMPARADO POR LA FEDERACIÓN CATALANA DE FOTOGRAFÍA.
 
 Las fotografías no se podrán publicar en las redes sociales, hasta que el jurado del concurso dé el veredicto.
 
-CONSULTA LAS BASES DEL CONCURSO EN ESTE [TRÍPTICO](/bases2019.pdf)
-
-<p class="text-center">
-<a href="https://www.eventbrite.es/e/entradas-ii-concurso-nacional-de-fotografia-fotographic-2019-61926858902" class="btn btn-info btn-lg" role="button">Inscripción Gratuita</a>
-</p>
-<p class="text-center">
-  <small>
-    La entrada a este evento es gratuita previo registro
-  </small>
-</p>
+CONSULTA LAS BASES DEL CONCURSO EN ESTE [TRÍPTICO](/bases-concurso-2021.pdf)
