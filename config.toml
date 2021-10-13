@@ -1,16 +1,31 @@
 baseURL = "https://fotographicparets.com/"
 languageCode = "es"
 defaultContentLanguage = "es"
-title = "FOTOgraphic Parets 2019"
-theme = "fotographic-theme"
+title = "FOTOgraphic Parets 2021"
+
+[params]
+  author = "Alex Bibiano"
+  description = "FOTOgraphic Parets 2021, 8ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/scss"
+    target = "assets/scss/bootstrap"
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"        
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"    
+
 sectionPagesMenu = "main"
-staticDir = ["static"]
+
 [menu]
   [[menu.main]]
     identifier = "exposiciones"
     name = "Exposiciones"
     url = ""
     weight = 50
-[params]
-  author = "Alex Bibiano"
-  description = "FOTOgraphic Parets 2019, 7ª edición del evento fotográfico pensado para todos los amantes de la fotografía con ponencias, talleres y exposiciones gratuitas."

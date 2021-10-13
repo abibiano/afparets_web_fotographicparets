@@ -1,13 +1,13 @@
 # fotographicparets
 
-Site para https://fotographicparets.com de la Associació Fotogràfica Parets
+Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
 
 ## Prerrequisitos
 
-* Instalar [Hugo](https://gohugo.io/getting-started/installing/)
-* Instalar [npm](https://www.npmjs.com/get-npm/)
-* Clonar repositorio
-* Instalar paquetes
+- Instalar [Hugo](https://gohugo.io/getting-started/installing/)
+- Instalar [npm](https://www.npmjs.com/get-npm/)
+- Clonar repositorio
+- Instalar paquetes
 
   ```bash
   npm install
@@ -15,13 +15,13 @@ Site para https://fotographicparets.com de la Associació Fotogràfica Parets
 
 ## Desarollo
 
-* Arrancar servidor local
+- Arrancar servidor local
 
   ```bash
   hugo server
   ```
 
-* Actualizar paquetes
+- Actualizar paquetes
 
   ```bash
   npm update
@@ -33,12 +33,12 @@ Add additional notes about how to deploy this on a live system
 
 ## Desarrollado con
 
-* [Hugo](https://gohugo.io/) - Web framework
-* [Foundation](https://foundation.zurb.com/) - Tema
+- [Hugo](https://gohugo.io/) - Web framework
+- [Foundation](https://foundation.zurb.com/) - Tema
 
 ## Autores
 
-* **Alex Bibiano**
+- **Alex Bibiano**
 
 ## Licencia
 

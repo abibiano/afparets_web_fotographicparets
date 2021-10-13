@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ $.Site.Params.description }}" />
   <meta name="author" content="{{ $.Site.Params.author }}">
   <title> {{ .Site.Title }} | {{ .Page.Title }} </title>
@@ -16,7 +16,7 @@
   {{ if isset .Page.Params "og_image"}}
   <meta property="og:image" itemprop="image" content="{{ .Params.og_image | absURL }}">
   {{ else }}
-  <meta property="og:image" itemprop="image" content="{{ "/img/logo-fotographic.png" | absURL }}">
+  <meta property="og:image" itemprop="image" content="{{ " /img/logo-fotographic.png" | absURL }}">
   {{ end }}
   <meta property="og:type" content="website" />
 
@@ -33,13 +33,11 @@
     type="text/javascript" async></script>
 
   {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-  {{ $style := resources.Get "sass/main.scss" | toCSS $options | postCSS | minify | fingerprint }}
+  {{ $style := resources.Get "scss/main.scss" | toCSS $options | postCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity={{ $style.Data.Integrity }}>
 
-  <!-- {{ $options := (dict "targetPath" "css/style.css" "includePaths" (slice "node_modules")) }}
-  {{ $sass := resources.Get "sass/main.scss" }}
-  {{ $style := $sass | resources.ToCSS $options }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,400,700" rel="stylesheet">
 </head>

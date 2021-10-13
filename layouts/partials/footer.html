@@ -1,17 +1,17 @@
-<footer class="footer-nav mt-4">
+<footer class="footer mt-auto py-3 bg-light">
   <div class="container-fluid">
-    <div class="row h-100 align-items-center p-4">
-      <div class="col text-left">
-        <p class="mb-0">©2019 Associació Fotogràfica Parets</p>
+    <div class="row h-100 p-2">
+      <div class="col-12 col-md-4 text-md-start text-center my-2">
+        <p class="mb-0">©2021 Associació Fotogràfica Parets</p>
       </div>
-      <div class="col text-center">
+      <div class="col-12 col-md-4 text-md-center text-center my-2">
         <ul class="list-inline mb-0">
-          <li class="list-inline-item mr-5">
+          <li class="list-inline-item me-5">
             <a href="https://www.facebook.com/groups/afparets/" target="_blank">
               <img class="footer-social-icon" src="/img/icons/facebook-icon.svg" alt="Facebook">
             </a>
           </li>
-          <li class="list-inline-item mr-5">
+          <li class="list-inline-item me-5">
             <a href="https://afparets.com" target="_blank">
               <img class="footer-social-icon" src="/img/icons/global-icon.svg" alt="Web">
             </a>
@@ -23,9 +23,15 @@
           </li>
         </ul>
       </div>
-      <div class="col text-right">
+      <div class="col-12 col-md-4 text-md-end text-center my-2">
         <a href="/politica-privacidad">Política de Privacidad</a>
       </div>
     </div>
-  </div>
+
+    <!-- JavaScript and dependencies -->
+    {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+    {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+
+    <script src="{{$js.RelPermalink}}" defer></script>
+
 </footer>
