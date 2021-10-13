@@ -9,14 +9,14 @@
 <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Sábado 8</th>
-      <th scope="col">Ponencia</th>
+      <th scope="col">Sábado 6 de noviembre 2021</th>
+      <th scope="col">Evento</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>09:30</td>
-      <td>Inaguración Fotographic 2019</td>
+      <td>10:30</td>
+      <td>Inaguración Fotographic Parets 2021 (Plaça de la Vila)</td>
     </tr>
     {{ range sort .Pages ".Params.horario_hora"}}
     <tr>
@@ -24,29 +24,22 @@
       <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
     </tr>
     {{ end }}
-    <tr>
-      <td>Todo el Día</td>
-      <td><a href="/imagenes-solidarias">Imágenes Solidarias</a> (Quiosco de imágenes solidarias para imprimir foto)</td>
-    </tr>
+
   </tbody>
 </table>
 
 <table class="table table-striped">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">Domingo 9</th>
-        <th scope="col">Evento</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>10:00 - 13:00</td>
-        <td><a href="/concurso">II CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC 2019</a></td>
-      </tr>
-      <tr>
-        <td>Todo el Día</td>
-        <td><a href="/imagenes-solidarias">Imágenes Solidarias</a> (Quiosco de imágenes solidarias para imprimir foto)</td>
-      </tr>
-    </tbody>
-  </table>
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Domingo 7 de noviembre 2021</th>
+      <th scope="col">Evento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10:00 - 13:00</td>
+      <td><a href="/concurso">III CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC PARETS 2021</a></td>
+    </tr>
+  </tbody>
+</table>
 {{ end }}

@@ -1,11 +1,12 @@
 ---
-title: "Exposición 1er Concurs Nacional Fotographic 2018"
-LinkTitle : "Concurs Nacional Fotographic 2018"
+title: "Exposición II Concurs Nacional Fotographic 2019"
+LinkTitle: "Concurs Nacional Fotographic 2019"
 menu:
   main:
     parent: "exposiciones"
-weight: 20
+    weight: 20
 ---
+
 <img src="/img/exposicion-I-concurso.jpg" class="img-fluid" alt="">
 
 En esta edición, podréis ver la exposición de los ganadores i finalistas del primer concurso nacional de fotografía Fotographic Parets 2018, podrá observar
