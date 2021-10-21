@@ -1,47 +1,38 @@
 {{ define "main" }}
 <h1>
   {{ .Title }}
-  {{ if isset .Params "description" }}
-  <br /> <small class="text-muted">{{ .Description }}</small>
-  {{ end }}
 </h1>
-<p><strong>Por cortesía de:</strong></p>
-<div class="text-center">
-  <ul class="list-inline d-lg-flex align-items-center justify-content-center">
-    {{ range  .Params.logo_patricinadores }}
-    <li class="list-inline-item mr-3">
-      <img src="{{ . }}" class="d-block mx-auto" width="200" alt="">
-    </li>
-    {{ end }}
-  </ul>
-</div>
-<h3>
+{{ if isset .Params "description" }}
+<h2><small class="text-muted">{{ .Description }}</small></h2>
+{{ end }}
+<h4>
   Horario: <small class="text-muted">{{ .Params.horario_dia }}, de {{ .Params.horario_hora}}</small>
-</h3>
-{{ if isset .Params "ponente" }}
-{{ if isset .Params "ponente_link" }}
-<h3>
-  Ponente: <small><a href="{{ ref . .Params.ponente_link }}">{{ .Params.ponente }}</a></small>
-</h3>
-{{ end }}
-{{ end }}
-{{ .Content }}
+</h4>
+{{ if isset .Params "ponentes" }}
+<h4>
+  Participan: <small>
 
-{{ if isset .Params "eventbrite_link" }}
-<p class="text-center">
-<a href="{{ .Params.eventbrite_link }}" class="btn btn-info btn-lg" role="button">Inscripción Gratuita</a>
-</p>
-<p class="text-center">
-  <small>
-    La entrada a este evento es gratuita previo registro
+    {{ range .Params.ponentes }}
+    <a href="{{ index . 1 }}">{{ index . 0 }}</a>
+    {{ end }}
+
   </small>
-</p>
+</h4>
 {{ end }}
+{{ if isset .Params "moderador" }}
+<h4>
+  Moderador: <small><a href="{{ .Params.moderador_link }}">{{ .Params.moderador }}</a></small>
+</h4>
+{{ end }}
+
+<div m-5>
+  {{ .Content }}
+</div>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {{ $.Scratch.Set "counter" 0 }}
-    {{ range  .Params.imagenes_ponencia }}
+    {{ range .Params.imagenes_ponencia }}
     {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
     {{ if eq ($.Scratch.Get "counter") 1 }}
     <div class="carousel-item active">
