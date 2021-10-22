@@ -1,5 +1,5 @@
 ---
-title: "Proyección y entrega de premios del I Concurso de fotografía de verano"
+title: "Proyección y entrega de premios del “I Concurso de fotografía de verano”"
 description: ""
 ponentes: [["", ""]]
 moderador:

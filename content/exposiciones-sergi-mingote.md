@@ -1,6 +1,6 @@
 ---
-title: "Un esportista multidisciplinar - Sergi Mingote"
-LinkTitle: "Un esportista multidisciplinar - Sergi Mingote"
+title: "Un deportista multi-disciplinar - Sergi Mingote"
+LinkTitle: "Un deportista multi-disciplinar - Sergi Mingote"
 menu:
   main:
     parent: "exposiciones"
