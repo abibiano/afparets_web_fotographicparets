@@ -20,4 +20,4 @@ El punto de encuentro será en la plaza de la Vila de Parets del Vallés, donde 
 
 Las fotografías no se podrán publicar en las redes sociales, hasta que el jurado del concurso dé el veredicto.
 
-CONSULTA LAS BASES DEL CONCURSO EN ESTE [ENLACE](/bases-concurso-2021.pdf)
+CONSULTA LAS BASES DEL CONCURSO EN ESTE [ENLACE](/pdf/bases-concurso-2021.pdf)
