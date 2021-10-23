@@ -7,7 +7,7 @@ ponentes:
     ["Alberto Estevez", "/ponentes/alberto-estevez"],
     ["Enric Fontcuberta", "/ponentes/enric-fontcuberta"],
   ]
-moderador: Jose Luis
+moderador: Irene Rodriguez
 moderador_link: ""
 horario_dia: Sábado 6 de noviembre 2021
 horario_hora: 11:00 a 13:00

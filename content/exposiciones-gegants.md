@@ -1,6 +1,6 @@
 ---
-title: "GEGANTS de Jordi Cutrina"
-LinkTitle: "GEGANTS de Jordi Cutrina"
+title: "GEGANTS de Jordi Cotrina"
+LinkTitle: "GEGANTS de Jordi Cotrina"
 menu:
   main:
     parent: "exposiciones"

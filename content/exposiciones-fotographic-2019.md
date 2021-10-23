@@ -7,24 +7,49 @@ menu:
     weight: 10
 ---
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/img/exposiciones/fotographic-parets-00.jpg" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/exposiciones/fotographic-parets-01.jpg" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/exposiciones/fotographic-parets-02.jpg" class="d-block w-100" alt="">
-    </div>
-  </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+<img src="/img/exposiciones/fotographic-2019.jpg" class="img-fluid" alt="">
+
+<br />
+
+En esta edición, podréis ver la exposición de los ganadores y finalistas
+del II Concurso Nacional Fotographic Parets 2019.
+
+Los fotógrafos que fueron seleccionados son:
+
+## Ganadores TEMÁTICA COLOR
+
+1er Premio: "LES PORTES DE L'INFERN" de Raúl de Val\
+2º Premio: "INOCENCIA" de Leopoldo Failoc\
+3er Premio: "PENSAMENT" de Marc Morales Ureña
+
+## Ganadores TEMÁTICA BLANCO Y NEGRO
+
+1er Premio: "HIGH HOPES" de Anna Leobovics\
+2º Premio: "MIRADA SIMPÁTICA" de Núria Morró\
+3er Premio: "JOC DE LLUM" de Anna Fabre
+
+## Ganadores TEMÁTICA PARETS
+
+1er Premio: "PARETS 1920" de MªTeresa García\
+2º Premio: "CASA DE LA VILA" de Jesus David Corral\
+3er Premio: "PARETS ROAD" de Enric López
+
+### Finalistas TEMÁTICA COLOR
+
+"BELLESA" de Lluis Romero\
+"MIRADA TRISTE" de Ramón Macías\
+"DE PUNTETES" de Marc Morales Ureña\
+"SOMRIURE" de Juan Tejero
+
+### Finalistas TEMÁTICA BLANCO Y NEGRO
+
+"DANCING IN HER BOOTS" de Raúl de Val\
+"LECCIÓN" de Jordi Galán\
+"SALTO" de Leopoldo Failoc\
+"YING YANG" de Miguel Angel Castillo
+
+### Finalistas TEMÁTICA PARETS
+
+"NOMÉS ELLA" de Raul del Val\
+"ÉPOCA" de Juan Tejero\
+"SIN TÍTULO" de José Antonio Perez

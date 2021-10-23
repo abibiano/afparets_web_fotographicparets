@@ -1,8 +1,8 @@
 ---
 title: "Sergi Mingote: Un deportista multi-disciplinar"
 description: "Mesa redonda"
-ponentes: [["Agustín Abanades", ""], ["Joan Soto", ""]]
-moderador: Irene Rodriguez
+ponentes: [["Agustín Abanades", ""], ["Joan Soto", "", "Pep Miró", ""]]
+moderador: Jose Luis (Jefe de deportes de Som Parets)
 moderador_link: ""
 ubicacion: Sala Cooperativa
 horario_dia: Sábado 6 de noviembre 2021
