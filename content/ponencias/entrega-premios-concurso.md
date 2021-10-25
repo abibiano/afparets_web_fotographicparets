@@ -7,6 +7,10 @@ moderador_link: ""
 horario_dia: Sábado 6 de noviembre 2021
 horario_hora: 15:30 a 16:00
 ubicacion: Sala Cooperativa
-imagenes_ponencia: ["/img/proximamente.png"]
+imagenes_ponencia: [""]
 og_image: ""
 ---
+
+<div class="text-center m-5">
+<img src="/img/entrada-gratuita.png" alt="">
+</div>
