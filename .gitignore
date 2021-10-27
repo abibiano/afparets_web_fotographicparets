@@ -1,7 +1,11 @@
+deploy-mac.sh
+deploy_win.cmd
+
 # Hugo default output directory
 /node_modules
 /public
 /resources
+
 
 ## OS Files
 # Windows
