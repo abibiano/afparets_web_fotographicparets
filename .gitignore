@@ -1,5 +1,5 @@
 deploy-mac.sh
-deploy_win.cmd
+deploy-win.cmd
 
 # Hugo default output directory
 /node_modules
@@ -16,3 +16,4 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
+deploy-mac-sh
