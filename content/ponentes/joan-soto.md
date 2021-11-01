@@ -1,5 +1,5 @@
 ---
-title: "Jona Soto"
+title: "Joan Soto"
 ---
 
 A en Sergi Mingote, el conec cap a l’any 1997 quan tots dos érem socis del Centre Excursionista Parets. Llavors tots dos feien muntanya, tot i que en Sergi ja somiava en gran i les seves sortides eren ben diferents a les que jo feia. Però realment la nostra amistat es forja després que em diagnostiquen una malaltia degenerativa dels ulls i que em va impedir realitzar esport d’una manera autònoma i sobretot una de les meves passions com era el ciclisme.

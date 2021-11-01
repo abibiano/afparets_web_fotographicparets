@@ -4,7 +4,7 @@ description: "Mesa redonda"
 ponentes:
   [
     ["Agustín Abanades", "/ponentes/agustin-abanades"],
-    ["Joan Soto", "/ponentes/jona-soto"],
+    ["Joan Soto", "/ponentes/joan-soto"],
     ["Pep Miró", "/ponentes/pep-miro"],
   ]
 moderador: Jose Luis (Jefe de deportes de Som Parets)
