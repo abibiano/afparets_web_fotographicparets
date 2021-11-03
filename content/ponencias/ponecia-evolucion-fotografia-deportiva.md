@@ -18,4 +18,9 @@ og_image: ""
 
 <div class="text-center m-5">
 <img src="/img/entrada-gratuita.png" alt="">
+
+<br />
+
+<img src="/img/mascarilla-obligatoria.jpg" width=300 class="img-fluid" alt="">
+
 </div>

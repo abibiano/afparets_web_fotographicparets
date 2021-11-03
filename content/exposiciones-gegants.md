@@ -7,6 +7,10 @@ menu:
     weight: 20
 ---
 
+<img src="/img/exposiciones/gegants.jpg" class="img-fluid" alt="">
+
+<br />
+
 ## RETRATO DE CALLE
 
 Mucha gente no es capaz de imaginar que detrás del trabajo diario de un fotógrafo de prensa hay una enorme rutina. Aparentemente un reportero de deportes disfruta de unas condiciones laborales envidiables. Y es cierto, seguramente. Estadios deportivos, imágenes del esfuerzo, del triunfo, del fracaso, momentos dramáticos y emotivos, que se desencadenan ante el objetivo de su cámara para ser inmortalizados. Pero también horas de tedio, prisas, escasa colaboración. Supongo que un fotógrafo bregado llega al entrenamiento de, por ejemplo, un equipo de fútbol al que sigue habitualmente, más o menos como un oficinista ocupa su mesa de trabajo en la empresa. Y sin embargo, si pierde la capacidad de entusiasmarse con un detalle, con un enfoque, con un encuadre, es hombre muerto.
@@ -21,25 +25,3 @@ Jordi Cotrina, para los modelos de su serie, es una cara familiar, que han visto
 En el territorio de la mítica deportiva, estas fotos tienen el valor del retrato del actor sin maquillaje y sin el vestuario de la época. Qué sería de nuestra imagen de Marilyn Monroe, por ejemplo, si no conociéramos su rostro cotidiano, triste y melancólico de las sesiones de fotos privadas, tan lejanas del objeto de deseo masivo. Estoy seguro de que a muchos de sus protagonistas les costó encontrar el rato para posar para Jordi y hacerle 'ese favor'. Quizá alguno le metió prisa en la salida del entrenamiento, 'venga tío, dispara ya'. Pensaban, ingenuamente, que era un detalle que tenían ellos para Jordi, ese fotógrafo amable de cada mañana. Quizá hoy comprendan que el detalle lo tenía Jordi con ellos, que era Jordi quien les hacia el favor, y que siempre podrán agradecer que el fotógrafo se tomara un rato para dejar constancia del esplendor de la normalidad, de eso que será lo único que quede cuando se apaguen los focos, se cuelgue el uniforme de trabajo y tu cara sea poco más de un 'de qué me suena este tío'. Al mirarse aquí, dirán, 'gracias Jordi'.
 
 _DAVID TRUEBA_
-
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/img/exposiciones/gegants-001.jpg" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/exposiciones/gegants-002.jpg" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/exposiciones/gegants-003.jpg" class="d-block w-100" alt="">
-    </div>
-  </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
