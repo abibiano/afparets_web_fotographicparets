@@ -20,7 +20,7 @@ Los fotógrafos que fueron seleccionados son:
 
 1er Premio: "LES PORTES DE L'INFERN" de Raúl de Val\
 2º Premio: "INOCENCIA" de Leopoldo Failoc\
-3er Premio: "PENSAMENT" de Marc Morales Ureña
+3er Premio: "PENSAMENT" de Ricard Mateu
 
 ## Ganadores TEMÁTICA BLANCO Y NEGRO
 
