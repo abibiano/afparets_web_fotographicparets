@@ -34,7 +34,7 @@ Add additional notes about how to deploy this on a live system
 ## Desarrollado con
 
 - [Hugo](https://gohugo.io/) - Web framework
-- [Foundation](https://foundation.zurb.com/) - Tema
+- [Bootstrap](https://getbootstrap.com/) - Tema
 
 ## Autores
 
