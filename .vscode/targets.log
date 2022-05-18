@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed May 18 10:22:49 2022
+# Make data base, printed on Wed May 18 17:51:13 2022
 
 # Variables
 
@@ -21,7 +21,6 @@ make: *** No rule to make target `all'.  Stop.
 # environment
 LC_CTYPE = en_US.UTF-8
 # environment
- 
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -44,11 +43,13 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-ad43c150-bc34-4002-8206-842dfc4abeab.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-04f6a875-009a-4a19-965f-45cfd8a40358.sock
 # environment
 VSCODE_CWD = /
 # environment
 PATH = /usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/sbin:/Users/abibiano/Applications/javafx-sdk-17.0.2:/opt/homebrew/bin:/Applications/oracle/instantclient_19_8:/Applications/flutter/bin:/usr/local/bin:/Applications/flutter/.pub-cache/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+# makefile (from `Makefile', line 3)
+PUBLIC_DIR := public/
 # makefile (from `Makefile', line 2)
 ASSETS_DIR := themes/fotographic-theme/assets/js/vendor/
 # environment
@@ -146,9 +147,9 @@ HUGO := hugo
 # environment
 LANG = C
 # environment
-VSCODE_PID = 10877
+VSCODE_PID = 23794
 # variable set hash-table stats:
-# Load=66/1024=6%, Rehash=0, Collisions=1/90=1%
+# Load=67/1024=7%, Rehash=0, Collisions=1/91=1%
 
 # Pattern-specific Variable Values
 
@@ -179,7 +180,7 @@ build-js:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 4):
+#  commands to execute (from `Makefile', line 5):
 	mkdir -p $(ASSETS_DIR)
 	cp node_modules/jquery/dist/jquery.min.js $(ASSETS_DIR)
 	cp node_modules/popper.js/dist/umd/popper.min.js $(ASSETS_DIR)
@@ -195,7 +196,7 @@ build-js:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-10-11 21:00:44
+#  Last modified 2022-05-18 10:30:32
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -205,9 +206,10 @@ build: build-js
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 9):
+#  commands to execute (from `Makefile', line 10):
 	$(HUGO)
 	
+ 
 
 # Not a target:
 .DEFAULT:
@@ -215,16 +217,27 @@ build: build-js
 #  Modification time never checked.
 #  File has not been updated.
 
+deploy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 14):
+	@echo "╠ Removing public dir..."
+	rm -fr $(PUBLIC_DIR)
+	@echo "╠ Createing web..."
+	$(HUGO)
+	
+
 serve: build-js
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 11):
+#  commands to execute (from `Makefile', line 12):
 	$(HUGO) server
 	
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/21=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/22=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -236,6 +249,6 @@ serve: build-js
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed May 18 10:22:49 2022
+# Finished Make data base on Wed May 18 17:51:13 2022
 
  
