@@ -1,23 +1,14 @@
 ---
-title: "III CONCURSO NACIONAL DE FOTOGRAFIA"
+title: "IV CONCURSO NACIONAL DE FOTOGRAFIA"
 LinkTitle: "Concurso"
 menu: "main"
 weight: 40
 ---
 
-## FOTOGraphic PARETS 2021
+## FOTOGraphic PARETS 2022
 
-<img src="/img/concurs-fotographic.jpg" class="img-fluid rounded mx-auto d-block m-4" alt="logo-consurso" width=500>
+En el IV Concurso nacional de fotografía FOTOgraphic Parets 2022 pueden participar todos los aficionados a la fotografía que participan en el evento FOTOgraphic Parets 2022.
 
-Con la participación de **Club patinaje Parets del Vallés**, **Espai Taiji Chen de Parets del Vallés** y del **Club de esgrima Granollers**.
+Las fotografías que se presenten deberán ser realizadas durante el concierto de final de fiesta del FOTOgrpahic.
 
-El shooting se realizará con Luz Natural en la [plaza de la Vila de Parets del Vallés](https://goo.gl/maps/YfBHswn9ftAymMPb6).
-Aprovechando que este año 2021 es año olímpico la temática será el deporte.
-
-El punto de encuentro será en la plaza de la Vila de Parets del Vallés, donde se explicará cómo funcionará el Shooting. El funcionamiento puede variar según las medidas que tengamos que tomar por la COVID-19.
-
-¡ATENCIÓN! LAS FOTOS REALIZADAS EN ÉSTE SHOOTING SERÁN LAS VÁLIDAS PARA PRESENTARSE AL III CONCURSO NACIONAL DE FOTOGRAFIA FOTOGRAPHIC PARETS 2021, AMPARADO POR LA FEDERACIÓN CATALANA DE FOTOGRAFÍA.
-
-Las fotografías no se podrán publicar en las redes sociales, hasta que el jurado del concurso dé el veredicto.
-
-CONSULTA LAS BASES DEL CONCURSO EN ESTE [ENLACE](/pdf/bases-concurso-2021.pdf)
+Consultar las bases completas del concurso en [ENLACE](/pdf/bases-concurso-2022.pdf)

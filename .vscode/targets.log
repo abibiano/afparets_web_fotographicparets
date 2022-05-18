@@ -10,11 +10,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sat May 14 11:49:43 2022
+# Make data base, printed on Wed May 18 10:22:49 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -22,6 +21,7 @@ make: *** No rule to make target `all'.  Stop.
 # environment
 LC_CTYPE = en_US.UTF-8
 # environment
+ 
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -44,7 +44,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-7b94e57d-c691-4b58-babb-a58adf6ae147.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-ad43c150-bc34-4002-8206-842dfc4abeab.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -58,7 +58,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.tFWkouNeTh/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.BzsZAi9JWd/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -146,7 +146,7 @@ HUGO := hugo
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1586
+VSCODE_PID = 10877
 # variable set hash-table stats:
 # Load=66/1024=6%, Rehash=0, Collisions=1/90=1%
 
@@ -156,9 +156,9 @@ VSCODE_PID = 1586
 
 # Directories
 
-# . (device 16777231, inode 1602755): 23 files, no impossibilities.
+# . (device 16777233, inode 1602755): 24 files, no impossibilities.
 
-# 23 files, no impossibilities in 1 directories.
+# 24 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -195,7 +195,7 @@ build-js:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-10-11 21:00:44
+#  Last modified 2022-10-11 21:00:44
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -236,6 +236,6 @@ serve: build-js
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat May 14 11:49:43 2022
+# Finished Make data base on Wed May 18 10:22:49 2022
 
  

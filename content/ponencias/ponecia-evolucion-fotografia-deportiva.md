@@ -9,7 +9,7 @@ ponentes:
   ]
 moderador: Irene Rodriguez
 moderador_link: ""
-horario_dia: Sábado 6 de noviembre 2021
+horario_dia: Sábado 6 de noviembre 2022
 horario_hora: 11:00 a 13:00
 ubicacion: Sala Cooperativa
 imagenes_ponencia: [""]

@@ -1,5 +1,6 @@
 HUGO := hugo
 ASSETS_DIR := themes/fotographic-theme/assets/js/vendor/
+PUBLIC_DIR := public/
 build-js:
 	mkdir -p $(ASSETS_DIR)
 	cp node_modules/jquery/dist/jquery.min.js $(ASSETS_DIR)
@@ -9,3 +10,8 @@ build: build-js
 	$(HUGO)
 serve: build-js
 	$(HUGO) server
+deploy:
+	@echo "╠ Removing public dir..."
+	rm -fr $(PUBLIC_DIR)
+	@echo "╠ Createing web..."
+	$(HUGO)
