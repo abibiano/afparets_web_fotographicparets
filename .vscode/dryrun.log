@@ -4,6 +4,5 @@ mkdir -p themes/fotographic-theme/assets/js/vendor/
 cp node_modules/jquery/dist/jquery.min.js themes/fotographic-theme/assets/js/vendor/
 cp node_modules/popper.js/dist/umd/popper.min.js themes/fotographic-theme/assets/js/vendor/
 cp node_modules/bootstrap/dist/js/bootstrap.min.js themes/fotographic-theme/assets/js/vendor/
- 
 make: Leaving directory `/Users/abibiano/projects/private/web/afparets_web_fotographicparets'
  

@@ -5,9 +5,11 @@
 {{ if isset .Params "description" }}
 <h2><small class="text-muted">{{ .Description }}</small></h2>
 {{ end }}
+{{ if isset .Params "horario_dia" }}
 <h4>
   Horario: <small class="text-muted">{{ .Params.horario_dia }}, de {{ .Params.horario_hora}}</small>
 </h4>
+{{ end }}
 {{ if isset .Params "ponentes" }}
 <h4>
   Participan: <small>

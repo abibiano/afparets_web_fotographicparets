@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Wed May 18 17:51:13 2022
+# Make data base, printed on Wed May 18 18:29:56 2022
 
 # Variables
 
@@ -43,7 +40,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-04f6a875-009a-4a19-965f-45cfd8a40358.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-a9d88e26-9c00-4b1c-a36e-145ccc94a675.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -147,7 +144,7 @@ HUGO := hugo
 # environment
 LANG = C
 # environment
-VSCODE_PID = 23794
+VSCODE_PID = 25604
 # variable set hash-table stats:
 # Load=67/1024=7%, Rehash=0, Collisions=1/91=1%
 
@@ -209,7 +206,6 @@ build: build-js
 #  commands to execute (from `Makefile', line 10):
 	$(HUGO)
 	
- 
 
 # Not a target:
 .DEFAULT:
@@ -249,6 +245,8 @@ serve: build-js
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed May 18 17:51:13 2022
+# Finished Make data base on Wed May 18 18:29:56 2022
 
  
+make: *** No rule to make target `all'.  Stop.
+
