@@ -10,8 +10,14 @@ build: build-js
 	$(HUGO)
 serve: build-js
 	$(HUGO) server
-deploy:
+build-mac:
 	@echo "╠ Removing public dir..."
 	rm -fr $(PUBLIC_DIR)
+	@echo "╠ Createing web..."
+	$(HUGO)
+
+build-win:
+	@echo "╠ Removing public dir..."
+	rmdir -force -r .\$(PUBLIC_DIR)
 	@echo "╠ Createing web..."
 	$(HUGO)
