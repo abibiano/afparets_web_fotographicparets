@@ -13,9 +13,9 @@ Los fotógrafos que fueron seleccionados son:
 
 ## Ganadores
 
-1er Premio: "VOLADORS" de Mª JESUS MULÀ SOLA\
-2º Premio: "PERFILS" de CARLES ALARASKI ALBERRTI\
-3er Premio: "EL ANGEL" de JORDI VENTURA CARBÓ
+**1er Premio**: "VOLADORS" de Mª JESUS MULÀ SOLA\
+**2º Premio**: "PERFILS" de CARLES ALARASKI ALBERRTI\
+**3er Premio**: "EL ANGEL" de JORDI VENTURA CARBÓ
 
 ### Finalistas
 

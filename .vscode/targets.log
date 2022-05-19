@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # ALG�N PROP�SITO PARTICULAR.
 
  # Este programa fue construido para i386-pc-mingw32
+ 
 
-# Base de datos del Make, mostrada en Thu May 19 11:03:43 2022
+# Base de datos del Make, mostrada en Thu May 19 13:26:33 2022
 
 # Variables
 
@@ -45,7 +46,8 @@ VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePac
 ONEDRIVE = C:\Users\abibi\OneDrive
 # entorno
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
-# makefile (de `makefile', l�nea 1):
+# makefile (de `makefile', l�nea  
+1):
 MAKEFILE_LIST :=  makefile
 # entorno
 TMP = C:\Users\abibi\AppData\Local\Temp
@@ -56,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # entorno
 PROGRAMDATA = C:\ProgramData
 # entorno
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2f4f083b-36c1-40dd-b977-1029dab02f6a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ccdfbae4-c257-4158-9356-b1ff8e383e84-sock
 # entorno
 VSCODE_CWD = C:\Users\abibi\AppData\Local\Programs\Microsoft VS Code
 # entorno
@@ -206,7 +208,7 @@ LANG = C
 # entorno
 PROCESSOR_LEVEL = 6
 # entorno
-VSCODE_PID = 7308
+VSCODE_PID = 20792
 # entorno
 USERDOMAIN_ROAMINGPROFILE = ABIBIANO-NIKEL
 # estad�sticas del conjunto de variables de la tabla de hash:
@@ -227,12 +229,12 @@ USERDOMAIN_ROAMINGPROFILE = ABIBIANO-NIKEL
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (llave C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1639676368): 32 archivos, no imposibilidades.
 # C:\Users\abibi\AppData\Roaming\npm (llave C:/Users/abibi/AppData/Roaming/npm, mtime 1648535892): 6 archivos, no imposibilidades.
 # C:\WINDOWS\System32\Wbem (llave C:/WINDOWS/System32/Wbem, mtime 1652220118): 173 archivos, no imposibilidades.
-# . (llave c:/proyectos/private/afparets_web_fotographicparets, mtime 1652950667): 18 archivos, no imposibilidades.
+# . (llave c:/proyectos/private/afparets_web_fotographicparets, mtime 1652956942): 21 archivos, no imposibilidades.
 # C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\ (llave C:/Program Files (x86)/Microsoft Team Foundation Server 2013 Power Tools/Best Practices Analyzer/, mtime 1599555998): 15 archivos, no imposibilidades.
 # C:\Program Files\nodejs\ (llave C:/Program Files/nodejs/, mtime 1648535953): 12 archivos, no imposibilidades.
 # C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319 (llave C:/WINDOWS/Microsoft.NET/Framework/v4.0.30319, mtime 1652897616): 407 archivos, no imposibilidades.
 # C:\Users\abibi\AppData\Local\Microsoft\WindowsApps (llave C:/Users/abibi/AppData/Local/Microsoft/WindowsApps, mtime 1652626711): 21 archivos, no imposibilidades.
-# C:\ProgramData\chocolatey\bin (llave C:/ProgramData/chocolatey/bin, mtime 1628593816): 14 archivos, no imposibilidades.
+# C:\ProgramData\chocolatey\bin (llave C:/ProgramData/chocolatey/bin, mtime 1652951307): 14 archivos, no imposibilidades.
 # C:\Program Files\dotnet\ (llave C:/Program Files/dotnet/, mtime 1652340797): 13 archivos, no imposibilidades.
 # C:\Program Files (x86)\Appeon\PowerBuilder 19.0 (llave C:/Program Files (x86)/Appeon/PowerBuilder 19.0, mtime 1622731706): 46 archivos, no imposibilidades.
 # C:\Program Files\PowerShell\7\ (llave C:/Program Files/PowerShell/7/, mtime 1652396761): 478 archivos, no imposibilidades.
@@ -252,10 +254,11 @@ USERDOMAIN_ROAMINGPROFILE = ABIBIANO-NIKEL
 # C:\Program Files (x86)\Sybase\PowerBuilder 12.6 (llave C:/Program Files (x86)/Sybase/PowerBuilder 12.6, mtime 1599551745): 10 archivos, no imposibilidades.
 # C:\Program Files (x86)\Sybase\Shared\PowerBuilder (llave C:/Program Files (x86)/Sybase/Shared/PowerBuilder, mtime 1599551761): 169 archivos, no imposibilidades.
 # C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (llave C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1600844822): 4 archivos, no imposibilidades.
-# C:\Program Files (x86)\GnuWin32\bin (llave C:/Program Files (x86)/GnuWin32/bin, mtime 1633413741): 5 archivos, no imposibilidades.
+# C:\Program Files (x86)\GnuWin32\bin (llave C:/Program Files (x86)/GnuWin32/bin, mtime 163341 
+3741): 5 archivos, no imposibilidades.
 # C:\Users\abibi\.dotnet\tools: podr�a no estar establecido.
 
-# 5442 archivos, no imposibilidades en 36 directorios.
+# 5445 archivos, no imposibilidades en 36 directorios.
 
 # Reglas impl�citas.
 
@@ -341,11 +344,12 @@ serve: build-js
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
-
-# Se termina la base de datos de Make en Thu May 19 11:03:43 2022
-
- 
+# s 
 make.exe: *** No hay ninguna regla para construir el objetivo `all'.  Alto.
 
+trcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Se termina la base de datos de Make en Thu May 19 13:26:33 2022
+
+ 
