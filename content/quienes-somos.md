@@ -5,7 +5,7 @@ menu: "main"
 weight: 80
 ---
 
-<img class="rounded mx-auto d-block p-2" src="/img/logos/logo-afparets-10anys.png" width="100">
+{{< image-resize src="img/logos/logo-afparets-10anys.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
 
 FOTOgraphic Parets es una propuesta iniciada en 2013 por un grupo de fotógrafos y aficionados a la fotografía que pertenecemos a la AFP (Associació Fotogràfica Parets) con la ilusión de promover el interés por la fotografía. Esto origina la idea de realizar un Festival que integre ponencias de profesionales de la fotografía, eventos, exposiciones y otras actividades culturales.
 

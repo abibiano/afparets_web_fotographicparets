@@ -20,4 +20,4 @@ El retrat, la moda i la fotografia artística em donen la possibilitat de trebal
 
 Actualment he centrat part de la meva feina en fotografiar músics, fent retrats per a les xarxes socials, portades de discs, pòsters de concerts,.... i gaudeixo de fer clics a tempo de música, sempre que en tinc oportunitat. El meu coneixement musical, em dona una visió més acurada del que necessita i busca un músic, quan demana ser fotografiat.
 
-<img class="rounded mx-auto d-block" src="/img/ponencias/diego-marin.jpg" width="300">
+{{< image-resize src="/img/ponencias/diego-marin.jpg" size="300x" alt="" class="rounded mx-auto d-block py-3" >}}

@@ -16,4 +16,4 @@ Además de realizar talleres / Workshops de fotografía para profesionales y est
 
 Colaborados a nivel embajador con Canon Espala, Sandisk, Foto K y Profoto Spain
 
-<img class="rounded mx-auto d-block" src="/img/ponencias/jose_irun.jpeg" width="500">
+{{< image-resize src="/img/ponencias/jose_irun.jpeg" size="500x" alt="" class="rounded mx-auto d-block py-3" >}}

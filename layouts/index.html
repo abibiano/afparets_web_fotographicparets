@@ -3,7 +3,11 @@
 <h1 class="text-center">FOTOGraphic Parets 2022</h1>
 <h4 class="text-center">9ª Edición del Festival Fotográfico del Valles Oriental</h4>
 <h2 class="text-center">11 de junio 2022</h2>
-<img src="/img/portada-fotographic.jpg" class="py-4 img-fluid" alt="Portada Fotographic 2022">
+
+{{ with (resources.Get "/img/portada-fotographic.jpg").Resize "1280x720" | fingerprint }}
+<img class="py-4 img-fluid" src="{{ .RelPermalink }}" alt="Portada Fotographic 2022">
+{{ end }}
+
 <h3 class="text-center">Este año con la temática <strong>"LA MÚSICA"</strong></h3>
 <h4 class="text-center">- FOTOGRAFÍA DE ESPECTÁCULOS -</h4>
 <h3 class="text-center">y el <strong>IV Concurso Nacional de Fotografía</strong></h3>

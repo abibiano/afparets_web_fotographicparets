@@ -16,30 +16,41 @@
             <li class="px-2 pt-3 pb-2">Organiza</li>
             <li class="p-2">
               <a href="https://afparets.com" target="_blank">
-                <img src="/img/logos/logo-afparets-10anys.png" width=75 alt="afparets">
+                {{ with (resources.Get "/img/logos/logo-afparets-10anys.png").Resize "75x" | fingerprint }}
+                <img src="{{ .RelPermalink }}" alt="Logo AFParets">
+                {{ end }}
               </a>
             </li>
             <li class="px-2 pt-3 pb-2">Patrocina</li>
             <li class="p-2">
               <a href="https://opticafija.com" target="_blank">
-                <img src="/img/logos/logo-optica-fija.png" width=150 alt="Optica Fija">
+                {{ with (resources.Get "/img/logos/logo-optica-fija.png").Resize "150x" | fingerprint }}
+                <img src="{{ .RelPermalink }}" alt="Logo optijafija">
+                {{ end }}
               </a>
             </li>
 
             <li class="px-2 pt-3 pb-2">Colabora</li>
             <li class="p-2">
               <a href="https://www.parets.cat" target="_blank">
-                <img src="/img/logos/logo-ajuntament-parets.png" width=75 alt="ajuntament">
+                {{ with (resources.Get "/img/logos/logo-ajuntament-parets.png").Resize "75x" | fingerprint }}
+                <img src="{{ .RelPermalink }}" alt="ajuntament">
+                {{ end }}
+
               </a>
             </li>
             <li class="p-2">
               <a href="https://www.federaciofotografia.cat" target="_blank">
-                <img src="/img/logos/logo-federacio.png" width=75 alt="federacion">
+                {{ with (resources.Get "/img/logos/logo-federacio.png").Resize "75x" | fingerprint }}
+                <img src="{{ .RelPermalink }}" alt="federacion">
+                {{ end }}
               </a>
             </li>
             <li class="p-2">
               <a href="https://www.cefoto.es" target="_blank">
-                <img src="/img/logos/logo-confederacion.png" width=75 alt="confederacion">
+                {{ with (resources.Get "/img/logos/logo-confederacion.png").Resize "75x" | fingerprint }}
+                <img src="{{ .RelPermalink }}" alt="confederacion">
+                {{ end }}
               </a>
             </li>
           </ul>

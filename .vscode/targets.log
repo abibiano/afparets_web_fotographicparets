@@ -1,223 +1,322 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 3.81
 # Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
 
-# This program built for i386-apple-darwin11.3.0
+ # Este programa fue construido para i386-pc-mingw32
 
-# Make data base, printed on Wed May 18 18:29:56 2022
+# Base de datos del Make, mostrada en Thu May 19 11:03:43 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
+# entorno
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# autom�tica/o
 ?F = $(notdir $?)
-# environment
-LC_CTYPE = en_US.UTF-8
-# environment
-VSCODE_LOG_NATIVE = false
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile
-CURDIR := /Users/abibiano/projects/private/web/afparets_web_fotographicparets
-# makefile
-SHELL = /bin/sh
-# environment
-VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"125a9a608456aa5e8a25d0a18c7b1d68.es","_translationsConfigFile":"/Users/abibiano/Library/Application Support/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/tcf.json","_cacheRoot":"/Users/abibiano/Library/Application Support/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es","_resolvedLanguagePackCoreLocation":"/Users/abibiano/Library/Application Support/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/abibiano/Library/Application Support/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/corrupted.info","_languagePackSupport":true}
-# environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-__CFBundleIdentifier = com.microsoft.VSCode
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-a9d88e26-9c00-4b1c-a36e-145ccc94a675.sock
-# environment
-VSCODE_CWD = /
-# environment
-PATH = /usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/sbin:/Users/abibiano/Applications/javafx-sdk-17.0.2:/opt/homebrew/bin:/Applications/oracle/instantclient_19_8:/Applications/flutter/bin:/usr/local/bin:/Applications/flutter/.pub-cache/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
-# makefile (from `Makefile', line 3)
-PUBLIC_DIR := public/
-# makefile (from `Makefile', line 2)
-ASSETS_DIR := themes/fotographic-theme/assets/js/vendor/
-# environment
-VSCODE_LOG_STACK = false
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
-# environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.BzsZAi9JWd/Listeners
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-PWD = /Users/abibiano/projects/private/web/afparets_web_fotographicparets
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /Users/abibiano
-# environment
-LD_LIBRARY_PATH = /Applications/oracle/instantclient_19_8
-# default
-MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/abibiano/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
-# environment
-LOGNAME = abibiano
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-XPC_FLAGS = 0x0
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-SHLVL = 2
-# default
-MAKE_VERSION := 3.81
-# environment
-USER = abibiano
-# makefile
-.DEFAULT_GOAL := build-js
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
-# default
-.VARIABLES := 
-# environment
-TMPDIR = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/
-# automatic
-*F = $(notdir $*)
-# environment
-VSCODE_IPC_HOOK = /Users/abibiano/Library/Application Support/Code/1.67.1-main.sock
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# entorno
+PTSMINSTALLPATH_X86 = C:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\
 # makefile
 MAKEFLAGS = Rrqp
-# environment
+# entorno
+VSCODE_LOG_NATIVE = false
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/proyectos/private/afparets_web_fotographicparets
+# por defecto
+SHELL := sh.exe
+# entorno
+WINDIR = C:\WINDOWS
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"125a9a608456aa5e8a25d0a18c7b1d68.es","_translationsConfigFile":"C:\\Users\\abibi\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\tcf.json","_cacheRoot":"C:\\Users\\abibi\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\abibi\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\abibi\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\corrupted.info","_languagePackSupport":true}
+# entorno
+ONEDRIVE = C:\Users\abibi\OneDrive
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (de `makefile', l�nea 1):
+MAKEFILE_LIST :=  makefile
+# entorno
+TMP = C:\Users\abibi\AppData\Local\Temp
+# entorno
+VSCODE_VERBOSE_LOGGING = true
+# entorno
+PROGRAMW6432 = C:\Program Files
+# entorno
+PROGRAMDATA = C:\ProgramData
+# entorno
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2f4f083b-36c1-40dd-b977-1029dab02f6a-sock
+# entorno
+VSCODE_CWD = C:\Users\abibi\AppData\Local\Programs\Microsoft VS Code
+# entorno
+CHROME_EXECUTABLE = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+# entorno
+PATH = C:\Oracle32\product\19.0.0\client_x32\bin;c:\oracle\product\19.0.0\client_x64\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Sybase\Shared\PowerBuilder\x64;C:\Program Files (x86)\Sybase\PowerBuilder 12.6;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\flutter\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Appeon\PowerBuilder 19.0;C:\Program Files (x86)\Appeon\PowerBuilderCompiler 19.0;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Appeon\PowerBuilder 21.0;C:\Program Files\PowerShell\7\;C:\Users\abibi\AppData\Local\Microsoft\WindowsApps;C:\Users\abibi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abibi\.dotnet\tools;C:\Users\abibi\AppData\Roaming\npm;;C:\Program Files\Azure Data Studio\bin
+# entorno
+ONLINESERVICES = Online Services
+# makefile (de `makefile', l�nea 3):
+PUBLIC_DIR := public/
+# entorno
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+USERPROFILE = C:\Users\abibi
+# entorno
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (de `makefile', l�nea 2):
+ASSETS_DIR := themes/fotographic-theme/assets/js/vendor/
+# entorno
+VSCODE_LOG_STACK = false
+# entorno
+NUMBER_OF_PROCESSORS = 4
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+VSCODE_PIPE_LOGGING = true
+# entorno
+COMPUTERNAME = ABIBIANO-NIKEL
+# entorno
+PROGRAMFILES = C:\Program Files (x86)
+# entorno
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# entorno
+USERNAME = abibi
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# entorno
+VSCODE_CODE_CACHE_PATH = C:\Users\abibi\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# entorno
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# entorno
+LOGONSERVER = \\ABIBIANO-NIKEL
+# entorno
+ONEDRIVECONSUMER = C:\Users\abibi\OneDrive
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = ABIBIANO-NIKEL
+# entorno
+PROG27B48B2C051 = 1
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# entorno
+TFSPOWERTOOLDIR = C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\
+# entorno
+BPADIR = C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\
+# por defecto
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := build-js
+# entorno
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# entorno
+LOCALAPPDATA = C:\Users\abibi\AppData\Local
+# entorno
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# por defecto
+MAKE_COMMAND := make.exe
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# por defecto
+.VARIABLES := 
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\41da7a34060c0eb1e4a825fc67ba9cea-1.67.2-main-sock
+# entorno
+HOMEPATH = \Users\abibi
+# entorno
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# entorno
+PROMPT = $P$G
+# entorno
 MFLAGS = -Rrqp
-# automatic
+# autom�tica/o
 *D = $(patsubst %/,%,$(dir $*))
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.18364358.18364364
-# automatic
+# entorno
+REGIONCODE = EMEA
+# entorno
+SYSTEMROOT = C:\WINDOWS
+# autom�tica/o
 +D = $(patsubst %/,%,$(dir $+))
-# automatic
+# entorno
+PLATFORMCODE = 7F
+# autom�tica/o
 +F = $(notdir $+)
-# environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x8
-# environment
-COMMAND_MODE = unix2003
-# default
+# entorno
+APPDATA = C:\Users\abibi\AppData\Roaming
+# entorno
+TEMP = C:\Users\abibi\AppData\Local\Temp
+# entorno
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# entorno
+PTSMINSTALLPATH = c:\Program Files\HP\HP ProtectTools Security Manager\Bin\
+# por defecto
 MAKEFILES := 
-# automatic
+# autom�tica/o
 <F = $(notdir $<)
-# environment
+# entorno
 LC_ALL = C
-# automatic
+# autom�tica/o
 ^F = $(notdir $^)
-# default
+# por defecto
 SUFFIXES := 
-# default
-.INCLUDE_DIRS = /usr/local/include
-# environment
+# entorno
+SYSTEMDRIVE = C:
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = 9e09
+# entorno
 MAKELEVEL := 0
-# makefile (from `Makefile', line 1)
+# makefile (de `makefile', l�nea 1):
 HUGO := hugo
-# environment
+# entorno
 LANG = C
-# environment
-VSCODE_PID = 25604
-# variable set hash-table stats:
-# Load=67/1024=7%, Rehash=0, Collisions=1/91=1%
+# entorno
+PROCESSOR_LEVEL = 6
+# entorno
+VSCODE_PID = 7308
+# entorno
+USERDOMAIN_ROAMINGPROFILE = ABIBIANO-NIKEL
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=99/1024=10%, Rehash=0, Colisiones=10/119=8%
 
-# Pattern-specific Variable Values
+# Valores de variables espec�ficas al patr�n
 
-# No pattern-specific variable values.
+# No hay valores de variables espec�ficas al patr�n.
 
-# Directories
+# Directorios
 
-# . (device 16777233, inode 1602755): 24 files, no impossibilities.
+# : podr�a no estar establecido.
+# C:\flutter\bin (llave C:/flutter/bin, mtime 1652878430): 9 archivos, no imposibilidades.
+# C:\Program Files\Common Files\Oracle\Java\javapath (llave C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1602745082): 6 archivos, no imposibilidades.
+# C:\Program Files (x86)\Appeon\PowerBuilder 21.0 (llave C:/Program Files (x86)/Appeon/PowerBuilder 21.0, mtime 1652194922): 46 archivos, no imposibilidades.
+# C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\: podr�a no estar establecido.
+# C:\Program Files (x86)\Sybase\Shared\PowerBuilder\x64 (llave C:/Program Files (x86)/Sybase/Shared/PowerBuilder/x64, mtime 1599551759): 53 archivos, no imposibilidades.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (llave C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1639676368): 32 archivos, no imposibilidades.
+# C:\Users\abibi\AppData\Roaming\npm (llave C:/Users/abibi/AppData/Roaming/npm, mtime 1648535892): 6 archivos, no imposibilidades.
+# C:\WINDOWS\System32\Wbem (llave C:/WINDOWS/System32/Wbem, mtime 1652220118): 173 archivos, no imposibilidades.
+# . (llave c:/proyectos/private/afparets_web_fotographicparets, mtime 1652950667): 18 archivos, no imposibilidades.
+# C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\ (llave C:/Program Files (x86)/Microsoft Team Foundation Server 2013 Power Tools/Best Practices Analyzer/, mtime 1599555998): 15 archivos, no imposibilidades.
+# C:\Program Files\nodejs\ (llave C:/Program Files/nodejs/, mtime 1648535953): 12 archivos, no imposibilidades.
+# C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319 (llave C:/WINDOWS/Microsoft.NET/Framework/v4.0.30319, mtime 1652897616): 407 archivos, no imposibilidades.
+# C:\Users\abibi\AppData\Local\Microsoft\WindowsApps (llave C:/Users/abibi/AppData/Local/Microsoft/WindowsApps, mtime 1652626711): 21 archivos, no imposibilidades.
+# C:\ProgramData\chocolatey\bin (llave C:/ProgramData/chocolatey/bin, mtime 1628593816): 14 archivos, no imposibilidades.
+# C:\Program Files\dotnet\ (llave C:/Program Files/dotnet/, mtime 1652340797): 13 archivos, no imposibilidades.
+# C:\Program Files (x86)\Appeon\PowerBuilder 19.0 (llave C:/Program Files (x86)/Appeon/PowerBuilder 19.0, mtime 1622731706): 46 archivos, no imposibilidades.
+# C:\Program Files\PowerShell\7\ (llave C:/Program Files/PowerShell/7/, mtime 1652396761): 478 archivos, no imposibilidades.
+# C:\WINDOWS\System32\OpenSSH\: podr�a no estar establecido.
+# C:\Program Files\PuTTY\ (llave C:/Program Files/PuTTY/, mtime 1599551193): 12 archivos, no imposibilidades.
+# C:\Program Files (x86)\Appeon\PowerBuilderCompiler 19.0 (llave C:/Program Files (x86)/Appeon/PowerBuilderCompiler 19.0, mtime 1622731723): 35 archivos, no imposibilidades.
+# C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\ (llave C:/Program Files (x86)/Microsoft Team Foundation Server 2013 Power Tools/, mtime 1599555997): 22 archivos, no imposibilidades.
+# C:\WINDOWS (llave C:/WINDOWS, mtime 1600240992): 128 archivos, no imposibilidades.
+# C:\Program Files\Azure Data Studio\bin (llave C:/Program Files/Azure Data Studio/bin, mtime 1647351620): 4 archivos, no imposibilidades.
+# C:\Python39\ (llave C:/Python39/, mtime 1621494354): 18 archivos, no imposibilidades.
+# c:\oracle\product\19.0.0\client_x64\bin (llave c:/oracle/product/19.0.0/client_x64/bin, mtime 1599550668): 308 archivos, no imposibilidades.
+# C:\Python39\Scripts\ (llave C:/Python39/Scripts/, mtime 1621494354): 5 archivos, no imposibilidades.
+# C:\Program Files\Git\cmd (llave C:/Program Files/Git/cmd, mtime 1599574434): 8 archivos, no imposibilidades.
+# C:\WINDOWS\system32 (llave C:/WINDOWS/system32, mtime 1652879761): 3119 archivos, no imposibilidades.
+# C:\Oracle32\product\19.0.0\client_x32\bin (llave C:/Oracle32/product/19.0.0/client_x32/bin, mtime 1640084696): 242 archivos, no imposibilidades.
+# C:\Users\abibi\AppData\Local\Programs\Microsoft VS Code\bin (llave C:/Users/abibi/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652942101): 4 archivos, no imposibilidades.
+# C:\Program Files (x86)\Sybase\PowerBuilder 12.6 (llave C:/Program Files (x86)/Sybase/PowerBuilder 12.6, mtime 1599551745): 10 archivos, no imposibilidades.
+# C:\Program Files (x86)\Sybase\Shared\PowerBuilder (llave C:/Program Files (x86)/Sybase/Shared/PowerBuilder, mtime 1599551761): 169 archivos, no imposibilidades.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (llave C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1600844822): 4 archivos, no imposibilidades.
+# C:\Program Files (x86)\GnuWin32\bin (llave C:/Program Files (x86)/GnuWin32/bin, mtime 1633413741): 5 archivos, no imposibilidades.
+# C:\Users\abibi\.dotnet\tools: podr�a no estar establecido.
 
-# 24 files, no impossibilities in 1 directories.
+# 5442 archivos, no imposibilidades en 36 directorios.
 
-# Implicit Rules
+# Reglas impl�citas.
 
-# No implicit rules.
+# No hay reglas impl�citas.
 
-# Files
+# Archivos
 
-# Not a target:
+# No es un objetivo:
 all:
-#  Command-line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
 
 build-js:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 5):
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 5):
 	mkdir -p $(ASSETS_DIR)
 	cp node_modules/jquery/dist/jquery.min.js $(ASSETS_DIR)
 	cp node_modules/popper.js/dist/umd/popper.min.js $(ASSETS_DIR)
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(ASSETS_DIR)
 	
 
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-18 10:30:32
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# No es un objetivo:
+makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-19 10:57:47
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
 
 build: build-js
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 10):
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 10):
 	$(HUGO)
 	
 
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
 
 deploy:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 14):
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 14):
 	@echo "╠ Removing public dir..."
 	rm -fr $(PUBLIC_DIR)
 	@echo "╠ Createing web..."
@@ -225,28 +324,28 @@ deploy:
 	
 
 serve: build-js
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 12):
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 12):
 	$(HUGO) server
 	
 
-# files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/22=0%
-# VPATH Search Paths
+# estad�sticas de la tabla de hash de los archivos:
+# Carga=8/1024=1%, Rehash=0, Colisiones=0/21=0%
+# Rutas de b�squeda VPATH
 
-# No `vpath' search paths.
+# No hay rutas de b�squeda `vpath'.
 
-# No general (`VPATH' variable) search path.
+# No hay ruta de b�squeda general (variable `VPATH').
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed May 18 18:29:56 2022
+# Se termina la base de datos de Make en Thu May 19 11:03:43 2022
 
  
-make: *** No rule to make target `all'.  Stop.
+make.exe: *** No hay ninguna regla para construir el objetivo `all'.  Alto.
 

@@ -6,7 +6,7 @@ weight: 40
 ---
 ## FOTOGraphic PARETS 2022
 
-<img class="rounded mx-auto d-block py-3" src="/img/concurs-fotographic-2022.jpg" width="800">
+{{< image-resize src="img/concurs-fotographic-2022.jpg" size="800x" alt="" class="rounded mx-auto d-block py-3" >}}
 
 ### PARTICIPANTES
 

@@ -1,0 +1,9 @@
+{{ $image := resources.Get (.Get "src") }}
+{{ $size := (.Get "size") }}
+{{ $alt := (.Get "alt") }}
+{{ $class := (.Get "class") }}
+
+{{ with $image }}
+{{ $image := $image.Resize $size | fingerprint }}
+<img src="{{ $image.RelPermalink }}" alt="{{$alt}}" class="{{$class}}">
+{{ end }}

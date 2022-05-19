@@ -33,14 +33,20 @@
       <td>13:00</td>
       <td>
         Actuación del grupo musical <strong> PARADISO</strong>
-        <img class="rounded mx-auto d-block p-2" src="/img/ponencias/paradise.jpg" width="500">
+
+        {{ with (resources.Get "/img/ponencias/paradise.jpg").Resize "500x" | fingerprint }}
+        <img class="rounded mx-auto d-block p-2" src="{{ .RelPermalink }}" alt="">
+        {{ end }}
       </td>
     </tr>
     <tr>
       <td>14:00</td>
       <td>Comida Popular (se requiere reserva anticipada en <a
           href="mailto:activitats@afparets.com">activitats@afparets.com</a>)
-        <img class="rounded mx-auto d-block p-2" src="/img/ponencias/menu.jpg" width="300">
+
+        {{ with (resources.Get "/img/ponencias/menu.jpg").Resize "300x" | fingerprint }}
+        <img class="rounded mx-auto d-block p-2" src="{{ .RelPermalink }}" alt="">
+        {{ end }}
       </td>
     </tr>
     <tr>
@@ -62,7 +68,9 @@
       <td>Fin de fiesta con motivo del 10° Aniversario de la Asociación Fotográfica Parets
         actuación del grupo <strong>DUO PINK MOON</strong> con la presencia de Lara Villodres y
         Diego Marín, miembro de HOTEL COCHAMBRE
-        <img class="rounded mx-auto d-block p-2" src="/img/ponencias/grupo-pink-moon.jpg" width="200">
+        {{ with (resources.Get "/img/ponencias/grupo-pink-moon.jpg").Resize "200x" | fingerprint }}
+        <img class="rounded mx-auto d-block p-2" src="{{ .RelPermalink }}" alt="">
+        {{ end }}
       </td>
     </tr>
   </tbody>

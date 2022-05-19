@@ -16,4 +16,4 @@ Para algunos, Cartier Bresson es una figura mítica en la fotografía del siglo 
 
 [Wikipedia](https://es.wikipedia.org/wiki/Henri_Cartier-Bresson)
 
-<img class="rounded mx-auto d-block" src="/img/ponencias/documental-henri.jpeg" width="500">
+{{< image-resize src="/img/ponencias/documental-henri.jpeg" size="500x" alt="" class="rounded mx-auto d-block py-3" >}}

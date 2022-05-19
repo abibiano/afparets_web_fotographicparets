@@ -8,17 +8,23 @@
         <ul class="list-inline mb-0">
           <li class="list-inline-item me-5">
             <a href="https://www.facebook.com/groups/afparets/" target="_blank">
-              <img class="footer-social-icon" src="/img/icons/facebook-icon.svg" alt="Facebook">
+              {{ with (resources.Get "/img/icons/facebook-icon.svg") | fingerprint }}
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Facebook">
+              {{ end }}
             </a>
           </li>
           <li class="list-inline-item me-5">
             <a href="https://afparets.com" target="_blank">
-              <img class="footer-social-icon" src="/img/icons/global-icon.svg" alt="Web">
+              {{ with (resources.Get "/img/icons/global-icon.svg") | fingerprint }}
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Web">
+              {{ end }}
             </a>
           </li>
           <li class="list-inline-item">
             <a href="mailto:info@afparets.com">
-              <img class="footer-social-icon" src="/img/icons/email-icon.svg" alt="Mail">
+              {{ with (resources.Get "/img/icons/email-icon.svg") | fingerprint }}
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Mail">
+              {{ end }}
             </a>
           </li>
         </ul>
