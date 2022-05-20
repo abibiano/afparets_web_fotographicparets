@@ -19,31 +19,29 @@ Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
   npm update
   ```
   
-## Desarollo
+## Arrancar servidor desarrollo
 
-- Arrancar servidor local
+```bash
+hugo server
+```
 
-  ```bash
-  hugo server
-  ```
+## Despliegue
+
+```bash
+make
+```
 
 ## Desarrollado con
 
 - [Hugo](https://gohugo.io/) - Web framework
 - [Bootstrap](https://getbootstrap.com/) - Tema
 
-## Despliegue
-
-  ```bash
-  make
-  ```
-
 ## Autores
 
-- **Alex Bibiano**
+Alex Bibiano
 
 ## Licencia
 
-Este proyecto está licenciado bajo la licencia MIT; consulte el archivo [LICENSE.md] (LICENSE.md) para obtener detalles
+Este proyecto está licenciado bajo la licencia MIT.
 
 ## Agradecimientos
