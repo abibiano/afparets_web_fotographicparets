@@ -13,6 +13,12 @@ Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
   npm install
   ```
 
+- Actualizar paquetes
+
+  ```bash
+  npm update
+  ```
+  
 ## Desarollo
 
 - Arrancar servidor local
@@ -21,20 +27,16 @@ Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
   hugo server
   ```
 
-- Actualizar paquetes
-
-  ```bash
-  npm update
-  ```
-
-## Despliegue
-
-Add additional notes about how to deploy this on a live system
-
 ## Desarrollado con
 
 - [Hugo](https://gohugo.io/) - Web framework
 - [Bootstrap](https://getbootstrap.com/) - Tema
+
+## Despliegue
+
+  ```bash
+  make
+  ```
 
 ## Autores
 

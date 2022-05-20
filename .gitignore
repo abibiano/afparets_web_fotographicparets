@@ -17,3 +17,7 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 deploy-mac-sh
+.vscode/dryrun.log
+.gitignore
+.gitignore
+deploy-mac
