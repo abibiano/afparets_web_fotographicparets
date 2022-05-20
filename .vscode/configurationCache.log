@@ -1,0 +1,1 @@
+{"buildTargets":["build","clean-mac","deploy-mac","sent-files-mac","serve"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
