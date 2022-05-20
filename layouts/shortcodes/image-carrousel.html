@@ -1,0 +1,9 @@
+{{ $image := resources.Get (.Get "src") }}hu
+{{ $size := (.Get "size") }}
+{{ $alt := (.Get "alt") }}
+{{ $class := (.Get "class") }}
+
+{{ with $image }}
+{{ $image := $image.Fit $size }}
+<img src="{{ $image.RelPermalink }}" alt="{{$alt}}" class="{{$class}}">
+{{ end }}
