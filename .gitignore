@@ -21,3 +21,4 @@ deploy-mac-sh
 .gitignore
 .gitignore
 deploy-mac
+.vscode/targets.log
