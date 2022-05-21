@@ -15,5 +15,7 @@ clean-mac:
 sent-files-mac:
 	./deploy-mac.sh
 
+build-mac: clean-mac build
+
 deploy-mac: clean-mac build sent-files-mac
 
