@@ -29,10 +29,51 @@ Los fotógrafos que fueron seleccionados son:
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active"> {{< image-fit src="img/concurso/01-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}
+    <div class="carousel-item active"> {{< image-fit src="img/concurso/57-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block">
+          <h5>VOLADORS</h5>
+          <p>Mª JESUS MULÀ SOLA</p>
+      </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/26-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>PERFILS</h5>
+          <p>CARLES ALASRAKI ALBERRTI</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/13-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>EL ÁNGEL</h5>
+          <p>JORDI VENTURA CARBÓ</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/28-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>DETALL</h5>
+          <p>MONTSERRAT DOLZ LAZARO</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/01-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}
         <div class="carousel-caption d-none d-md-block">
           <h5>ADMIRACIÓ</h5>
           <p>ESTEVE LLANES RAMIREZ</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/11-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>EQUILIBRI</h5>
+          <p>JOSEP MIQUEL MARCOS MARCOS</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/16-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>KEP</h5>
+          <p>RAUL DEL VAL MATESO</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/36-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>EN LÍNIA</h5>
+          <p>MIQUEL PORTELL</p>
+        </div>
+    </div>
+    <div class="carousel-item"> {{< image-fit src="img/concurso/45-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
+          <h5>GIRO</h5>
+          <p>JUAN TEJERO GÓMEZ</p>
         </div>
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/02-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
@@ -80,19 +121,9 @@ Los fotógrafos que fueron seleccionados son:
           <p>JOSEP MIQUEL MARCOS MARCOS</p>
         </div>
     </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/11-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>EQUILIBRI</h5>
-          <p>JOSEP MIQUEL MARCOS MARCOS</p>
-        </div>
-    </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/12-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>PUNXADA</h5>
           <p>JOSEP MIQUEL MARCOS MARCOS</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/13-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>EL ÁNGEL</h5>
-          <p>JORDI VENTURA CARBÓ</p>
         </div>
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/14-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
@@ -103,11 +134,6 @@ Los fotógrafos que fueron seleccionados son:
     <div class="carousel-item"> {{< image-fit src="img/concurso/15-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>TAICHI</h5>
           <p>JORDI VENTURA CARBÓ</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/16-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>KEP</h5>
-          <p>RAUL DEL VAL MATESO</p>
         </div>
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/17-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
@@ -155,19 +181,9 @@ Los fotógrafos que fueron seleccionados son:
           <p>CARLES ALASRAKI ALBERRTI</p>
         </div>
     </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/26-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>PERFILS</h5>
-          <p>CARLES ALASRAKI ALBERRTI</p>
-        </div>
-    </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/27-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>FIGURE Nº DOS</h5>
           <p>CARLES ALASRAKI ALBERRTI</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/28-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>DETALL</h5>
-          <p>MONTSERRAT DOLZ LAZARO</p>
         </div>
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/29-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
@@ -202,11 +218,6 @@ Los fotógrafos que fueron seleccionados son:
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/35-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>OMBRA PATINANT</h5>
-          <p>MIQUEL PORTELL</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/36-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>EN LÍNIA</h5>
           <p>MIQUEL PORTELL</p>
         </div>
     </div>
@@ -247,11 +258,6 @@ Los fotógrafos que fueron seleccionados son:
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/44-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>CONCENTRACIÓN-II</h5>
-          <p>JUAN TEJERO GÓMEZ</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/45-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>GIRO</h5>
           <p>JUAN TEJERO GÓMEZ</p>
         </div>
     </div>
@@ -307,11 +313,6 @@ Los fotógrafos que fueron seleccionados son:
     </div>
     <div class="carousel-item"> {{< image-fit src="img/concurso/56-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
           <h5>ASALT</h5>
-          <p>Mª JESUS MULÀ SOLA</p>
-        </div>
-    </div>
-    <div class="carousel-item"> {{< image-fit src="img/concurso/57-fotographic2021.jpg" size="1024x1024" class="d-block w-100">}}<div class="carousel-caption d-none d-md-block">
-          <h5>VOLADORS</h5>
           <p>Mª JESUS MULÀ SOLA</p>
         </div>
     </div>

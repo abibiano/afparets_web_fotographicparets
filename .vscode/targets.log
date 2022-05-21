@@ -10,18 +10,18 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri May 20 15:31:53 2022
+# Make data base, printed on Sat May 21 08:09:10 2022
 
 # Variables
 
 # automatic
+ 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # environment
 LC_CTYPE = en_US.UTF-8
 # environment
- 
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -44,7 +44,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-2b9bf73f-9ce9-4161-b587-cf00a4891a3e.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-71dee3cc-a2b7-44bd-8714-94c9ff9632f7.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -99,6 +99,7 @@ SHLVL = 2
 MAKE_VERSION := 3.81
 # environment
 USER = abibiano
+ 
 # makefile (from `Makefile', line 4)
 .DEFAULT_GOAL := deploy-mac
 # automatic
@@ -148,7 +149,7 @@ HUGO := hugo
 # environment
 LANG = C
 # environment
-VSCODE_PID = 48403
+VSCODE_PID = 53971
 # variable set hash-table stats:
 # Load=67/1024=7%, Rehash=0, Collisions=1/91=1%
 
@@ -190,6 +191,7 @@ Makefile:
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
+ 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 build:
@@ -248,6 +250,6 @@ serve:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri May 20 15:31:53 2022
+# Finished Make data base on Sat May 21 08:09:10 2022
 
  
