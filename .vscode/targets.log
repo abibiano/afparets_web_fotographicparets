@@ -10,13 +10,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sat May 21 08:09:10 2022
+# Make data base, printed on Sun May 22 10:40:43 2022
 
 # Variables
 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
+ 
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -44,7 +44,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-71dee3cc-a2b7-44bd-8714-94c9ff9632f7.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/25/vlryg5x10wd_5nbxjtn1nvn80000gn/T/vscode-ipc-734d3957-10ef-4bab-8f04-c04af48782a3.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -96,10 +96,10 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 2
 # default
+ 
 MAKE_VERSION := 3.81
 # environment
 USER = abibiano
- 
 # makefile (from `Makefile', line 4)
 .DEFAULT_GOAL := deploy-mac
 # automatic
@@ -149,7 +149,7 @@ HUGO := hugo
 # environment
 LANG = C
 # environment
-VSCODE_PID = 53971
+VSCODE_PID = 60415
 # variable set hash-table stats:
 # Load=67/1024=7%, Rehash=0, Collisions=1/91=1%
 
@@ -187,12 +187,17 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-20 10:32:45
+ 
+#  Last modified 2022-05-21 08:36:48
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
- 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build-mac: clean-mac build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 build:
 #  Implicit rule search has not been done.
@@ -238,7 +243,7 @@ serve:
 	
 
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=0/24=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/27=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -250,6 +255,6 @@ serve:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat May 21 08:09:10 2022
+# Finished Make data base on Sun May 22 10:40:43 2022
 
  

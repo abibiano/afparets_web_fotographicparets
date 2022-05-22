@@ -108,4 +108,4 @@ Los autores son responsables exclusivos de los derechos de imagen y propiedad qu
 
 Este concurso es puntuable para la obtención de las distinciones de la Federación Catalana de Fotografía FCF con número: 2022-59
 
-**Se pueden consultar las bases completas y oficiales del concurso en el siguiente [ENLACE](/pdf/bases-concurso-2022-v3.pdf)**
+**Se pueden consultar las bases completas y oficiales del concurso en el siguiente [ENLACE](/pdf/bases-concurso-2022-v4.pdf)**
