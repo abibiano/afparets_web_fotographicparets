@@ -2,7 +2,7 @@
 title: "Exposición III Concurso Nacional de Fotografia"
 LinkTitle: "Exposición"
 menu: "main"
-weight: 40
+weight: 60
 ---
 ## FOTOGraphic PARETS 2021
 

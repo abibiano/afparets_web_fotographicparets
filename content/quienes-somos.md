@@ -2,7 +2,7 @@
 title: "Quienes Somos"
 LinkTitle : "AFParets"
 menu: "main"
-weight: 80
+weight: 90
 ---
 
 {{< image-resize src="img/logos/logo-afparets-10anys.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
