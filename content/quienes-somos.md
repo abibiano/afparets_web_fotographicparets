@@ -1,32 +1,32 @@
 ---
-title: "Quienes Somos"
-LinkTitle : "AFParets"
+title: "Qui Som"
+LinkTitle: "AFParets"
 menu: "main"
 weight: 90
 ---
 
 {{< image-resize src="img/logos/logo-afparets-10anys.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
 
-FOTOgraphic Parets es una propuesta iniciada en 2013 por un grupo de fotógrafos y aficionados a la fotografía que pertenecemos a la AFP (Associació Fotogràfica Parets) con la ilusión de promover el interés por la fotografía. Esto origina la idea de realizar un Festival que integre ponencias de profesionales de la fotografía, eventos, exposiciones y otras actividades culturales.
+FOTOgraphic Parets és una proposta iniciada el 2013 per un grup de fotògrafs i aficionats a la fotografia que pertanyem a l'Associació Fotogràfica Parets (AFP) amb la il·lusió de promoure l'interès per la fotografia. Això origina la idea de fer un Festival que integri ponències de professionals de la fotografia, esdeveniments, exposicions i altres activitats culturals.
 
-Desde el principio ha cosechado una gran afluencia de participantes, tanto profesionales del mundo de la fotografía como de aficionados, con un volumen de más de 2.000 personas que han participado en los diferentes talleres, ponencias y exposiciones organizadas.
+Des del principi ha aconseguit una gran afluència de participants, tant professionals del món de la fotografia com d'aficionats, amb un volum de més de 2.000 persones que han participat als diferents tallers, ponències i exposicions organitzades.
 
-Durante estos años, FOTOgraphic se ha ido adaptando a los tiempos y circunstancias, modificando su contenido y oferta, para seguir ofreciendo un evento único en la comarca del Vallés pensado por y para los fotógrafos.
+Durant aquests anys, FOTOgraphic s'ha anat adaptant als temps i circumstàncies, modificant-ne el contingut i l'oferta, per continuar oferint un esdeveniment únic a la comarca del Vallès pensat per i pels fotògrafs.
 
-En **2015** FOTOgraphic se centró en talleres efectuados por importantes fotógrafos de actualidad, demostración de productos de importantes marcas comerciales complementando con exposiciones fotográficas con más de 600 imágenes de diferentes autores.
+A **2015** FOTOgraphic es va centrar en tallers efectuats per importants fotògrafs d'actualitat, demostració de productes d'importants marques comercials complementant amb exposicions fotogràfiques amb més de 600 imatges de diferents autors.
 
-En **2016**, el salón se consolidó cambiando su ubicación a un nuevo espacio polivalente con auditorio, espacio para workshops, talleres, material fotográfico y exposiciones.
+A **2016**, el saló es va consolidar canviant la seva ubicació a un nou espai polivalent amb auditori, espai per a workshops, tallers, material fotogràfic i exposicions.
 
-**2017** fue el año de la explosión fotográfica y de participación. Se consiguió un fin de semana lleno de actividades poniendo el evento del FOTOgrahics como un evento fotográfico de referencia en la comarca del Vallés. La capacidad de la sala polivalente era de 300 personas y en todos los talleres o workshops estuvo a plena capacidad.
+**2017** va ser l'any de l'explosió fotogràfica i de participació. S'aconseguí un cap de setmana ple d'activitats posant l'esdeveniment del FOTOgrahics com a esdeveniment fotogràfic de referència a la comarca del Vallès. La capacitat de la sala polivalent era de 300 persones i en tots els tallers o workshops va estar a plena capacitat.
 
-**2018** fue un año con maquillajes y diferentes sets fotográficos dedicados a diferentes temáticas. Los talleres volvieron a ser un éxito total.
+**2018** va ser un any amb maquillatges i diferents sets fotogràfics dedicats a diferents temàtiques. Els tallers van tornar a ser un èxit total.
 
-**2019** otro año para recordar. Los participantes disfrutaron mucho ya que se tuvo la posibilidad de aprender y hacer lo que más nos gusta: fotografiar y participar en el concurso del FOTOgraphic.
+**2019** un altre any per recordar. Els participants van gaudir molt ja que es va tenir la possibilitat d'aprendre i fer allò que més ens agrada: fotografiar i participar al concurs del FOTOgraphic.
 
-**2020** el año para olvidar, debido a la pandemia del COVID. Como al resto de la sociedad también nos afectó. El FOTOgraphic se tuvo que suspender. Habíamos efectuado un cambio en el modo de presentación y organización, cambiando a un formato monotemático, dedicado en este caso al deporte ya que se quería hacer coincidir el evento con las Olimpiadas que finalmente también se suspendieron.
+**2020** l'any per oblidar, a causa de la pandèmia del COVID. Com a la resta de la societat també ens va afectar. El FOTOgraphic es va haver de suspendre. Havíem fet un canvi en el mode de presentació i organització, canviant a un format monotemàtic, dedicat en aquest cas a l'esport ja que es volia fer coincidir l'esdeveniment amb les Olimpíades que finalment també es van suspendre.
 
-**2021** fue el año de la reanudación. Se pudo celebrar con todo el respeto por las normas de seguridad impuestas por el COVI, el FOTOgraphic anulado el año anterior, pasando a ser un evento temático dedicado a los deportes. Los aficionados respondieron muy bien y fueron unas jornadas muy especiales por las circunstancias pasadas.
+**2021** va ser l'any de la represa. Es va celebrar amb tot el respecte per les normes de seguretat imposades pel COVI, el FOTOgraphic anul·lat l'any anterior, passant a ser un esdeveniment temàtic dedicat als esports. Els aficionats van respondre molt bé i van ser unes jornades molt especials per les circumstàncies passades.
 
-Podéis ver imágenes de todos los años anterior del FOTOgraphic la web de la asociación en [afparets.com](http://afparets.com/)
+Podeu veure imatges de tots els anys anteriors del FOTOgraphic la web de l'associació a [afparets.com](http://afparets.com/)
 
-También puedes entra en nuestro [Facebook](https://www.facebook.com/groups/afparets/), te mantendremos informado de las novedades y los cambios que vayan surgiendo, ya que la opinión de todos es muy importante para nosotros y queremos ir dando forma según las aportaciones que vayan surgiendo.
+També pots entrar al nostre [Facebook](https://www.facebook.com/groups/afparets/), us mantindrem informat de les novetats i els canvis que vagin sorgint, ja que l'opinió de tots és molt important per a nosaltres i volem anar donant forma segons les aportacions que vagin sorgint.

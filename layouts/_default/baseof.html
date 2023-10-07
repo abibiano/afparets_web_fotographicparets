@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{{ $lang := .Site.Language.Lang | default "es" }}
+{{ $lang := .Site.Language.Lang | default "ca-ES" }}
 <html lang="{{ $lang }}" class="h-100">
 {{- partial "head.html" . -}}
 
@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-2 text-center text-secondary">
           <ul class="list-unstyled">
-            <li class="px-2 pt-3 pb-2">Organiza</li>
+            <li class="px-2 pt-3 pb-2">Organitza</li>
             <li class="p-2">
               <a href="https://afparets.com" target="_blank">
                 {{ with (resources.Get "/img/logos/logo-afparets-10anys.png").Resize "75x" | fingerprint }}
@@ -21,16 +21,16 @@
                 {{ end }}
               </a>
             </li>
-            <li class="px-2 pt-3 pb-2">Patrocina</li>
+            {{/*  <li class="px-2 pt-3 pb-2">Patrocina</li>
             <li class="p-2">
               <a href="https://opticafija.com" target="_blank">
                 {{ with (resources.Get "/img/logos/logo-optica-fija.png").Resize "150x" | fingerprint }}
                 <img src="{{ .RelPermalink }}" alt="Logo optijafija">
                 {{ end }}
               </a>
-            </li>
+            </li>  */}}
 
-            <li class="px-2 pt-3 pb-2">Colabora</li>
+            <li class="px-2 pt-3 pb-2">Col·labora</li>
             <li class="p-2">
               <a href="https://www.parets.cat" target="_blank">
                 {{ with (resources.Get "/img/logos/logo-ajuntament-parets.png").Resize "75x" | fingerprint }}
@@ -46,13 +46,13 @@
                 {{ end }}
               </a>
             </li>
-            <li class="p-2">
+            {{/*  <li class="p-2">
               <a href="https://www.cefoto.es" target="_blank">
                 {{ with (resources.Get "/img/logos/logo-confederacion.png").Resize "75x" | fingerprint }}
                 <img src="{{ .RelPermalink }}" alt="confederacion">
                 {{ end }}
               </a>
-            </li>
+            </li>  */}}
           </ul>
         </div>
       </div>
