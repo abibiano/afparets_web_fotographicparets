@@ -1,22 +1,23 @@
 ---
-title: "RESULTADOS IV CONCURSO NACIONAL DE FOTOGRAFIA Memorial CHUSSA MULÀ"
-LinkTitle: "Resultado Concurso"
+title: "RESULTATS IV CONCURS NACIONAL DE FOTOGRAFIA Memorial CHUSSA MULÀ 2022"
+LinkTitle: "Resultats 2022"
 menu: "main"
-weight: 50
+weight: 60
 ---
+
 ## FOTOGraphic PARETS 2022
 
-Fotografía presentadas y resultado del IV Concurso Nacional Fotographic Parets 2022 Memorial CHUSSA MULÀ.
+Fotografia presentades i resultat del IV Concurs Nacional Fotographic Parets 2022 Memorial CHUSSA MULÀ.
 
-El jurado del IV Concurso Nacional Fotographic Parets 2022, formado por José Rublo Rodrigues (FCF), José Luis Fillat Claver (FCF) y Pedro Mohedano (Tallers de les arts i foto), reunidos en la sede la la Associació Fotogràfica Parets el sábado 9 de julio de 2022, han decidido otorgar los premiso según consta a continuación:
+El jurat del IV Concurs Nacional Fotographic Parets 2022, format per José Rublo Rodrigues (FCF), José Luis Fillat Claver (FCF) i Pedro Mohedano (Tallers de les arts i foto), reunits a la seu de l'Associació Fotogràfica Parets el dissabte 9 de juliol de 2022, han decidit atorgar els premis segons consta a continuació:
 
-## Ganadores
+## Guanyadors
 
 **1er Premio**: "SOLO" de DIEGO ROSA\
 **2º Premio**: "NO SE SENT!!!" de NURIA QUINTANA\
 **3er Premio**: "MIRADA" de MERCÈ RAMIREZ
 
-### Finalistas
+### Finalistes
 
 - "MUCHA MARCHA" de ALEJANDRO BIBIANO
 - "MAGIA ESCÈNCIA" de NEUS PÁEZ
@@ -28,7 +29,7 @@ El jurado del IV Concurso Nacional Fotographic Parets 2022, formado por José Ru
 - "PERCUSSIO" de NEUS PÁEZ
 - "PRESÈNCIA MÀGICA" de NEUS PÁEZ
 
-### Fotografías presentadas
+### Fotografies presentades
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">

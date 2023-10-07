@@ -1,111 +1,95 @@
 ---
-title: "IV CONCURSO NACIONAL DE FOTOGRAFIA"
-LinkTitle: "Concurso"
+title: "V CONCURSO NACIONAL DE FOTOGRAFIA '2° MEMORIAL CHUSSA MULÀ SOLÀ'"
+LinkTitle: "Concurs"
 menu: "main"
 weight: 40
 ---
-## FOTOGraphic PARETS 2022
 
-{{< image-resize src="img/concurs-fotographic-2022.jpg" size="800x" alt="" class="rounded mx-auto d-block py-3" >}}
+## FOTOGraphic PARETS 2023
 
-### PARTICIPANTES
+{{< image-resize src="img/concurs-fotographic.jpg" size="800x" alt="" class="rounded mx-auto d-block py-3" >}}
 
-Todos los aficionados a la fotografía participantes al FOTOgraphic Parets 2022 que se realizará el 11 de junio.
+### PARTICIPANTS
 
-### Modalidad
+Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2023 que es realitzarà el 21 d'octubre.
 
-Fotografía musical / FOTOgraphic 2022, cualquier fotografía realizada en las siguientes actuaciones:
+### MODALITAT
 
-- 13:00 Actuación del grupo musical PARAISO.
-- 21:00h Fin de fiesta 10º aniversario AFP. Actuación con el grupo DUO PINK MOON.
+Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic23.
+Les fotografies podran ser en color o blanc i negre (edició lliure) sense cap tractament amb IA.
 
-Las fotografías podrán ser en color o Blanco y negro. (Edición libre)
-A las 11:30h se realizará una explicación del IV concurso FOTOgraphic22 Memorial “CHUSSA MULÀ SOLÀ”
+### OBRES
 
-### Obras
+Els concursants presentaran un màxim de tres fotografies.
 
-Los concursantes presentaran un máximo de tres fotografías.
+### MESURES I PRESENTACIÓ
 
-### Medidas y Presentación
+Les fotografies no han de dur cap marca d'aigua visibles.
+Noms o inicials seran desqualificades i no s'inclouran en el Veredicte.
 
-Las Fotografías en formato digital se enviarán como archivo JPG, con medidas de 1920 pixeles de largo si el formato es vertical, o de 1080 píxeles de alto sí el formato es vertical, con una resolución de 300ppp.
+### IDENTIFICACIÓ
 
-Las fotografías no deben llevar ninguna marca de agua visibles, nombre o iniciales, serán descalificadas y no se incluirán en el veredicto.
+Els enviaments es faran via e-mail a [concursfotographic@afparets.com](mailto:concursfotographic@afparets.com)
+amb el nom i cognoms, adreça completa, telèfon (opcional), correu electrònic, entitat fotogràfica a la que pertany (si s'escau) i número de membre de la Federació Catalana de Fotografia.
 
-### Identificación
+Les fotografies hauran de portar el seu títol.
 
-Los envíos se harán vía e-mail a [concursfotographic@afparets.com](mailto:concursfotographic@afparets.com) con el nombre y apellidos, dirección completa, teléfono (opcional), correo electrónico, entidad fotográfica a la que pertenece (si procede), número de miembro de la Federación Catalana de Fotografía (si procede.)
+### PREMIS
 
-Las fotografías deberán llevar su título.
+1er Medalla Daurada FCF\
+2on Medalla Argent FCF\
+3er Medalla Bronze FCF\
+Cada autor optarà només a un premi.
 
-### Premios
+### CONSULTES
 
-1o Medalla Dorada FCF\
-2o Medalla Plata FCF\
-3o Medalla Bronce FCF
+Per a qualsevol consulta serà necessari comunicar-se por correu electrònic:
+[concursfotographic@afparets.com](mailto:concursfotographic@afparets.com)
 
-Cada autor optará solo a un premio
+### JURAT
 
-### Consultas
+El jurat estarà format per dues persones reconegudes de la Federació Catalana i un fotògraf reconegut. El veredicte serà públic i inapel·lable.
 
-Para cualquier consulta será necesario comunicarse por correo electrónico con [concursfotographic@afparets.com](mailto:concursfotographic@afparets.com)
+### OBRES PREMIADES
 
-### Jurado
+S'exposaran durant el FOTOgraphic2024, les tres obres premiades i les finalistes.
 
-El jurado estará formado por dos personas reconocidas de la Federación Catalana de Fotografía y un fotógrafo reconocido.
-El fallo será público e inapelable.
+### CATALÈG
 
-### Obras premiadas
+Les obres participants estaran exposades a la web del FOTOgraphic.
 
-Se expondrán durante el FOTOgraphic2023 las tres obras premiadas y una selección de las finalistas.
+### DRET D'INSCRIPCIÓ
 
-### Catálogo
+Gratuït.
 
-Las obras participantes estarán expuestas en la Web del Fotographic.
+### TERMINI D'ADMISSIÓ
 
-### Derecho de inscripción
+Fins el 11 de novembre del 2023 a les 23:59h.
 
-Gratuito
+### VEREDICTE DEL JURAT
 
-## Calendario
+Serà públic el 18 de novembre a les 10:00 hores, a Ca n'Oms, sala d'entitats, carrer Ponent. núm. 14 Parets del Vallès.
 
-### Plazo de admisión
+### ENTREGA DE PREMIS
 
-Hasta el 30 de junio de 2022 a las 23:59h.
+Entrega 2 de desembre 2023.
 
-### Veredicto del jurado
+### CONDICIONS GENERALS
 
-Será público el 9 de julio a las 10:00 horas, en Ca n'Oms, sala de entidades, calle Ponent, núm. 14 Paredes del Vallés.
-El veredicto será inapelable.
+Les fotografies premiades esdevindran propietat de l'AFParets i passaran a formar part del fons fotogràfic d'aquest organisme, que se'n reserva el dret d'exhibició i reproducció, amb la condició d'esmentar-ne l'autoria.
 
-### Entrega de premios
+La participació en aquest concurs comporta l’acceptació total d'aquestes bases.
 
-Durante los actos de la fiesta mayor de verano de Parets del Vallés (lugar y día a concretar)
+Les persones participants també es comprometen a no reivindicar el drets d'autoria de la reproducció de les seves obres per interessos a exposició, catàlegs, dossiers de premsa, reportatges, etc.
 
-### Condiciones generales
+La resta d'arxius s'esborraran una vegada conclòs el concurs.
 
-Las fotografías galardonadas, finalistas y las seleccionadas quedarán en propiedad de la Asociación Fotográfica Parets.
+L'organització no es fa responsable de cap pèrdua o danys a les obres tant en la tramesa com en la manipulació o exposició.
 
-Los/las autores/autoras autorizan a esta entidad a cualquier persona jurídica o pública que ésta decida a reproducir las fotografías en cualquier medio, siempre indicando el nombre del autor.
+L'Associació Fotogràfica Parets resoldrà circumstància no prevista en aquestes bases.
 
-El resto de archivos se borran una vez concluido el concurso.
+Pel fet de prendre hi part, les persones participants accepten les condicions d'aquestes bases i es comprometen a respectar-les.
 
-También se comprometen a no reivindicar los derechos de autor de la reproducción de sus obras por intereses de explotación, catálogos, dossieres de prensa, reportajes, etc.
+Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2023-83
 
-La organización no se hace responsable de pérdidas o destrozos de las obras.
-
-La organización del concurso se exime de cualquier conflicto para la publicación de la obra expuesta.
-
-La entidad organizadora resolverá cualquiera circunstancia no contemplada en estas bases.
-
-Los datos de los participantes serán compartidos con los patrocinadores de los premios del concurso.
-
-Por el hecho de tomar parte, las personas participantes aceptan las condiciones de estas bases y se comprometen a respetarlas.
-
-Una fotografía no puede acumular más de un premio.
-
-Los autores son responsables exclusivos de los derechos de imagen y propiedad que puedan generar sus obras.
-
-Este concurso es puntuable para la obtención de las distinciones de la Federación Catalana de Fotografía FCF con número: 2022-59
-
-**Se pueden consultar las bases completas y oficiales del concurso en el siguiente [ENLACE](/pdf/bases-concurso-2022-v4.pdf)**
+**Es poden consultar les bases completes i oficials del concurs al següent [ENLACE](/pdf/bases-concurso-2023-v1.jpeg)**
