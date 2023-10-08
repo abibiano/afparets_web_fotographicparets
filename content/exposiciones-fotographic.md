@@ -1,11 +1,11 @@
 ---
-title: "Exposició IV CONCURSO NACIONAL DE FOTOGRAFIA Memorial CHUSSA MULÀ"
+title: "IV CONCURSO NACIONAL DE FOTOGRAFIA “1er Memorial CHUSSA MULÀ”"
 LinkTitle: "Exposició"
 menu: "main"
 weight: 50
 ---
 
-## FOTOGraphic PARETS 2023
+## FOTOGraphic PARETS 2022
 
 En aquesta edició, podreu veure l'exposició dels guanyadors i els finalistes
 del IV Concurs Nacional de Fotografia Memorial CHUSSA MUlÀ.

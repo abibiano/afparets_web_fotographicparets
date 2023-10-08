@@ -1,5 +1,5 @@
 ---
-title: "V CONCURSO NACIONAL DE FOTOGRAFIA '2° MEMORIAL CHUSSA MULÀ SOLÀ'"
+title: "V CONCURSO NACIONAL DE FOTOGRAFIA “2on Memorial CHUSSA MULÀ”"
 LinkTitle: "Concurs"
 menu: "main"
 weight: 40
@@ -15,7 +15,7 @@ Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2023 que 
 
 ### MODALITAT
 
-Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic23.
+Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic 2023.
 Les fotografies podran ser en color o blanc i negre (edició lliure) sense cap tractament amb IA.
 
 ### OBRES
@@ -24,21 +24,23 @@ Els concursants presentaran un màxim de tres fotografies.
 
 ### MESURES I PRESENTACIÓ
 
-Les fotografies no han de dur cap marca d'aigua visibles.
-Noms o inicials seran desqualificades i no s'inclouran en el Veredicte.
+Les fotografies s'enviaran en format digital com arxiu JPG, amb mesures de 1920 píxels de llarg si el format és horitzontal, i de 1080 píxels d'alt si el format és vertical, amb una resolució de 300 ppp.
+
+Les fotografies no han de dur cap marca d'aigua visibles. Noms o inicials seran desqualificades i no s'inclouran en el veredicte.
 
 ### IDENTIFICACIÓ
 
 Els enviaments es faran via e-mail a [concursfotographic@afparets.com](mailto:concursfotographic@afparets.com)
-amb el nom i cognoms, adreça completa, telèfon (opcional), correu electrònic, entitat fotogràfica a la que pertany (si s'escau) i número de membre de la Federació Catalana de Fotografia.
+amb el nom i cognoms, adreça completa, telèfon (opcional), correu electrònic, entitat fotogràfica a la que pertany (si s'escau) i número de membre de la Federació Catalana de Fotografia (si s'escau).
 
 Les fotografies hauran de portar el seu títol.
 
 ### PREMIS
 
-1er Medalla Daurada FCF\
-2on Medalla Argent FCF\
-3er Medalla Bronze FCF\
+- 1er Medalla Daurada FCF
+- 2on Medalla Argent FCF
+- 3er Medalla Bronze FCF
+
 Cada autor optarà només a un premi.
 
 ### CONSULTES
@@ -52,7 +54,7 @@ El jurat estarà format per dues persones reconegudes de la Federació Catalana 
 
 ### OBRES PREMIADES
 
-S'exposaran durant el FOTOgraphic2024, les tres obres premiades i les finalistes.
+S'exposaran durant el FOTOgraphic 2024, les tres obres premiades i les finalistes.
 
 ### CATALÈG
 
@@ -92,4 +94,4 @@ Pel fet de prendre hi part, les persones participants accepten les condicions d'
 
 Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2023-83
 
-**Es poden consultar les bases completes i oficials del concurs al següent [ENLACE](/pdf/bases-concurso-2023-v1.jpeg)**
+**Es poden consultar les bases completes i oficials del concurs al següent [enllaç](/pdf/bases-concurso-2023-v1.jpeg)**
