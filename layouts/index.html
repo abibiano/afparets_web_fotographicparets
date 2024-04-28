@@ -1,10 +1,11 @@
 {{ define "main" }}
-<h1 class="text-center">FOTOgraphic Parets 2023</h1>
+<h2 class="text-center circus-font">CIRCUS</h2>
+<h1 class="text-center circus-font">FOTOgraphic Parets 2024</h1>
+<h2 class="text-center circus-font">8 de juny 2024</h2>
 <h4 class="text-center">10a Edició del Festival Fotogràfic del Vallès Oriental</h4>
-<h2 class="text-center">21 d'octubre 2023</h2>
-<p class="text-center"> Consulta el programa en aquest <a href="/ponencias">enllaç</a></p>
+<p class="text-center">Consulta el programa en aquest <a href="/ponencias">enllaç</a></p>
 {{ with (resources.Get "/img/portada-fotographic.jpg").Resize "1280x720" | fingerprint }}
-<img class="py-4 img-fluid" src="{{ .RelPermalink }}" alt="Portada Fotographic 2023">
+<img class="py-4 img-fluid" src="{{ .RelPermalink }}" alt="Portada Fotographic 2024">
 {{ end }}
 <h3 class="text-center">Aquest any amb la temàtica <strong>"LA DANSA"</strong></h3>
 {{ end }}

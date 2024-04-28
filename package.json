@@ -1,13 +1,13 @@
 {
   "name": "fotographicparets",
-  "version": "1.0.0",
-  "description": "FOTOGraphicparets WebSite",
+  "version": "2.0.0",
+  "description": "FOTOGraphic Parets",
   "main": "index.js",
   "author": "Alex Bibiano",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "postcss-cli": "^9.1.0"
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
   }
 }

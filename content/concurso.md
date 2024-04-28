@@ -5,17 +5,17 @@ menu: "main"
 weight: 40
 ---
 
-## FOTOGraphic PARETS 2023
+## FOTOGraphic PARETS 2024
 
 {{< image-resize src="img/concurs-fotographic.jpg" size="800x" alt="" class="rounded mx-auto d-block py-3" >}}
 
 ### PARTICIPANTS
 
-Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2023 que es realitzarà el 21 d'octubre.
+Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2024 que es realitzarà el 21 d'octubre.
 
 ### MODALITAT
 
-Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic 2023.
+Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic 2024.
 Les fotografies podran ser en color o blanc i negre (edició lliure) sense cap tractament amb IA.
 
 ### OBRES
@@ -66,7 +66,7 @@ Gratuït.
 
 ### TERMINI D'ADMISSIÓ
 
-Fins el 11 de novembre del 2023 a les 23:59h.
+Fins el 11 de novembre del 2024 a les 23:59h.
 
 ### VEREDICTE DEL JURAT
 
@@ -74,7 +74,7 @@ Serà públic el 18 de novembre a les 10:00 hores, a Ca n'Oms, sala d'entitats, 
 
 ### ENTREGA DE PREMIS
 
-Entrega 2 de desembre 2023.
+Entrega 2 de desembre 2024.
 
 ### CONDICIONS GENERALS
 
@@ -92,6 +92,6 @@ L'Associació Fotogràfica Parets resoldrà circumstància no prevista en aquest
 
 Pel fet de prendre hi part, les persones participants accepten les condicions d'aquestes bases i es comprometen a respectar-les.
 
-Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2023-83
+Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2024-83
 
-**Es poden consultar les bases completes i oficials del concurs al següent [enllaç](/pdf/bases-concurso-2023-v1.jpeg)**
+**Es poden consultar les bases completes i oficials del concurs al següent [enllaç](/pdf/bases-concurso-2024-v1.jpeg)**

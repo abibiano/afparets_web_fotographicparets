@@ -8,7 +8,9 @@
     "**/Thumbs.db": true,
     "**/*.freezed.dart": false,
     "**/*.g.dart": false,
-    "**/.gitkeep": false
+    "**/.gitkeep": false,
+    "**/node_modules": true,
+    ".vscode": true
   },
-  "explorerExclude.backup": null
+  "explorerExclude.backup": {}
 }

@@ -1,8 +1,8 @@
-# fotographicparets
+# FOTOgraphic Parets
 
 Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
 
-## Prerrequisitos
+## Requisitos
 
 - Instalar [Hugo](https://gohugo.io/getting-started/installing/)
 - Instalar [npm](https://www.npmjs.com/get-npm/)
@@ -18,7 +18,7 @@ Site para <https://fotographicparets.com> de la Associació Fotogràfica Parets
   ```bash
   npm update
   ```
-  
+
 ## Arrancar servidor desarrollo
 
 ```bash
