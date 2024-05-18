@@ -1,11 +1,16 @@
 {{ define "main" }}
-<h2 class="text-center circus-font">CIRCUS</h2>
-<h1 class="text-center circus-font">FOTOgraphic Parets 2024</h1>
-<h2 class="text-center circus-font">8 de juny 2024</h2>
-<h4 class="text-center">10a Edició del Festival Fotogràfic del Vallès Oriental</h4>
-<p class="text-center">Consulta el programa en aquest <a href="/ponencias">enllaç</a></p>
-{{ with (resources.Get "/img/portada-fotographic.jpg").Resize "1280x720" | fingerprint }}
-<img class="py-4 img-fluid" src="{{ .RelPermalink }}" alt="Portada Fotographic 2024">
-{{ end }}
-<h3 class="text-center">Aquest any amb la temàtica <strong>"LA DANSA"</strong></h3>
+{{ $image := resources.Get "/img/fondo-portada.jpg" | fingerprint }}
+<div class="hero text-center py-5"
+  style="background-image: url('{{ $image.RelPermalink }}'); background-size: cover; background-position: center;">
+  <div class="hero-content">
+    <h2 class="display-4 text-uppercase mb-4 circus-font" style="color: #ff0000;">CIRCUS</h2>
+    <h1 class="display-1 text-uppercase mb-4 circus-font">FOTOgraphic Parets 2024</h1>
+    <h2 class="display-4 text-uppercase mb-4 circus-font" style="color: #ff0000;">8 de juny 2024</h2>
+    <h4 class="mb-3">10<sup>a</sup> Edició del Festival Fotogràfic del Vallès Oriental</h4>
+    <p class="lead">Consulta el programa i registrat a les activitats gratuïtes</p>
+    <div class="text-center">
+      <a href="/ponencias" class="btn btn-primary btn-lg">Programa FOTOgraphic</a>
+    </div>
+  </div>
+</div>
 {{ end }}

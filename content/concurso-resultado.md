@@ -1,15 +1,15 @@
 ---
-title: "RESULTATS IV CONCURS NACIONAL DE FOTOGRAFIA Memorial CHUSSA MULÀ 2022"
-LinkTitle: "Resultats 2022"
+title: "RESULTATS V CONCURS NACIONAL DE FOTOGRAFIA Memorial CHUSSA MULÀ 2023"
+LinkTitle: "Resultats 2023"
 menu: "main"
 weight: 60
 ---
 
-## FOTOGraphic PARETS 2022
+## FOTOGraphic PARETS 2023
 
-Fotografia presentades i resultat del IV Concurs Nacional Fotographic Parets 2022 Memorial CHUSSA MULÀ.
+Fotografia presentades i resultat del V Concurs Nacional Fotographic Parets 2023 Memorial CHUSSA MULÀ.
 
-El jurat del IV Concurs Nacional Fotographic Parets 2022, format per José Rublo Rodrigues (FCF), José Luis Fillat Claver (FCF) i Pedro Mohedano (Tallers de les arts i foto), reunits a la seu de l'Associació Fotogràfica Parets el dissabte 9 de juliol de 2022, han decidit atorgar els premis segons consta a continuació:
+El jurat del V Concurs Nacional Fotographic Parets 2023, format per José Rublo Rodrigues (FCF), José Luis Fillat Claver (FCF) i Pedro Mohedano (Tallers de les arts i foto), reunits a la seu de l'Associació Fotogràfica Parets el dissabte 9 de juliol de 2022, han decidit atorgar els premis segons consta a continuació:
 
 ## Guanyadors
 
