@@ -1,12 +1,15 @@
 {{ define "main" }}
 {{ $image := resources.Get "/img/fondo-portada.jpg" | fingerprint }}
-<div class="hero text-center py-5"
+<div class="hero text-center py-5  px-3"
   style="background-image: url('{{ $image.RelPermalink }}'); background-size: cover; background-position: center;">
   <div class="hero-content">
+    <p class="lead text-center">L'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb
+      ponències, tallers i exposicions gratuïtes.</p>
+    <p class="display-6 text-center">Aquet any amb la temàtica</p>
     <h2 class="display-4 text-uppercase mb-4 circus-font" style="color: #ff0000;">CIRCUS</h2>
     <h1 class="display-1 text-uppercase mb-4 circus-font">FOTOgraphic Parets 2024</h1>
     <h2 class="display-4 text-uppercase mb-4 circus-font" style="color: #ff0000;">8 de juny 2024</h2>
-    <h4 class="mb-3">10<sup>a</sup> Edició del Festival Fotogràfic del Vallès Oriental</h4>
+    <h4 class="mb-3">11<sup>a</sup> Edició del Festival Fotogràfic del Vallès Oriental</h4>
     <p class="lead">Consulta el programa i registrat a les activitats gratuïtes</p>
     <div class="text-center">
       <a href="/ponencias" class="btn btn-primary btn-lg">Programa FOTOgraphic</a>
