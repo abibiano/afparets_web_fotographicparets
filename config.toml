@@ -5,25 +5,25 @@ title = "FOTOgraphic Parets 2024"
 
 [params]
   author = "Alex Bibiano"
-  description = "FOTOgraphic Parets 2024, 10a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes."
+  description = "FOTOgraphic Parets 2024, 11a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes."
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
+
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/scss"
     target = "assets/scss/bootstrap"
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-    target = "assets/js/bootstrap.bundle.min.js"        
+    target = "assets/js/bootstrap.bundle.min.js"
   [[module.mounts]]
     source = "assets"
     target = "assets"
   [[module.mounts]]
     source = "static"
-    target = "static"    
+    target = "static"
 
 sectionPagesMenu = "main"

@@ -1,5 +1,5 @@
 ---
-title: "V CONCURSO NACIONAL DE FOTOGRAFIA “2on Memorial CHUSSA MULÀ”"
+title: "VI CONCURSO NACIONAL DE FOTOGRAFIA “3er Memorial CHUSSA MULÀ”"
 LinkTitle: "Concurs"
 menu: "main"
 weight: 40
@@ -7,15 +7,15 @@ weight: 40
 
 ## FOTOGraphic PARETS 2024
 
-{{< image-resize src="img/concurs-fotographic.jpg" size="800x" alt="" class="rounded mx-auto d-block py-3" >}}
+{{< image-resize src="img/concurs-fotographic.jpg" size="200x" alt="" class="rounded mx-auto d-block py-3" >}}
 
 ### PARTICIPANTS
 
-Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2024 que es realitzarà el 21 d'octubre.
+Tots els aficionats a la fotografia participants al FOTOgraphic Parets 2024 que es realitzarà el 8 de juny 2024.
 
 ### MODALITAT
 
-Fotografia Dansa, qualsevol fotografia realitzada en el FOTOgraphic 2024.
+Qualsevol fotografia realitzada en el FOTOgraphic 2024.
 Les fotografies podran ser en color o blanc i negre (edició lliure) sense cap tractament amb IA.
 
 ### OBRES
@@ -66,15 +66,15 @@ Gratuït.
 
 ### TERMINI D'ADMISSIÓ
 
-Fins el 11 de novembre del 2024 a les 23:59h.
+Fins el 21 de juny del 2024 a les 23:59h.
 
 ### VEREDICTE DEL JURAT
 
-Serà públic el 18 de novembre a les 10:00 hores, a Ca n'Oms, sala d'entitats, carrer Ponent. núm. 14 Parets del Vallès.
+Serà públic el 29 de juny a les 10:00 hores, a Ca n'Oms, sala d'entitats, carrer Ponent. núm. 14 Parets del Vallès.
 
 ### ENTREGA DE PREMIS
 
-Entrega 2 de desembre 2024.
+Entrega 29 de juny 2024.
 
 ### CONDICIONS GENERALS
 
@@ -94,4 +94,4 @@ Pel fet de prendre hi part, les persones participants accepten les condicions d'
 
 Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2024-83
 
-**Es poden consultar les bases completes i oficials del concurs al següent [enllaç](/pdf/bases-concurso-2024-v1.jpeg)**
+**Es poden consultar les bases completes i oficials del concurs al següent [enllaç](/pdf/ConcursFOTOgraphic24.pdf)**
