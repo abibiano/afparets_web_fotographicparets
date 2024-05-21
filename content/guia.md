@@ -7,7 +7,7 @@ weight: 70
 
 ## Com arribar
 
-Parets del Vallès és a 7 km de Granollers ia 23 km de Barcelona.
+Parets del Vallès és a 7 km de Granollers i a 23 km de Barcelona.
 
 Disposa d´una bona xarxa de comunicacions, ja que pel seu terme circulen les autopistes AP-7 de Barcelona a la Jonquera, C-33 de Barcelona a Parets, la carretera C-17 de Barcelona a Vic, la carretera local que porta a Bigues i la comarcal de Sabadell a Granollers.
 
@@ -15,11 +15,15 @@ A més, disposa d'estació de ferrocarril de la línia R3 de Rodalies de Catalun
 
 ## On Aparcar
 
-[Poliesportiu Municipal Joaquim Rodríguez Oliver](http://www.parets.cat/la-vila/guia-del-municipi/equipaments/poliesportiu-municipal-joaquim-rodriguez-oliver)\
+**[Poliesportiu Municipal Joaquim Rodríguez Oliver](http://www.parets.cat/la-vila/guia-del-municipi/equipaments/poliesportiu-municipal-joaquim-rodriguez-oliver)**\
 Passeig Fluvial\
 Parets del Vallès, Barcelona, 08150
 
 <iframe width="500" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5VPpZaW4pBIRDkje1hls32c&key=AIzaSyBECd4GIw3O7OyPSVIp8Q2zuinVsk3nsi8" allowfullscreen></iframe>
+
+**Plaça del Camp de les Peces**\
+Parets del Vallès, Barcelona, 08150
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.7881281399473!2d2.233254876001003!3d41.57382988440988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a67f9c4859%3A0x384c111d9020a66a!2sPla%C3%A7a%20del%20Camp%20de%20les%20Peces%2C%2008150%20Parets%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1716285506302!5m2!1ses!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Situació
 

@@ -54,7 +54,7 @@ El jurat estarà format per dues persones reconegudes de la Federació Catalana 
 
 ### OBRES PREMIADES
 
-S'exposaran durant el FOTOgraphic 2024, les tres obres premiades i les finalistes.
+S'exposaran durant el FOTOgraphic 2025, les tres obres premiades i les finalistes.
 
 ### CATALÈG
 
@@ -74,7 +74,8 @@ Serà públic el 29 de juny a les 10:00 hores, a Ca n'Oms, sala d'entitats, carr
 
 ### ENTREGA DE PREMIS
 
-Entrega 29 de juny 2024.
+Els premis es lliuraran el 27 de juliol a les 20h a la Plaça de la Vila, dins els actes de festa major d’estiu
+de Parets del Vallès.
 
 ### CONDICIONS GENERALS
 
@@ -91,6 +92,10 @@ L'organització no es fa responsable de cap pèrdua o danys a les obres tant en 
 L'Associació Fotogràfica Parets resoldrà circumstància no prevista en aquestes bases.
 
 Pel fet de prendre hi part, les persones participants accepten les condicions d'aquestes bases i es comprometen a respectar-les.
+
+No es podrà publicar cap fotografia a cap medi mentre no s’hagin enviat les fotografies que l’Associació Fotogràfica de Parets enviarà als artistes.
+
+No es podrà publicar cap fotografia presentada al concurs fins al veredicte del Jurat.
 
 Aquest concurs és puntuable per a l'obtenció de les distincions de la Federació Catalana de Fotografia FCF Amb el número: 2024-83
 

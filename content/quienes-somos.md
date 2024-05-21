@@ -23,10 +23,10 @@ A **2016**, el saló es va consolidar canviant la seva ubicació a un nou espai 
 
 **2019** un altre any per recordar. Els participants van gaudir molt ja que es va tenir la possibilitat d'aprendre i fer allò que més ens agrada: fotografiar i participar al concurs del FOTOgraphic.
 
-**2020** l'any per oblidar, a causa de la pandèmia del COVID. Com a la resta de la societat també ens va afectar. El FOTOgraphic es va haver de suspendre. Havíem fet un canvi en el mode de presentació i organització, canviant a un format monotemàtic, dedicat en aquest cas a l'esport ja que es volia fer coincidir l'esdeveniment amb les Olimpíades que finalment també es van suspendre.
+**2020** l'any per oblidar, a causa de la pandèmia de la COVID. Com a la resta de la societat també ens va afectar. El FOTOgraphic es va haver de suspendre. Havíem fet un canvi en el mode de presentació i organització, canviant a un format monotemàtic, dedicat en aquest cas a l'esport ja que es volia fer coincidir l'esdeveniment amb les Olimpíades que finalment també es van suspendre.
 
-**2021** va ser l'any de la represa. Es va celebrar amb tot el respecte per les normes de seguretat imposades pel COVI, el FOTOgraphic anul·lat l'any anterior, passant a ser un esdeveniment temàtic dedicat als esports. Els aficionats van respondre molt bé i van ser unes jornades molt especials per les circumstàncies passades.
+**2021** va ser l'any de la represa. Es va celebrar amb tot el respecte per les normes de seguretat imposades per la COVID, el FOTOgraphic anul·lat l'any anterior, passant a ser un esdeveniment temàtic dedicat als esports. Els aficionats van respondre molt bé i van ser unes jornades molt especials per les circumstàncies passades.
 
-Podeu veure imatges de tots els anys anteriors del FOTOgraphic la web de l'associació a [afparets.com](http://afparets.com/)
+Podeu veure imatges de tots els anys anteriors del FOTOgraphic a la web de l'associació a [afparets.com](http://afparets.com/)
 
 També pots entrar al nostre [Facebook](https://www.facebook.com/groups/afparets/), us mantindrem informat de les novetats i els canvis que vagin sorgint, ja que l'opinió de tots és molt important per a nosaltres i volem anar donant forma segons les aportacions que vagin sorgint.

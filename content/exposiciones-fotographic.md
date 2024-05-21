@@ -15,14 +15,14 @@ Els fotògrafs que van ser seleccionats són:
 ## Guanyadors
 
 **1er Premio**: "Y" de Kaloni Morera\
-**2º Premio**: "Talento" de Carman Gavilan\
+**2º Premio**: "Talento" de Carmen Gavilán\
 **3er Premio**: "Dansa en blanc" de Ramon Alemany
 
 ### Finalistes
 
 - "Sabatilles" de Elena Boix
-- "Elegància" de Ramon Mª Saurí
-- "Energia" de Ramon Mª Saurí
+- "Elegància" de Ramon Ma. Saurí
+- "Energia" de Ramon Ma. Saurí
 - "Poma" de Juan Tejero
 - "Sense títol" de Pere Ninou
 - "Majestuosa" de Gloria Perez
