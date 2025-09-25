@@ -1,11 +1,11 @@
 baseURL = "https://fotographicparets.com/"
 languageCode = "ca"
 defaultContentLanguage = "ca"
-title = "FOTOgraphic Parets 2024"
+title = "FOTOgraphic Parets 2025"
 
 [params]
   author = "Alex Bibiano"
-  description = "FOTOgraphic Parets 2024, 11a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes."
+  description = "FOTOgraphic Parets 2025, 12a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes."
 
 [markup]
   [markup.goldmark]

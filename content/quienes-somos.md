@@ -1,11 +1,11 @@
 ---
-title: "Qui Som"
-LinkTitle: "AFParets"
+title: "Història"
+LinkTitle: "Història"
 menu: "main"
 weight: 90
 ---
 
-{{< image-resize src="img/logos/logo-afparets-10anys.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
+{{< image-resize src="img/logos/logo-afparets-350.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
 
 FOTOgraphic Parets és una proposta iniciada el 2013 per un grup de fotògrafs i aficionats a la fotografia que pertanyem a l'Associació Fotogràfica Parets (AFP) amb la il·lusió de promoure l'interès per la fotografia. Això origina la idea de fer un Festival que integri ponències de professionals de la fotografia, esdeveniments, exposicions i altres activitats culturals.
 
@@ -26,7 +26,3 @@ A **2016**, el saló es va consolidar canviant la seva ubicació a un nou espai 
 **2020** l'any per oblidar, a causa de la pandèmia de la COVID. Com a la resta de la societat també ens va afectar. El FOTOgraphic es va haver de suspendre. Havíem fet un canvi en el mode de presentació i organització, canviant a un format monotemàtic, dedicat en aquest cas a l'esport ja que es volia fer coincidir l'esdeveniment amb les Olimpíades que finalment també es van suspendre.
 
 **2021** va ser l'any de la represa. Es va celebrar amb tot el respecte per les normes de seguretat imposades per la COVID, el FOTOgraphic anul·lat l'any anterior, passant a ser un esdeveniment temàtic dedicat als esports. Els aficionats van respondre molt bé i van ser unes jornades molt especials per les circumstàncies passades.
-
-Podeu veure imatges de tots els anys anteriors del FOTOgraphic a la web de l'associació a [afparets.com](http://afparets.com/)
-
-També pots entrar al nostre [Facebook](https://www.facebook.com/groups/afparets/), us mantindrem informat de les novetats i els canvis que vagin sorgint, ja que l'opinió de tots és molt important per a nosaltres i volem anar donant forma segons les aportacions que vagin sorgint.

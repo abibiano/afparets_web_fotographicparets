@@ -1,6 +1,38 @@
-main > .container {
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-main);
+  font-family: var(--bs-font-sans-serif);
+}
+
+
+.alternate-font {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+main>.container {
   padding: 100px 15px 0;
 }
-.circus-font {
-  font-family: 'Rye', sans-serif;
+
+a.btn-primary {
+  background: $primary;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(242,148,165,0.15);
+  transition: background 0.2s;
+}
+a.btn-primary:hover, a.btn-primary:focus {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.text-muted {
+  color: var(--color-text-muted) !important;
 }

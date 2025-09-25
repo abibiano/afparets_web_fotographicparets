@@ -13,17 +13,17 @@
         </div>
         <div class="col-md-2 text-center text-secondary">
           <ul class="list-unstyled">
-            <li class="px-2 pt-3 pb-2">Organitza</li>
+            <li class="px-2 pt-3 pb-2" style="color: var(--color-accent);">Organitza</li>
             <li class="p-2">
               <a href="https://afparets.com" target="_blank">
-                {{ with (resources.Get "/img/logos/logo-afparets-10anys.png").Resize "75x" | fingerprint }}
+                {{ with (resources.Get "/img/logos/logo-afparets-350.png").Resize "75x" | fingerprint }}
                 <img src="{{ .RelPermalink }}" alt="Logo AFParets">
                 {{ end }}
               </a>
             </li>
 
 
-            <li class="px-2 pt-3 pb-2">Col·labora</li>
+            <li class="px-2 pt-3 pb-2" style="color: var(--color-accent);">Col·labora</li>
             <li class="p-2">
               <a href="https://www.parets.cat" target="_blank">
                 {{ with (resources.Get "/img/logos/logo-ajuntament-parets.png").Resize "75x" | fingerprint }}
@@ -39,13 +39,7 @@
                 {{ end }}
               </a>
             </li>
-            <li class="p-2">
-              <a href="https://circsocial.cat/entitat/tusikcirc" target="_blank">
-                {{ with (resources.Get "/img/logos/tusikcirc.png").Resize "75x" | fingerprint }}
-                <img src="{{ .RelPermalink }}" alt="tusikcirc">
-                {{ end }}
-              </a>
-            </li>
+
           </ul>
         </div>
       </div>

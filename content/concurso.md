@@ -5,17 +5,17 @@ menu: "main"
 weight: 40
 ---
 
-## FOTOGraphic PARETS 2024
+## FOTOGraphic PARETS 2025
 
 {{< image-resize src="img/concurs-fotographic.jpg" size="200x" alt="" class="rounded mx-auto d-block py-3" >}}
 
 ### Participants
 
-Tots els aficionats a la fotografia participants en el FOTOGraphic Parets 2024, que es realitzarà el 8 de juny.
+Tots els aficionats a la fotografia participants en el FOTOGraphic Parets 2025, que es realitzarà el 8 de juny.
 
 ### Modalitat
 
-Fotografia Circ, qualsevol fotografia realitzada en el FOTOGraphic24.
+Fotografia Circ, qualsevol fotografia realitzada en el FOTOGraphic25.
 Les fotografies podran ser en color o blanc i negre (edició lliure) sense cap tractament amb IA.
 
 ### Obres

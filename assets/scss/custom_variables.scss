@@ -1,11 +1,33 @@
-$font-family-sans-serif: "Poppins", sans-serif;
+
+$font-family-sans-serif: "Poppins", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 $font-family-base: $font-family-sans-serif !default;
-$headings-font-weight: 400;
+$headings-font-weight: 500;
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
-$primary: #F294A5;
-$secondary: #A0D9D3;
+
+
+$primary: #FF8800;
+$secondary: #8338EC;
+$accent: #20BFA9;
+$info: #00B4D8;
+$success: #43AA8B;
+$warning: #FF006E;
+$danger: #FB5607;
+$light: #F1FAEE;
+$dark: #22223B;
+$background: #F8F9FA;
+$text-main: #22223B;
+$text-muted: #6c757d;
+
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif;
+  --bs-font-sans-serif: "Poppins", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --color-accent: #20BFA9;
+  --color-info: #00B4D8;
+  --color-success: #43AA8B;
+  --color-warning: #FF006E;
+  --color-danger: #FB5607;
+  --color-background: #F8F9FA;
+  --color-text-main: #22223B;
+  --color-text-muted: #6c757d;
 }
