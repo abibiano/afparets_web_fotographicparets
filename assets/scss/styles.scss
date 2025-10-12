@@ -6,6 +6,12 @@ body {
   line-height: 1.6;
 }
 
+.embed-map {
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
 .site-body {
   background: radial-gradient(circle at top, rgba($accent, 0.1), transparent 60%),
     linear-gradient(180deg, rgba($light, 0.4), transparent);

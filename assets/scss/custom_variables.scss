@@ -1,5 +1,5 @@
 
-$font-family-sans-serif: "Poppins", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 $font-family-base: $font-family-sans-serif !default;
 $headings-font-weight: 500;
 $font-weight-light: 300;
@@ -21,7 +21,7 @@ $text-main: #2b2b2b;
 $text-muted: #807e79;
 
 :root {
-  --bs-font-sans-serif: "Poppins", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   --color-accent: #c7a27a;
   --color-info: #7a9e9f;
   --color-success: #8ca086;

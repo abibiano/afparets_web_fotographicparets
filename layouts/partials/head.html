@@ -40,27 +40,6 @@
   <meta name="twitter:description" content="{{ $description }}">
   <meta name="twitter:image" content="{{ $ogImage }}">
   <meta name="theme-color" content="{{ default "#FF8800" $site.Params.theme_color }}">
-
-  {{ with $site.Params.google_analytics_id }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{ . }}');
-  </script>
-  {{ end }}
-  {{ with $site.Params.cookiebot_id }}
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="{{ . }}" type="text/javascript" async></script>
-  {{ end }}
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Rye&display=swap"
-    rel="stylesheet">
-
   {{ $options := dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true }}
   {{ $style := resources.Get "scss/main.scss" | toCSS $options | postCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
