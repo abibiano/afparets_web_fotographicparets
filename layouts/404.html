@@ -1,4 +1,15 @@
 {{ define "main" }}
-<p>Lo sentimos, pero la página que está buscando no se ha encontrado. Intente consultar la URL para ver si hay errores o
-  regresar a la página de inicio.</p>
+<section class="page-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1 class="display-4 fw-semibold mb-3">Pàgina no trobada</h1>
+        <p class="lead text-muted mb-4">
+          La pàgina que cerques no existeix o s’ha mogut. Comprova l’adreça o torna a l’inici per continuar navegant.
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ "/" | relLangURL }}">Torna a l’inici</a>
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}

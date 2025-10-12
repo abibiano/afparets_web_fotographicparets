@@ -5,7 +5,13 @@ title = "FOTOgraphic Parets 2025"
 
 [params]
   author = "Alex Bibiano"
-  description = "FOTOgraphic Parets 2025, 12a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes."
+  description = "FOTOgraphic Parets 2025, 12a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions amb entrada."
+  google_analytics_id = "UA-112385239-5"
+  cookiebot_id = "52804cf2-5e0d-4a26-b55c-35a6de04e9d1"
+  theme_color = "#4a4a4a"
+
+  [params.seo]
+    default_image = "originales/logo-fotographic-negre.jpg"
 
 [markup]
   [markup.goldmark]

@@ -7,27 +7,27 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 
 
-$primary: #FF8800;
-$secondary: #8338EC;
-$accent: #20BFA9;
-$info: #00B4D8;
-$success: #43AA8B;
-$warning: #FF006E;
-$danger: #FB5607;
-$light: #F1FAEE;
-$dark: #22223B;
-$background: #F8F9FA;
-$text-main: #22223B;
-$text-muted: #6c757d;
+$primary: #4a4a4a;
+$secondary: #8c7b6b;
+$accent: #c7a27a;
+$info: #7a9e9f;
+$success: #8ca086;
+$warning: #c28f4a;
+$danger: #a05b5b;
+$light: #f5f3f0;
+$dark: #1f1f1f;
+$background: #f2f0ec;
+$text-main: #2b2b2b;
+$text-muted: #807e79;
 
 :root {
   --bs-font-sans-serif: "Poppins", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-  --color-accent: #20BFA9;
-  --color-info: #00B4D8;
-  --color-success: #43AA8B;
-  --color-warning: #FF006E;
-  --color-danger: #FB5607;
-  --color-background: #F8F9FA;
-  --color-text-main: #22223B;
-  --color-text-muted: #6c757d;
+  --color-accent: #c7a27a;
+  --color-info: #7a9e9f;
+  --color-success: #8ca086;
+  --color-warning: #c28f4a;
+  --color-danger: #a05b5b;
+  --color-background: #f2f0ec;
+  --color-text-main: #2b2b2b;
+  --color-text-muted: #807e79;
 }

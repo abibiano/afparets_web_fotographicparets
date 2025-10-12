@@ -26,3 +26,9 @@ A **2016**, el saló es va consolidar canviant la seva ubicació a un nou espai 
 **2020** l'any per oblidar, a causa de la pandèmia de la COVID. Com a la resta de la societat també ens va afectar. El FOTOgraphic es va haver de suspendre. Havíem fet un canvi en el mode de presentació i organització, canviant a un format monotemàtic, dedicat en aquest cas a l'esport ja que es volia fer coincidir l'esdeveniment amb les Olimpíades que finalment també es van suspendre.
 
 **2021** va ser l'any de la represa. Es va celebrar amb tot el respecte per les normes de seguretat imposades per la COVID, el FOTOgraphic anul·lat l'any anterior, passant a ser un esdeveniment temàtic dedicat als esports. Els aficionats van respondre molt bé i van ser unes jornades molt especials per les circumstàncies passades.
+
+**2022** va portar la novena edició, dedicada a la música i a la fotografia d'espectacles. La jornada de l'11 de juny va combinar ponències de fotògrafs especialitzats com José Irún i Diego Marín, exhibicions musicals en directe i activitats pensades per capturar l'energia de l'escenari, consolidant el retorn del festival en gran format.
+
+**2023** va assumir el repte de congelar el moviment amb la temàtica *Dansa Festival*. El 21 d'octubre Parets del Vallès es va omplir de coreografies, tallers i sessions fotogràfiques enfocades a immortalitzar l'expressivitat dels ballarins, ampliant el ventall de disciplines que el FOTOgraphic explora.
+
+**2024** va celebrar l'onzena edició amb un homenatge al circ. El parc de la Llinera es va transformar en una carpa plena d'acròbates, malabaristes i artistes convidats que van facilitar escenes espectaculars perquè els participants experimentessin amb la llum, el dinamisme i la narrativa visual pròpia d'aquest univers.

@@ -1,16 +1,36 @@
 {{ define "main" }}
-  <h1>
-    {{ .Title }}
-    {{ if isset .Params "description" }}
-      <br/> <small class="text-muted">{{ .Description }}</small>
-    {{ end }}
-  </h1>
-  {{ .Content }}
-  <ul class="list-group">
-    {{ range .Pages }}
-      <li class="list-group-item">
-        <a href="{{.Permalink}}">{{.Title}}</a>
-      </li>
-    {{ end }}
-  </ul>
+<section class="page-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-8">
+        <header class="page-header mb-5">
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Description }}
+          <p class="page-lead text-muted">{{ . }}</p>
+          {{ end }}
+        </header>
+        {{ if .Content }}
+        <div class="page-content mb-5">
+          {{ .Content }}
+        </div>
+        {{ end }}
+        {{ $pages := .Pages }}
+        {{ if gt (len $pages) 0 }}
+        <ul class="page-list list-unstyled d-grid gap-3">
+          {{ range $pages }}
+          <li>
+            <a class="page-card card card-body h-100" href="{{ .RelPermalink }}">
+              <span class="h5 mb-2">{{ .Title }}</span>
+              {{ with .Params.description }}
+              <span class="text-muted small">{{ . }}</span>
+              {{ end }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}

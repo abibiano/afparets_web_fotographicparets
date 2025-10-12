@@ -1,51 +1,17 @@
 <!DOCTYPE html>
 {{ $lang := .Site.Language.Lang | default "ca-ES" }}
 <html lang="{{ $lang }}" class="h-100">
-{{- partial "head.html" . -}}
+  {{- partial "head.html" . -}}
 
-<body class="d-flex flex-column h-100">
-  {{- partial "header.html" . -}}
-  <main class="flex-shrink-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10">
-          {{- block "main" . }}{{- end }}
-        </div>
-        <div class="col-md-2 text-center text-secondary">
-          <ul class="list-unstyled">
-            <li class="px-2 pt-3 pb-2" style="color: var(--color-accent);">Organitza</li>
-            <li class="p-2">
-              <a href="https://afparets.com" target="_blank">
-                {{ with (resources.Get "/img/logos/logo-afparets-350.png").Resize "75x" | fingerprint }}
-                <img src="{{ .RelPermalink }}" alt="Logo AFParets">
-                {{ end }}
-              </a>
-            </li>
-
-
-            <li class="px-2 pt-3 pb-2" style="color: var(--color-accent);">Col·labora</li>
-            <li class="p-2">
-              <a href="https://www.parets.cat" target="_blank">
-                {{ with (resources.Get "/img/logos/logo-ajuntament-parets.png").Resize "75x" | fingerprint }}
-                <img src="{{ .RelPermalink }}" alt="ajuntament">
-                {{ end }}
-
-              </a>
-            </li>
-            <li class="p-2">
-              <a href="https://www.federaciofotografia.cat" target="_blank">
-                {{ with (resources.Get "/img/logos/logo-federacio.png").Resize "75x" | fingerprint }}
-                <img src="{{ .RelPermalink }}" alt="federacion">
-                {{ end }}
-              </a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </main>
-  {{- partial "footer.html" . -}}
-</body>
-
+  <body class="site-body d-flex flex-column min-vh-100">
+    <a class="skip-link visually-hidden-focusable" href="#main-content">
+      Salta al contingut principal
+    </a>
+    {{- partial "header.html" . -}}
+    <main id="main-content" class="site-main flex-grow-1">
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "sponsors.html" . -}}
+    {{- partial "footer.html" . -}}
+  </body>
 </html>

@@ -1,35 +1,47 @@
-<header>
-  <nav class="navbar navbar-expand-lg py-3 fixed-top navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+{{ $site := .Site }}
+<header class="site-header shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="{{ "/" | relLangURL }}">
+        {{ with resources.Get "originales/logo-fotographic-negre.svg" }}
+          {{ $logo := . | fingerprint }}
+          <img class="brand-logo" src="{{ $logo.RelPermalink }}" alt="Logo FOTOgraphic Parets" height="36">
+        {{ end }}
+        <span class="fw-semibold text-uppercase tracking-tight">{{ $site.Title }}</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+        aria-controls="siteNav" aria-expanded="false" aria-label="Mostra el menú">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="/">
-        {{ with (resources.Get "img/logos/logo-fotographic.png").Resize "x24" | fingerprint }}
-        <img class="d-inline-block align-text-top" src="{{ .RelPermalink }}" alt="logo-fotographic">
-        {{ end }}
-        FOTOGraphic 2025
-      </a>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse justify-content-end" id="siteNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-2">
           {{ $current := . }}
-          {{ range .Site.Menus.main }}
-          {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "nav" .) }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle {{ .Pre }}" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">{{ .Name }}</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {{ range .Children }}
-              <li><a class="dropdown-item {{ .Pre }}" href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
+          {{ $currentPath := strings.TrimSuffix $current.RelPermalink "/" }}
+          {{ range $site.Menus.main }}
+            {{ $link := .URL | relLangURL }}
+            {{ $normalizedLink := strings.TrimSuffix $link "/" }}
+            {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $normalizedLink $currentPath) }}
+            {{ if .HasChildren }}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle {{ .Pre }}" href="#" id="navDropdown{{ .Name | urlize }}"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ .Name }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navDropdown{{ .Name | urlize }}">
+                  {{ range .Children }}
+                    <li>
+                      <a class="dropdown-item {{ .Pre }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </li>
             {{ else }}
-          <li class="nav-item">
-            <a class="nav-link {{ .Pre }} {{ if $active }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+              <li class="nav-item">
+                <a class="nav-link {{ .Pre }} {{ if $isActive }}active{{ end }}" href="{{ .URL | relLangURL }}" {{ if $isActive }}aria-current="page"{{ end }}>
+                  {{ .Name }}
+                </a>
+              </li>
             {{ end }}
-          </li>
           {{ end }}
         </ul>
       </div>

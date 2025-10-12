@@ -1,9 +1,19 @@
 {{ define "main" }}
-<h1>
-  {{ .Title }}
-  {{ if isset .Params "description" }}
-    <br/> <small class="text-muted">{{ .Description }}</small>
-  {{ end }}
-</h1>
-{{ .Content }}
+<section class="page-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <article class="col-lg-10 col-xl-8">
+        <header class="page-header mb-5">
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Description }}
+          <p class="page-lead text-muted">{{ . }}</p>
+          {{ end }}
+        </header>
+        <div class="page-content content-styles">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 {{ end }}

@@ -1,110 +1,23 @@
 {{ define "main" }}
-<h1>
-  {{ .Title }}
-  {{ if isset .Params "description" }}
-  <br /> <small class="text-muted">{{ .Description }}</small>
-  {{ end }}
-</h1>
-{{ .Content }}
-<table class="table table-striped">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col" class="w-auto">Dissabte 8 de Juny 2024</th>
-      <th scope="col" class="w-75">Esdeveniment</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tot el dia</td>
-      <td>
-        <a href="/concurso/">VI CONCURSO NACIONAL DE FOTOGRAFIA “3<sup>er</sup> Memorial CHUSSA MULÀ”</a>
-        <br />
-        Exposició <a href="/exposiciones-fotographic/">V CONCURSO NACIONAL DE FOTOGRAFIA “2<sup>on</sup> Memorial
-          CHUSSA
-          MULÀ”</a>
-      </td>
-    </tr>
-    <tr>
-      <td>10:00 a 10:30</td>
-      <td>Benvinguda, presentació de l’acte i parlaments d’autoritats.</td>
-    </tr>
-    <tr>
-      <td>10:30 a 12:00</td>
-      <td><strong>Conferencia a càrrec de <a href="/ponencias/marta">Marta García Cardellach</a></strong>, fotògrafa,
-        llicenciada
-        en Humanitats i amb postgrau en fotografia
-        participativa i terapèutica.
-        <br /><br /><strong>Títol:</strong> “Fotografia d’arts escèniques”.
-        <br /><br /><strong>Descripció:</strong>
-        <br />Com preparar una sessió d’arts escèniques, diferents escenaris, el repte de les il·luminacions i com
-        afrontar-les,
-        aspectes tècnics a tenir presents abans i durant la sessió i el nostre material, realització de la sessió
-        fotogràfica.
-        <br /><br /><b><i>Cal inscripció gratuïta prèvia a <a
-              href="https://www.eventbrite.es/e/entradas-fotographic-parets-2024-fotografia-darts-esceniques-amb-marta-garcia-car-909955440217?aff=oddtdtcreator"
-              class="btn btn-primary">Eventbrite</a></i></b>
-      </td>
-    </tr>
-    <tr>
-      <td>12:00 a 13:30</td>
-      <td>
-        <strong>Shooting en exteriors amb llum natural.</strong>
-        <br /><br />Tastet d’actuacions en directe i a l’aire lliure de diferents disciplines de circ, on
-        intentarem
-        aplicar les tècniques
-        que ens ha explicat la <a href="/ponencias/marta">Marta García Cardellach</a>.
-        <br /><br /><strong>Descripció:</strong>
-        <br />Disposarem d’un escenari natural, al parc de la Linera, sense cap mena d’il·luminació artificial, on hi
-        hauran diferents
-        artistes que ens mostraran el seu treball a escenaris exteriors, on els fotògrafs participants podran realitzar
-        fotografies en directe, aprenent a aprofitar els moments més important de cada actuació.
-        <br /><br />Els fotògrafs aniran rotant al voltant de l’escenari a fi de que tots puguem gaudir de diferents
-        punts de vista i tenir
-        diferents fons a les nostres fotografies.
-        <br /><br />Cada fotògraf tindrà l’oportunitat de treure el potencial del seu equip i els seus coneixements per
-        a tal de treure el
-        màxim de la seves habilitats com a fotògraf per treballar en condicions de llum natural i amb models amb un guio
-        ja
-        establert on el fotògraf no intervindrà.
-        <br />
-        <br /><b><i>Cal inscripció gratuïta prèvia a <a href="https://www.eventbrite.es/e/entradas-fotographic-2024-shooting-en-exteriors-amb-llum-natural-909958760147?aff=oddtdtcreator" class="btn btn-primary">Eventbrite</a></i></b>
-      </td>
-    </tr>
-    <tr>
-      <td>13:30 a 16:00</td>
-      <td>Dinar (cadascun els seus mitjans)
-      </td>
-    </tr>
-    <tr>
-      <td>16:00 a 19:00</td>
-      <td>
-        <strong>Shooting de llum continua</strong> de diferents disciplines de circ.
-        <br /><br /><strong><a href="">Giorgia</a></strong><br />Teles, cèrcol, verticals solo y duo, hula hoop.
-        <br /><br /><strong><a href="">Roberto</a></strong><br />Verticals sol i duo, roda cyr, acro.
-        <br /><br /><strong><a href="https://www.instagram.com/oxitoxica.gem/">Gemma</a></strong><br />Trapezi,
-        teles, trapezi doble, cèrcol aeri, malabars
-        (passing), duo
-        d'acrobàcies,
-        clown.
-        <br /><br /><strong><a href="https://www.instagram.com/alandelarisa8/">Alan</a></strong>
-        <br />Malabars (diàbolo, passing amb masses), baldufa, clown.
-        <br /><br /><strong><a href="https://www.instagram.com/hera.sabate00/">Hera</a></strong><br />Trapezi,
-        acrobàcies, acrobàcies amb cadira.
-        <br /><br /><strong><a href="">Aïda</a></strong><br />Trapezi, verticals + acrobàcies.
-        <br /><br />Tothom podrà disparar-ne, a l’hora o per torns, segons el nombre de participants inscrits.
-        <br /><br />Per evitar enlluernar als artistes i per reproduir les condicions que ens trobarem a qualsevol
-        espectacle d’aquesta
-        mena, <strong>NO SERÀ PERMESA SOTA CAP CONCEPTE LA UTILITZACIÓ DE FLAIXOS PROPIS DE CÀMERA.</strong>
-        <br /><br />
-        <b><i>Cal inscripció gratuïta prèvia a
-            <a href="https://www.eventbrite.es/e/entradas-fotographic-2024-shooting-de-llum-continua-909960304767?aff=oddtdtcreator" class="btn btn-primary">Eventbrite</a>
-          </i></b>
-      </td>
-    </tr>
-    <tr>
-      <td>19:00</td>
-      <td>Comiat i agraïments.</td>
-    </tr>
-  </tbody>
-</table>
+<section class="page-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-9">
+        <header class="page-header mb-5">
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Description }}
+          <p class="page-lead text-muted">{{ . }}</p>
+          {{ end }}
+        </header>
+        {{ if .Content }}
+        <div class="page-content content-styles mb-5">
+          {{ .Content }}
+        </div>
+        {{ end }}
+        {{ $agendaKey := .Params.agenda | default "2024" }}
+        {{ partial "components/schedule.html" (dict "Page" . "Key" $agendaKey) }}
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}

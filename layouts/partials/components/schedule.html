@@ -1,0 +1,64 @@
+{{ $page := .Page }}
+{{ $key := .Key }}
+{{ $site := $page.Site }}
+{{ $agendaData := index $site.Data.agenda $key }}
+{{ if not $agendaData }}
+<div class="alert alert-warning">
+  No s’ha trobat el programa associat a <code>{{ $key }}</code>. Actualitza la configuració del contingut.
+</div>
+{{ else }}
+  {{ $days := $agendaData.days }}
+  {{ if $days }}
+    {{ range $days }}
+    <section class="schedule-day mb-5">
+      {{ with .label }}
+      <h2 class="schedule-day-title h4 text-uppercase text-accent mb-4">{{ . }}</h2>
+      {{ end }}
+      <div class="schedule-items d-grid gap-4">
+        {{ range .items }}
+        <article class="schedule-item card border-0 shadow-sm h-100">
+          <div class="card-body p-4 p-lg-5 d-lg-flex gap-4 align-items-start">
+            <div class="schedule-time text-muted fw-semibold text-uppercase me-lg-4">{{ .time }}</div>
+            <div class="schedule-content flex-grow-1">
+              {{ with .title }}
+              <h3 class="h5 fw-semibold mb-3">{{ . }}</h3>
+              {{ end }}
+              {{ with .body }}
+              <div class="schedule-body content-styles">
+                {{ . | markdownify }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  {{ else }}
+    <section class="schedule-day mb-5">
+      {{ with $agendaData.title }}
+      <h2 class="schedule-day-title h4 text-uppercase text-accent mb-4">{{ . }}</h2>
+      {{ end }}
+      <div class="schedule-items d-grid gap-4">
+        {{ range $agendaData.items }}
+        <article class="schedule-item card border-0 shadow-sm h-100">
+          <div class="card-body p-4 p-lg-5 d-lg-flex gap-4 align-items-start">
+            <div class="schedule-time text-muted fw-semibold text-uppercase me-lg-4">{{ .time }}</div>
+            <div class="schedule-content flex-grow-1">
+              {{ with .title }}
+              <h3 class="h5 fw-semibold mb-3">{{ . }}</h3>
+              {{ end }}
+              {{ with .body }}
+              <div class="schedule-body content-styles">
+                {{ . | markdownify }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

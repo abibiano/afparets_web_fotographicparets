@@ -1,57 +1,76 @@
 {{ define "main" }}
-<h1>
-  {{ .Title }}
-</h1>
-{{ if isset .Params "description" }}
-<h2><small class="text-muted">{{ .Description }}</small></h2>
-{{ end }}
-{{ if isset .Params "horario_dia" }}
-<h4>
-  Horario: <small class="text-muted">{{ .Params.horario_dia }}, de {{ .Params.horario_hora}}</small>
-</h4>
-{{ end }}
-{{ if isset .Params "ponentes" }}
-<h4>
-  Participan: <small>
-
-    {{ range .Params.ponentes }}
-    <a href="{{ index . 1 }}">{{ index . 0 }}</a>
-    {{ end }}
-
-  </small>
-</h4>
-{{ end }}
-{{ if isset .Params "moderador" }}
-<h4>
-  Moderador: <small>{{ .Params.moderador }}</small>
-</h4>
-{{ end }}
-
-<div m-5>
-  {{ .Content }}
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    {{ $.Scratch.Set "counter" 0 }}
-    {{ range .Params.imagenes_ponencia }}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-    {{ if eq ($.Scratch.Get "counter") 1 }}
-    <div class="carousel-item active">
-      {{ else }}
-      <div class="carousel-item">
+{{ $page := . }}
+{{ $carouselID := printf "ponenciaCarousel-%s" (.Title | anchorize) }}
+<section class="page-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <article class="col-lg-10 col-xl-8">
+        <header class="page-header mb-5">
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Description }}
+          <p class="page-lead text-muted">{{ . }}</p>
+          {{ end }}
+          {{ $hasMeta := or (isset .Params "horario_dia") (isset .Params "ponentes") (isset .Params "moderador") }}
+          {{ if $hasMeta }}
+          <dl class="ponencia-meta">
+            {{ with .Params.horario_dia }}
+            <div class="ponencia-meta-item">
+              <dt>Horari</dt>
+              <dd>{{ . }}{{ with $page.Params.horario_hora }}, de {{ . }}{{ end }}</dd>
+            </div>
+            {{ end }}
+            {{ with .Params.ponentes }}
+            <div class="ponencia-meta-item">
+              <dt>Participen</dt>
+              <dd>
+                {{ range $index, $ponent := . }}
+                  {{ if gt $index 0 }}, {{ end }}
+                  {{ $name := index $ponent 0 }}
+                  {{ $url := index $ponent 1 }}
+                  {{ if $url }}
+                  <a href="{{ $url }}" target="_blank" rel="noopener">{{ $name }}</a>
+                  {{ else }}
+                  {{ $name }}
+                  {{ end }}
+                {{ end }}
+              </dd>
+            </div>
+            {{ end }}
+            {{ with .Params.moderador }}
+            <div class="ponencia-meta-item">
+              <dt>Modera</dt>
+              <dd>{{ . }}</dd>
+            </div>
+            {{ end }}
+          </dl>
+          {{ end }}
+        </header>
+        <div class="page-content content-styles">
+          {{ .Content }}
+        </div>
+        {{ with .Params.imagenes_ponencia }}
+        <div class="ponencia-carousel mt-5">
+          <div id="{{ $carouselID }}" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              {{ range $index, $image := . }}
+              <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                <img class="d-block w-100 rounded" src="{{ $image }}" alt="">
+              </div>
+              {{ end }}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#{{ $carouselID }}" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#{{ $carouselID }}" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Següent</span>
+            </button>
+          </div>
+        </div>
         {{ end }}
-        <img src="{{ . }}" class="d-block w-100 h-100" alt="">
-      </div>
-      {{ end }}
+      </article>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-  {{ end }}
+</section>
+{{ end }}

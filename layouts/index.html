@@ -1,21 +1,101 @@
 {{ define "main" }}
-<main class="py-5 bg-light">
-  <div class="container py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <header class="mb-5 text-center">
-          <h1 class="display-1 fw-bold text-uppercase mb-3">FOTOgraphic Parets 2025</h1>
-          <h2 class="display-4 fw-bold text-uppercase mb-4" style="color: #FF8800;">PROXIMAMENT</h2>
-        </header>
-        <section class="mb-4">
-          <h3 class="mb-4">L'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions gratuïtes.</h3>
-          <p class="lead mb-2">Pròximament anunciarem la data i el tema del Concurs Fotogràfic d’aquest any.</p>
-          <p class="lead mb-4">Estigueu atents a les nostres xarxes i web per a més informació.</p>
-          <h4 class="mb-4">12 Edició del Festival Fotogràfic del Vallès Oriental</h4>
-          <a href="/ponencias" class="btn btn-primary btn-lg px-5 py-3 shadow">Consulta el programa i registra't a les activitats gratuïtes</a>
-        </section>
+{{ $hero := .Params.hero }}
+<section class="hero-section position-relative overflow-hidden">
+  <div class="hero-background"></div>
+  <div class="container">
+    <div class="row align-items-center justify-content-center justify-content-lg-between py-5">
+      <div class="col-12 col-lg-7 col-xl-6">
+        {{ with resources.Get "originales/logo-fotographic-negre.svg" }}
+        {{ $heroLogo := . | fingerprint }}
+        <div class="hero-logo mb-4">
+          <img class="hero-logo-image" src="{{ $heroLogo.RelPermalink }}" alt="Logo FOTOgraphic Parets" loading="lazy">
+        </div>
+        {{ end }}
+        {{ with $hero.badge }}
+        <p class="hero-badge text-uppercase fw-semibold mb-3">{{ . }}</p>
+        {{ end }}
+        <h1 class="hero-title mb-3">
+          {{ with $hero.title }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+        </h1>
+        {{ with $hero.subtitle }}
+        <p class="hero-subtitle lead text-accent mb-4">{{ . }}</p>
+        {{ end }}
+        {{ with $hero.description }}
+        <p class="hero-description fs-5 mb-5">{{ . }}</p>
+        {{ end }}
+        {{ with $hero.actions }}
+        <div class="hero-actions d-flex flex-column flex-sm-row align-items-start gap-3">
+          {{ range . }}
+          {{ $variant := default "primary" .variant }}
+          {{ $classes := printf "btn btn-%s btn-lg px-4 shadow-sm" $variant }}
+          {{ if .disabled }}
+          <span class="{{ $classes }} disabled" role="button" aria-disabled="true">{{ .label }}</span>
+          {{ else }}
+          <a class="{{ $classes }}" href="{{ .url }}">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ with $hero.meta }}
+        <dl class="hero-meta mt-5">
+          {{ range . }}
+          <div class="hero-meta-item">
+            <dt>{{ .label }}</dt>
+            <dd>{{ .value }}</dd>
+          </div>
+          {{ end }}
+        </dl>
+        {{ end }}
+      </div>
+      <div class="col-12 col-lg-5 col-xl-5 mt-5 mt-lg-0">
+        <div class="hero-card card border-0 shadow-lg">
+          <div class="card-body p-4 p-lg-5">
+            <h2 class="h4 fw-semibold text-uppercase text-primary mb-3">Què és FOTOgraphic?</h2>
+            <p class="mb-4">
+              L’esdeveniment fotogràfic pensat per a tots els amants de la fotografia, amb ponències, tallers i
+              exposicions que celebren la cultura visual i el talent emergent al Vallès Oriental.
+            </p>
+            <ul class="list-unstyled d-grid gap-3 mb-4">
+              <li class="d-flex gap-3 align-items-start">
+                <span class="hero-icon">•</span>
+                <span>Ponències inspiradores amb professionals de primer nivell.</span>
+              </li>
+              <li class="d-flex gap-3 align-items-start">
+                <span class="hero-icon">•</span>
+                <span>Tallers pràctics en espais reals per aprendre en directe.</span>
+              </li>
+              <li class="d-flex gap-3 align-items-start">
+                <span class="hero-icon">•</span>
+                <span>Exposicions i activitats amb aforament limitat i entrada prèvia.</span>
+              </li>
+            </ul>
+            <a class="btn btn-outline-primary w-100" href="/guia">
+              Descobreix la guia del festival
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</main>
+</section>
+
+{{ with .Params.highlights }}
+<section class="highlights-section py-5 bg-white">
+  <div class="container">
+    <div class="row g-4">
+      {{ range . }}
+      <div class="col-12 col-md-4">
+        <div class="highlight-card h-100 p-4 p-lg-5">
+          <h3 class="h5 fw-semibold text-uppercase mb-3">{{ .title }}</h3>
+          <p class="mb-4">{{ .description }}</p>
+          <a class="stretched-link fw-semibold text-decoration-none" href="{{ .url }}">
+            Explora {{ .title | lower }}
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}

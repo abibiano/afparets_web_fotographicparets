@@ -1,0 +1,48 @@
+{{ $site := .Site }}
+{{ $sponsors := $site.Data.sponsors }}
+{{ $hasOrganizers := and $sponsors (gt (len (default (slice) $sponsors.organizers)) 0) }}
+{{ $hasPartners := and $sponsors (gt (len (default (slice) $sponsors.partners)) 0) }}
+{{ if or $hasOrganizers $hasPartners }}
+<section class="sponsors-section py-5 py-lg-5">
+  <div class="container">
+    <div class="row gy-5 justify-content-center">
+      {{ if $hasOrganizers }}
+      <div class="col-12 col-lg-5 text-center text-lg-start">
+        <p class="sponsors-eyebrow text-uppercase mb-3">Organitza</p>
+        <div class="d-flex justify-content-center justify-content-lg-start flex-wrap gap-4">
+          {{ range $sponsors.organizers }}
+          {{ $item := . }}
+          {{ $width := default "140x" $item.width }}
+          {{ with resources.Get (printf "/%s" $item.image) }}
+          {{ $resized := .Resize $width }}
+          {{ $fingerprinted := $resized | fingerprint }}
+          <a class="sponsor-link" href="{{ $item.url }}" target="_blank" rel="noopener">
+            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}">
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      {{ if $hasPartners }}
+      <div class="col-12 col-lg-5 text-center text-lg-start">
+        <p class="sponsors-eyebrow text-uppercase mb-3">Col·labora</p>
+        <div class="d-flex justify-content-center justify-content-lg-start flex-wrap gap-4">
+          {{ range $sponsors.partners }}
+          {{ $item := . }}
+          {{ $width := default "140x" $item.width }}
+          {{ with resources.Get (printf "/%s" $item.image) }}
+          {{ $resized := .Resize $width }}
+          {{ $fingerprinted := $resized | fingerprint }}
+          <a class="sponsor-link" href="{{ $item.url }}" target="_blank" rel="noopener">
+            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}">
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

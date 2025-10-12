@@ -1,40 +1,41 @@
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container-fluid">
-    <div class="row h-100 p-2">
-      <div class="col-12 col-md-4 text-md-start text-center my-2">
-        <p class="mb-0">© 2025 Associació Fotogràfica Parets</p>
+{{ $currentYear := now.Format "2006" }}
+<footer class="site-footer mt-auto py-4 bg-light border-top">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-12 col-md-4 text-center text-md-start">
+        <small class="text-muted">© {{ $currentYear }} Associació Fotogràfica Parets</small>
       </div>
-      <div class="col-12 col-md-4 text-md-center text-center my-2">
-        <ul class="list-inline mb-0">
-          <li class="list-inline-item me-5">
-            <a href="https://www.facebook.com/groups/afparets/" target="_blank">
-              {{ with (resources.Get "/img/icons/facebook-icon.svg") | fingerprint }}
-              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Facebook">
-              {{ end }}
-            </a>
-          </li>
-          <li class="list-inline-item me-5">
-            <a href="https://afparets.com" target="_blank">
-              {{ with (resources.Get "/img/icons/global-icon.svg") | fingerprint }}
-              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Web">
-              {{ end }}
-            </a>
-          </li>
+      <div class="col-12 col-md-4 text-center">
+        <ul class="list-inline mb-0 d-flex justify-content-center gap-3">
+          {{ with resources.Get "/img/icons/facebook-icon.svg" | fingerprint }}
           <li class="list-inline-item">
-            <a href="mailto:info@afparets.com">
-              {{ with (resources.Get "/img/icons/email-icon.svg") | fingerprint }}
-              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Mail">
-              {{ end }}
+            <a class="footer-social-link" href="https://www.facebook.com/groups/afparets/" target="_blank" rel="noopener">
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Facebook">
             </a>
           </li>
+          {{ end }}
+          {{ with resources.Get "/img/icons/global-icon.svg" | fingerprint }}
+          <li class="list-inline-item">
+            <a class="footer-social-link" href="https://afparets.com" target="_blank" rel="noopener">
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Web AFParets">
+            </a>
+          </li>
+          {{ end }}
+          {{ with resources.Get "/img/icons/email-icon.svg" | fingerprint }}
+          <li class="list-inline-item">
+            <a class="footer-social-link" href="mailto:info@afparets.com">
+              <img class="footer-social-icon" src="{{ .RelPermalink }}" alt="Enviar un correu">
+            </a>
+          </li>
+          {{ end }}
         </ul>
       </div>
-      <div class="col-12 col-md-4 text-md-end text-center my-2">
-        <a href="/politica-privacidad">Política de privacitat</a>
+      <div class="col-12 col-md-4 text-center text-md-end">
+        <a class="link-secondary small" href="{{ "/politica-privacidad" | relLangURL }}">Política de privacitat</a>
       </div>
     </div>
-    <!-- JavaScript and dependencies -->
-    {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-    {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
-    <script src="{{$js.RelPermalink}}" defer></script>
+  </div>
+  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+  {{ $scripts := slice $bootstrap | resources.Concat "js/site.js" | resources.Minify | fingerprint }}
+  <script src="{{ $scripts.RelPermalink }}" integrity="{{ $scripts.Data.Integrity }}" defer></script>
 </footer>

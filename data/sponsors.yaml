@@ -1,0 +1,15 @@
+organizers:
+  - name: "Associació Fotogràfica Parets"
+    url: "https://afparets.com"
+    image: "img/logos/logo-afparets-350.png"
+    width: "160x"
+
+partners:
+  - name: "Ajuntament de Parets del Vallès"
+    url: "https://www.parets.cat"
+    image: "img/logos/logo-ajuntament-parets.png"
+    width: "140x"
+  - name: "Federació Catalana de Fotografia"
+    url: "https://www.federaciofotografia.cat"
+    image: "img/logos/logo-federacio.png"
+    width: "140x"

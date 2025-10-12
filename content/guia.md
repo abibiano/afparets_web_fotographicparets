@@ -19,17 +19,17 @@ A més, disposa d'estació de ferrocarril de la línia R3 de Rodalies de Catalun
 Passeig Fluvial\
 Parets del Vallès, Barcelona, 08150
 
-<iframe width="500" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5VPpZaW4pBIRDkje1hls32c&key=AIzaSyBECd4GIw3O7OyPSVIp8Q2zuinVsk3nsi8" allowfullscreen></iframe>
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5VPpZaW4pBIRDkje1hls32c&key=AIzaSyBECd4GIw3O7OyPSVIp8Q2zuinVsk3nsi8" allowfullscreen></iframe>
 
 **Plaça del Camp de les Peces**\
 Parets del Vallès, Barcelona, 08150
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.7881281399473!2d2.233254876001003!3d41.57382988440988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a67f9c4859%3A0x384c111d9020a66a!2sPla%C3%A7a%20del%20Camp%20de%20les%20Peces%2C%2008150%20Parets%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1716285506302!5m2!1ses!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.7881281399473!2d2.233254876001003!3d41.57382988440988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a67f9c4859%3A0x384c111d9020a66a!2sPla%C3%A7a%20del%20Camp%20de%20les%20Peces%2C%2008150%20Parets%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1716285506302!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Situació
 
-Tots els esdeveniments es realitzaran a la Sala Cooperativa de Parets del Vallès.
+Tots els esdeveniments es realitzaran a Ca n'Oms de Parets del Vallès.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8169857353228!2d2.232501316064497!3d41.5732053792476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a59568d37f%3A0xa1e01ead5a8d455a!2sSala+Cooperativa!5e0!3m2!1ses!2ses!4v1520600006094" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7827.266400827067!2d2.2237241059853297!3d41.57174148256996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8a92cffc2f9%3A0x606e5cc50dbcfa45!2sCa%20N&#39;Oms!5e0!3m2!1ses!2ses!4v1760297267945!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## On Menjar
 
