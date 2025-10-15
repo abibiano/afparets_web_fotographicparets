@@ -154,7 +154,7 @@ h6 {
 }
 
 .hero-logo {
-  max-width: 220px;
+  max-width: clamp(260px, 22vw, 360px);
 }
 
 .hero-logo-image {
