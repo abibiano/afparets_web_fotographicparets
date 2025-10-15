@@ -7,7 +7,7 @@ hero:
   badge: "12a edició · Vallès Oriental"
   title: "FOTOgraphic Parets 2025"
   subtitle: "Festival de fotografia i cultura visual"
-  description: "Preinscripció obligatòria i cost d’inscripció de 10 € a abonar el dia del FOTOgraphic."
+  description: "Preinscripció obligatòria i cost d’inscripció de 10€ a abonar en metàl·lic el dia del FOTOgraphic."
   actions:
     - label: "Consulta el programa 2025"
       url: "/ponencias"

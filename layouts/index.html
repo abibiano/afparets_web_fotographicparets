@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row align-items-center justify-content-center justify-content-lg-between py-5">
       <div class="col-12 col-lg-7 col-xl-6">
-        {{ with resources.Get "originales/logo-fotographic-negre.svg" }}
+        {{ with resources.Get "img/logo-fotographic2025-completo-300.jpg" }}
         {{ $heroLogo := . | fingerprint }}
         <div class="hero-logo mb-4">
           <img class="hero-logo-image" src="{{ $heroLogo.RelPermalink }}" alt="Logo FOTOgraphic Parets" loading="lazy">
@@ -23,6 +23,7 @@
         {{ with $hero.description }}
         <p class="hero-description fs-5 mb-5">{{ . }}</p>
         {{ end }}
+        <p class="hero-collab text-muted mb-4">Amb la col·laboració de <a class="link-underline-opacity-75" href="/ponencias/danny-vela/">Danny Vela</a>.</p>
         {{ with $hero.actions }}
         <div class="hero-actions d-flex flex-column flex-sm-row align-items-start gap-3">
           {{ range . }}

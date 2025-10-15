@@ -15,9 +15,9 @@ L’exposició es podrà visitar a **Ca n’Oms (Sala d’Entitats)** i posterio
 
 ## Guanyadors
 
-**1r Premi:** “La Dansa del moviment” – *Alex Bibiano*
-**2n Premi:** “Sorpresa Carmen” – *Carmen Gavilán Navarrete*
-**3r Premi:** “Estrella voladora” – *Josep Lloret (AFPrat)*
+- **1r Premi:** “La Dansa del moviment” – *Alex Bibiano (AFParets)*
+- **2n Premi:** “Sorpresa Carmen” – *Carmen Gavilán Navarrete*
+- **3r Premi:** “Estrella voladora” – *Josep Lloret (AFPrat)*
 
 ---
 

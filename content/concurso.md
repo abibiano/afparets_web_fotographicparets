@@ -84,9 +84,9 @@ El veredicte serà **públic i inapel·lable**, d’acord amb el reglament FCF.
 
 ### Premis
 
-1. **Medalla d’Or FCF**
-2. **Medalla d’Argent FCF**
-3. **Medalla de Bronze FCF**
+1. **Medalla al 1r classificat/da** + **cistella de productes valorada en 150 €**
+2. **Medalla al 2n classificat/da** + **cistella de productes valorada en 100 €**
+3. **Medalla al 3r classificat/da** + **cistella de productes valorada en 50 €**
 
 Cada autor/a només podrà rebre un premi.
 Les obres premiades i finalistes s’exposaran durant el **FOTOGraphic 2026**.
@@ -97,7 +97,7 @@ Les obres premiades i finalistes s’exposaran durant el **FOTOGraphic 2026**.
 
 **Import: 10 €**
 La inscripció inclou la **participació als tallers del FOTOgraphic25** i el **dret a concursar** en aquest certamen.
-El pagament es farà en el moment de la inscripció a l’esdeveniment.
+El pagament es farà en el moment de la inscripció en metàl·lic a l’esdeveniment.
 
 ---
 
