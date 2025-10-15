@@ -64,9 +64,9 @@ Al cos del missatge s’ha d’incloure:
 
 | Etapa | Data |
 |-------|------|
-| **Admissió d’obres** | Fins al **15 de desembre de 2025, 23:59 h** |
-| **Veredicte del jurat** | Públic, **20 de desembre de 2025 a les 10 h** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
-| **Lliurament de premis** | Durant la **Festa Major d’Hivern de Parets del Vallès (gener 2026)** |
+| **Admissió d’obres** | Del **29 de novembre de 2025** fins al **31 de desembre de 2026, 23:59 h** |
+| **Veredicte del jurat** | Públic, **10 de gener de 2026** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
+| **Lliurament de premis** | **26 de gener de 2026** · Festa Major d’Hivern de Parets del Vallès |
 | **Exposició de les obres premiades** | Durant el **FOTOGraphic Parets 2026** |
 
 ---
