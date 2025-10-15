@@ -38,7 +38,8 @@ Les imatges no poden haver estat premiades en altres concursos.
 ### Format i Presentació
 
 - Arxius digitals **JPG** (espai de color sRGB).
-- Mida màxima: **2500 píxels pel costat més llarg** i **resolució de 300 ppp**.
+- Mida d’enviament: **2000 píxels pel costat més llarg**.
+- En cas de resultar finalista o guanyador/a, caldrà lliurar un arxiu d’alta resolució d’almenys **6000 × 4800 píxels** per a la impressió
 - Sense marques d’aigua, noms o signatures visibles (motiu de desqualificació).
 - Nom de fitxer: `Cognom_Nom_Títol.jpg`.
 
@@ -76,7 +77,8 @@ Al cos del missatge s’ha d’incloure:
 El jurat estarà format per:
 
 - Un/a membre del **Cos de Jurats de la Federació Catalana de Fotografia (FCF)**
-- Dos membres **a determinar** pel consistori o col·laboradors externs
+- El regidor de Cultura de Parets del Vallès, **Francesc Juzgado**
+- El fotògraf i ponent principal del FOTOGraphic, **Danny Vela**
 
 El veredicte serà **públic i inapel·lable**, d’acord amb el reglament FCF.
 
