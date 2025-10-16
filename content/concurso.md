@@ -15,7 +15,7 @@ Concurs reconegut per la **Federació Catalana de Fotografia (FCF)** amb el núm
 
 ### Participants
 
-Poden participar-hi totes les persones majors de 18 anys, aficionades a la fotografia, que hagin participat en el **FOTOGraphic Parets 2025**, que es realitzarà el **29 de novembre de 2025**.
+Poden participar-hi totes les persones aficionades a la fotografia, que hagin participat en el **FOTOGraphic Parets 2025**, que es realitzarà el **29 de novembre de 2025**.
 
 ---
 
