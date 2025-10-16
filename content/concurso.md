@@ -37,9 +37,9 @@ Les imatges no poden haver estat premiades en altres concursos.
 
 ### Format i Presentació
 
-- Arxius digitals **JPG** (espai de color sRGB).
+- Arxius digitals **JPG** (espai de color **sRGB**).
 - Mida d’enviament: **2000 píxels pel costat més llarg**.
-- En cas de resultar finalista o guanyador/a, caldrà lliurar un arxiu d’alta resolució d’almenys **6000 × 4800 píxels** per a la impressió
+  - En cas de resultar finalista o guanyador/a, caldrà lliurar un arxiu d’alta resolució d’almenys **6000 × 4800 píxels** per a la impressió.
 - Sense marques d’aigua, noms o signatures visibles (motiu de desqualificació).
 - Nom de fitxer: `Cognom_Nom_Títol.jpg`.
 
@@ -53,7 +53,6 @@ L’enviament es farà per correu electrònic a:
 Al cos del missatge s’ha d’incloure:
 
 - Nom i cognoms
-- Adreça completa
 - Correu electrònic i telèfon
 - Entitat fotogràfica (si escau)
 - Núm. de soci FCF (si escau)
@@ -65,7 +64,7 @@ Al cos del missatge s’ha d’incloure:
 
 | Etapa | Data |
 |-------|------|
-| **Admissió d’obres** | Del **29 de novembre de 2025** fins al **31 de desembre de 2026, 23:59 h** |
+| **Admissió d’obres** | Del **29 de novembre de 2025** fins al **31 de desembre de 2025, 23:59 h** |
 | **Veredicte del jurat** | Públic, **10 de gener de 2026** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
 | **Lliurament de premis** | **26 de gener de 2026** · Festa Major d’Hivern de Parets del Vallès |
 | **Exposició de les obres premiades** | Durant el **FOTOGraphic Parets 2026** |
@@ -86,9 +85,9 @@ El veredicte serà **públic i inapel·lable**, d’acord amb el reglament FCF.
 
 ### Premis
 
-1. **Medalla al 1r classificat/da** + **cistella de productes valorada en 150 €**
-2. **Medalla al 2n classificat/da** + **cistella de productes valorada en 100 €**
-3. **Medalla al 3r classificat/da** + **cistella de productes valorada en 50 €**
+1. **Medalla al 1r classificat/da** + **cistella de productes de comerç local valorada en 150 €**
+2. **Medalla al 2n classificat/da** + **cistella de productes de comerç local valorada en 100 €**
+3. **Medalla al 3r classificat/da** + **cistella de productes de comerç local valorada en 50 €**
 
 Cada autor/a només podrà rebre un premi.
 Les obres premiades i finalistes s’exposaran durant el **FOTOGraphic 2026**.
@@ -97,7 +96,8 @@ Les obres premiades i finalistes s’exposaran durant el **FOTOGraphic 2026**.
 
 ### Dret d’Inscripció
 
-**Import: 10 €**
+Import: **10 €**
+
 La inscripció inclou la **participació als tallers del FOTOgraphic25** i el **dret a concursar** en aquest certamen.
 El pagament es farà en el moment de la inscripció en metàl·lic a l’esdeveniment.
 
