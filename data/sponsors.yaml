@@ -5,6 +5,10 @@ organizers:
     width: "160x"
 
 partners:
+  - name: "Perfect Auto BCN · By Auto Chamorro"
+    url: "https://maps.app.goo.gl/2qrqcREoCoo3NqSUA"
+    image: "img/logos/perfect-auto-w100.jpg"
+    width: "253x"
   - name: "Ajuntament de Parets del Vallès"
     url: "https://www.parets.cat"
     image: "img/logos/logo-ajuntament-parets.png"
