@@ -15,14 +15,16 @@ Concurs reconegut per la **Federació Catalana de Fotografia (FCF)** amb el núm
 
 ### Participants
 
-Poden participar-hi totes les persones aficionades a la fotografia, que hagin participat en el **FOTOGraphic Parets 2025**, que es realitzarà el **29 de novembre de 2025**.
+Poden participar-hi totes les persones aficionades a la fotografia, que hagin participat al **FOTOGraphic Parets 2025**, que es realitzarà el **29 de novembre de 2025** a Parets del Vallès.
+
+Per informació i inscripcions a l’esdeveniment **FOTOGraphic Parets 2025** consulteu [https://fotographicparets.com](https://fotographicparets.com).
 
 ---
 
 ### Modalitat
 
 Fotografia de *Skate*.
-Qualsevol fotografia presa durant les sessions de shooting del FOTOgraphic25.
+Qualsevol fotografia presa durant les sessions de shooting del **FOTOGraphic Parets 2025**.
 
 S’admeten obres en color o blanc i negre, amb **edició lliure** però **sense cap tractament amb intel·ligència artificial (IA)**.
 
