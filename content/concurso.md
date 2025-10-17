@@ -43,7 +43,7 @@ Les imatges no poden haver estat premiades en altres concursos.
 - Mida d’enviament: **2000 píxels pel costat més llarg**.
   - En cas de resultar finalista o guanyador/a, caldrà lliurar un arxiu d’alta resolució d’almenys **6000 × 4800 píxels** per a la impressió.
 - Sense marques d’aigua, noms o signatures visibles (motiu de desqualificació).
-- Nom de fitxer: `Cognom_Nom_Títol.jpg`.
+- Nom de fitxer: `Títol.jpg` (sense cap referència a l’autor/a).
 
 L’enviament es farà per correu electrònic a:
 📧 **concursfotographic@afparets.com**
@@ -67,7 +67,7 @@ Al cos del missatge s’ha d’incloure:
 | Etapa | Data |
 |-------|------|
 | **Admissió d’obres** | Del **29 de novembre de 2025** fins al **31 de desembre de 2025, 23:59 h** |
-| **Veredicte del jurat** | Públic, **10 de gener de 2026** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
+| **Veredicte del jurat** | Públic, **10 de gener de 2026, 10:00 h** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
 | **Lliurament de premis** | **26 de gener de 2026** · Festa Major d’Hivern de Parets del Vallès |
 | **Exposició de les obres premiades** | Durant el **FOTOGraphic Parets 2026** |
 
