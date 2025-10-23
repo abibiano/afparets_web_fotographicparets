@@ -12,7 +12,7 @@ hero:
     - label: "Consulta el programa 2025"
       url: "/ponencias"
       variant: "primary"
-    - label: "Inscriu-t’hi"
+    - label: "Inscriu-t’hi (pròximament)"
       variant: "outline-primary"
       disabled: true
   meta:
