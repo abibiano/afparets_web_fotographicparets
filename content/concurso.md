@@ -9,7 +9,7 @@ weight: 40
 
 ### Tema: *Skate*
 
-Concurs reconegut per la **Federació Catalana de Fotografia (FCF)** amb el número de registre **[pendent de confirmació]**, puntuable per a l’obtenció de les distincions d’**Artista, Excel·lència i Mestre FCF**.
+Concurs reconegut per la **Federació Catalana de Fotografia (FCF)** amb el número de registre **2026-7**, puntuable per a l’obtenció de les distincions d’**Artista, Excel·lència i Mestre FCF**.
 
 ---
 
