@@ -13,4 +13,4 @@ description: "Descobreix la programació completa de ponències, shootings i act
 
 ### Ponències i tallers
 
-El protagonisme de les ponències i shootings recaurà en **Danny Vela**, fotògraf especialitzat en cultura urbana i llum avançada. Descobreix-ne el recorregut, la filosofia de treball i els projectes més destacats visitant la seva [biografia completa](/ponencias/danny-vela/). Al llarg de la jornada conduirà sessions teòriques i pràctiques per posar el skate al centre de la narrativa visual del FOTOGraphic Parets 2025.
+El protagonisme de les ponències i shootings recaurà en **Danny Vela**, fotògraf d’acció amb més de quinze anys recorrent circuits internacionals de motociclisme —del MotoGP al WorldSBK— i projectes urbans. Descobreix-ne el recorregut, la filosofia de treball i els projectes més destacats visitant la seva [biografia completa](/ponencias/danny-vela/). Al llarg de la jornada conduirà sessions teòriques i pràctiques per posar el skate al centre de la narrativa visual del FOTOGraphic Parets 2025.

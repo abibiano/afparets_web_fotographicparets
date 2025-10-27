@@ -12,9 +12,9 @@ hero:
     - label: "Consulta el programa 2025"
       url: "/ponencias"
       variant: "primary"
-    - label: "Inscriu-t’hi (pròximament)"
+    - label: "Inscriu-t’hi"
+      url: "https://forms.gle/gtqsTHoPMVgTZaVz5"
       variant: "outline-primary"
-      disabled: true
   meta:
     - label: "Data"
       value: "29 de novembre de 2025"

@@ -8,7 +8,7 @@ aliases:
 
 29 de novembre, 10:00 h · Sala Principal
 
-Fotògraf especialitzat en cultura urbana i escenes d’acció, Danny Vela explora l’skateboarding des d’una mirada cinematogràfica. La seva trajectòria combina treball comercial amb marques i projectes documentals que capturen l’energia dels patinadors i l’entorn que els envolta.
+Fotògraf especialitzat en cultura urbana i escenes d’acció, Danny Vela explora l’skateboarding des d’una mirada fotogràfica. La seva trajectòria combina treball comercial amb marques i projectes documentals que capturen l’energia dels patinadors i l’entorn que els envolta. Amb més de quinze anys recorrent circuits internacionals de motociclisme —del MotoGP al WorldSBK, passant per l’ESBK, el MXGP o el JuniorGP— i impartint tallers sobre fotografia esportiva, sap treballar la velocitat amb precisió per transmetre intensitat i dinamisme en cada imatge.
 
 A la seva ponència compartirà:
 
