@@ -3,6 +3,10 @@ organizers:
     url: "https://afparets.com"
     image: "img/logos/logo-afparets-350.png"
     width: "160x"
+  - name: "Danny Vela"
+    url: "/ponencias/danny-vela/"
+    image: "img/logos/danny-vela-350.jpg"
+    width: "160x"
 
 partners:
   - name: "Perfect Auto BCN · By Auto Chamorro"
