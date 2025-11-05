@@ -12,12 +12,54 @@
         <div class="d-flex justify-content-center justify-content-lg-start flex-wrap gap-4">
           {{ range $sponsors.organizers }}
           {{ $item := . }}
-          {{ $width := default "140x" $item.width }}
+          {{ $widthDigits := "" }}
+          {{ with $item.width }}
+          {{ $matches := findRE "^[0-9]+" . }}
+          {{ if gt (len $matches) 0 }}
+          {{ $widthDigits = index $matches 0 }}
+          {{ end }}
+          {{ end }}
+          {{ $heightValue := "" }}
+          {{ $heightDigits := "" }}
+          {{ with $item.height }}
+          {{ $heightValue = strings.TrimSpace . }}
+          {{ $matches := findRE "[0-9]+" $heightValue }}
+          {{ if gt (len $matches) 0 }}
+          {{ $heightDigits = index $matches 0 }}
+          {{ end }}
+          {{ end }}
+          {{ $resizeDimension := "140x" }}
+          {{ if and $widthDigits $heightDigits }}
+          {{ $resizeDimension = printf "%sx%s" $widthDigits $heightDigits }}
+          {{ else if $widthDigits }}
+          {{ $resizeDimension = printf "%sx" $widthDigits }}
+          {{ else if $heightDigits }}
+          {{ $resizeDimension = printf "x%s" $heightDigits }}
+          {{ end }}
+          {{ $heightStyle := "" }}
+          {{ if $heightValue }}
+          {{ $trimmedHeight := $heightValue }}
+          {{ if hasPrefix $trimmedHeight "x" }}
+          {{ $numericHeight := strings.TrimSpace (strings.TrimPrefix "x" $trimmedHeight) }}
+          {{ if ne $numericHeight "" }}
+          {{ $heightStyle = printf "max-height:%spx" $numericHeight }}
+          {{ end }}
+          {{ else if hasPrefix $trimmedHeight "X" }}
+          {{ $numericHeight := strings.TrimSpace (strings.TrimPrefix "X" $trimmedHeight) }}
+          {{ if ne $numericHeight "" }}
+          {{ $heightStyle = printf "max-height:%spx" $numericHeight }}
+          {{ end }}
+          {{ else if findRE "[A-Za-z]" $trimmedHeight }}
+          {{ $heightStyle = printf "max-height:%s" $trimmedHeight }}
+          {{ else }}
+          {{ $heightStyle = printf "max-height:%spx" $trimmedHeight }}
+          {{ end }}
+          {{ end }}
           {{ with resources.Get (printf "/%s" $item.image) }}
-          {{ $resized := .Resize $width }}
+          {{ $resized := .Resize $resizeDimension }}
           {{ $fingerprinted := $resized | fingerprint }}
           <a class="sponsor-link" href="{{ $item.url }}" target="_blank" rel="noopener">
-            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}">
+            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}" {{ if $heightStyle }}style="{{ $heightStyle }}"{{ end }}>
           </a>
           {{ end }}
           {{ end }}
@@ -30,12 +72,54 @@
         <div class="d-flex justify-content-center justify-content-lg-start flex-wrap gap-4">
           {{ range $sponsors.partners }}
           {{ $item := . }}
-          {{ $width := default "140x" $item.width }}
+          {{ $widthDigits := "" }}
+          {{ with $item.width }}
+          {{ $matches := findRE "^[0-9]+" . }}
+          {{ if gt (len $matches) 0 }}
+          {{ $widthDigits = index $matches 0 }}
+          {{ end }}
+          {{ end }}
+          {{ $heightValue := "" }}
+          {{ $heightDigits := "" }}
+          {{ with $item.height }}
+          {{ $heightValue = strings.TrimSpace . }}
+          {{ $matches := findRE "[0-9]+" $heightValue }}
+          {{ if gt (len $matches) 0 }}
+          {{ $heightDigits = index $matches 0 }}
+          {{ end }}
+          {{ end }}
+          {{ $resizeDimension := "140x" }}
+          {{ if and $widthDigits $heightDigits }}
+          {{ $resizeDimension = printf "%sx%s" $widthDigits $heightDigits }}
+          {{ else if $widthDigits }}
+          {{ $resizeDimension = printf "%sx" $widthDigits }}
+          {{ else if $heightDigits }}
+          {{ $resizeDimension = printf "x%s" $heightDigits }}
+          {{ end }}
+          {{ $heightStyle := "" }}
+          {{ if $heightValue }}
+          {{ $trimmedHeight := $heightValue }}
+          {{ if hasPrefix $trimmedHeight "x" }}
+          {{ $numericHeight := strings.TrimSpace (strings.TrimPrefix "x" $trimmedHeight) }}
+          {{ if ne $numericHeight "" }}
+          {{ $heightStyle = printf "max-height:%spx" $numericHeight }}
+          {{ end }}
+          {{ else if hasPrefix $trimmedHeight "X" }}
+          {{ $numericHeight := strings.TrimSpace (strings.TrimPrefix "X" $trimmedHeight) }}
+          {{ if ne $numericHeight "" }}
+          {{ $heightStyle = printf "max-height:%spx" $numericHeight }}
+          {{ end }}
+          {{ else if findRE "[A-Za-z]" $trimmedHeight }}
+          {{ $heightStyle = printf "max-height:%s" $trimmedHeight }}
+          {{ else }}
+          {{ $heightStyle = printf "max-height:%spx" $trimmedHeight }}
+          {{ end }}
+          {{ end }}
           {{ with resources.Get (printf "/%s" $item.image) }}
-          {{ $resized := .Resize $width }}
+          {{ $resized := .Resize $resizeDimension }}
           {{ $fingerprinted := $resized | fingerprint }}
           <a class="sponsor-link" href="{{ $item.url }}" target="_blank" rel="noopener">
-            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}">
+            <img class="sponsor-logo" src="{{ $fingerprinted.RelPermalink }}" alt="{{ $item.name }}" {{ if $heightStyle }}style="{{ $heightStyle }}"{{ end }}>
           </a>
           {{ end }}
           {{ end }}
