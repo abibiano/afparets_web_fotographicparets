@@ -1,128 +1,59 @@
 ---
-title: "VII CONCURS NACIONAL DE FOTOGRAFIA “4t Memorial CHUSSA MULÀ”"
+title: "Concurs Fotogràfic FOTOgraphic Parets 2026"
 LinkTitle: "Concurs"
 menu: "main"
 weight: 40
+description: "Concurs fotogràfic del FOTOgraphic Parets 2026: dues categories, Bodegó fine art i Lliure, amb premis en forma de sopar."
 ---
 
-## FOTOGraphic PARETS 2025
+## FOTOgraphic Parets 2026
 
-### Tema: *Skate*
-
-Concurs reconegut per la **Federació Catalana de Fotografia (FCF)** amb el número de registre **2026-7**, puntuable per a l’obtenció de les distincions d’**Artista, Excel·lència i Mestre FCF**.
-
----
-
-### Participants
-
-Poden participar-hi totes les persones aficionades a la fotografia, que hagin participat al **FOTOGraphic Parets 2025**, que es realitzarà el **29 de novembre de 2025** a Parets del Vallès.
-
-Per informació i inscripcions a l’esdeveniment **FOTOGraphic Parets 2025** consulteu [https://fotographicparets.com](https://fotographicparets.com).
+El concurs fotogràfic del FOTOgraphic Parets 2026 té **dues categories obertes** a tots els participants de la jornada.
 
 ---
 
-### Modalitat
+### Categories
 
-Fotografia de *Skate*.
-Qualsevol fotografia presa durant les sessions de shooting del **FOTOGraphic Parets 2025**.
+**Bodegó fine art**
+Fotografies realitzades durant el FOTOgraphic 2026. Criteri d'admissió: sense marques comercials, amb intenció artística i composició acurada.
 
-S’admeten obres en color o blanc i negre, amb **edició lliure** però **sense cap tractament amb intel·ligència artificial (IA)**.
-
----
-
-### Obres
-
-Cada participant podrà presentar un màxim de **tres fotografies** originals.
-Les imatges no poden haver estat premiades en altres concursos.
-
----
-
-### Format i Presentació
-
-- Arxius digitals **JPG** (espai de color **sRGB**).
-- Mida d’enviament: **2000 píxels pel costat més llarg**.
-  - En cas de resultar finalista o guanyador/a, caldrà lliurar un arxiu d’alta resolució d’almenys **6000 × 4800 píxels** per a la impressió.
-- Sense marques d’aigua, noms o signatures visibles (motiu de desqualificació).
-- Nom de fitxer: `Títol.jpg` (sense cap referència a l’autor/a).
-
-L’enviament es farà per correu electrònic a:
-📧 **concursfotographic@afparets.com**
-
----
-
-### Identificació
-
-Al cos del missatge s’ha d’incloure:
-
-- Nom i cognoms
-- Correu electrònic i telèfon
-- Entitat fotogràfica (si escau)
-- Núm. de soci FCF (si escau)
-- Títol de cada fotografia
-
----
-
-### Calendari
-
-| Etapa | Data |
-|-------|------|
-| **Admissió d’obres** | Del **29 de novembre de 2025** fins al **31 de desembre de 2025, 23:59 h** |
-| **Veredicte del jurat** | Públic, **10 de gener de 2026, 10:00 h** · Ca n’Oms (c. Ponent, 14, Parets del Vallès) |
-| **Lliurament de premis** | **26 de gener de 2026** · Festa Major d’Hivern de Parets del Vallès |
-| **Exposició de les obres premiades** | Durant el **FOTOGraphic Parets 2026** |
-
----
-
-### Jurat
-
-El jurat estarà format per:
-
-- Un/a membre del **Cos de Jurats de la Federació Catalana de Fotografia (FCF)**
-- El regidor de Cultura de Parets del Vallès, **Francesc Juzgado**
-- El fotògraf i ponent principal del FOTOGraphic, **Danny Vela**
-
-El veredicte serà **públic i inapel·lable**, d’acord amb el reglament FCF.
+**Lliure**
+Imatges del tema o l'estil que cada participant vulgui, fetes en qualsevol moment. Oberta exclusivament a participants del FOTOgraphic 2026.
 
 ---
 
 ### Premis
 
-1. **Medalla al 1r classificat/da** + **cistella de productes de comerç local valorada en 150 €**
-2. **Medalla al 2n classificat/da** + **cistella de productes de comerç local valorada en 100 €**
-3. **Medalla al 3r classificat/da** + **cistella de productes de comerç local valorada en 50 €**
-
-Cada autor/a només podrà rebre un premi.
-Les obres premiades i finalistes s’exposaran durant el **FOTOGraphic 2026**.
+| Categoria | 1r premi | 2n premi | 3r premi |
+|-----------|----------|----------|----------|
+| Bodegó fine art | Sopar valorat en **125 €** | Sopar valorat en **100 €** | Sopar valorat en **75 €** |
+| Lliure | Sopar valorat en **100 €** | Sopar valorat en **75 €** | — |
 
 ---
 
-### Dret d’Inscripció
+### Calendari
 
-Import: **10 €**
-
-La inscripció inclou la **participació als tallers del FOTOgraphic25** i el **dret a concursar** en aquest certamen.
-El pagament es farà en el moment de la inscripció en metàl·lic a l’esdeveniment.
-
----
-
-### Drets i Responsabilitats
-
-- Les fotografies continuaran essent **propietat dels autors/es**.
-- Els participants **cedeixen l’ús no comercial** a l’Associació Fotogràfica de Parets del Vallès i a l’Ajuntament de Parets per a publicacions, xarxes o exposicions, sempre citant l’autor/a.
-- Les obres no premiades seran **eliminades un cop finalitzat el concurs**.
-- L’organització **no es fa responsable** de danys, pèrdues o incidències en l’enviament o exposició.
-- La participació implica l’**acceptació d’aquestes bases** i del **Reglament FCF v9.0**.
+| Data | Activitat |
+|------|-----------|
+| **6 de juny de 2026** | Jornada oficial de captura — durant el FOTOgraphic |
+| **Fins al 30 de juny de 2026** | Termini de presentació d'imatges |
+| **Juliol de 2026** | Veredicte del jurat |
 
 ---
 
-### Consultes
+### Presentació d'obres
 
-📩 **concursfotographic@afparets.com**
+Les inscripcions i l'enviament de fotografies es gestionen des del portal extern del concurs:
+
+<a class="btn btn-primary btn-lg px-4 mt-2 mb-4" href="https://concurs.afparets.com" target="_blank" rel="noopener">
+  Accedeix al portal del concurs
+</a>
 
 ---
 
-### Notes finals
+### Notes
 
-- No es podrà publicar cap fotografia presentada fins a la resolució del jurat.
-- Qualsevol cas no previst serà resolt per l’organització seguint els criteris del reglament FCF.
-- El concurs forma part del programa oficial del **FOTOGraphic Parets 2025**.
+- Cada autor/a pot presentar un màxim de **3 fotografies** per categoria.
+- Les obres no poden tenir marques d'aigua ni signatures visibles.
+- Les fotografies premiades s'exposaran durant el **FOTOgraphic Parets 2027**.
+- La participació implica l'acceptació de les bases publicades a <a href="https://concurs.afparets.com" target="_blank" rel="noopener">concurs.afparets.com</a>.

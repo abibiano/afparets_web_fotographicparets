@@ -1,4 +1,14 @@
 
+// Hero carousel
+.hero-carousel-img {
+  height: 420px;
+  object-fit: cover;
+
+  @include media-breakpoint-up(lg) {
+    height: 480px;
+  }
+}
+
 body {
   background: var(--color-background);
   color: var(--color-text-main);

@@ -1,11 +1,11 @@
 baseURL = "https://fotographicparets.com/"
 locale = "ca"
 defaultContentLanguage = "ca"
-title = "FOTOgraphic Parets 2025"
+title = "FOTOgraphic Parets 2026"
 
 [params]
   author = "Alex Bibiano"
-  description = "FOTOgraphic Parets 2025, 12a edició de l'esdeveniment fotogràfic pensat per a tots els amants de la fotografia amb ponències, tallers i exposicions amb entrada."
+  description = "FOTOgraphic Parets 2026, 13a edició de l'esdeveniment fotogràfic amb bodegons, ponències i tallers a Parets del Vallès."
   theme_color = "#4a4a4a"
 
   [params.seo]
