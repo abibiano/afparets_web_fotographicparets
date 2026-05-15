@@ -1,5 +1,4 @@
-{{ $site := .Site }}
-{{ $sponsors := $site.Data.sponsors }}
+{{ $sponsors := hugo.Data.sponsors }}
 {{ $hasOrganizers := and $sponsors (gt (len (default (slice) $sponsors.organizers)) 0) }}
 {{ $hasPartners := and $sponsors (gt (len (default (slice) $sponsors.partners)) 0) }}
 {{ if or $hasOrganizers $hasPartners }}

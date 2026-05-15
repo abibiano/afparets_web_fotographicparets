@@ -1,7 +1,6 @@
 {{ $page := .Page }}
 {{ $key := .Key }}
-{{ $site := $page.Site }}
-{{ $agendaData := index $site.Data.agenda $key }}
+{{ $agendaData := index hugo.Data.agenda $key }}
 {{ if not $agendaData }}
 <div class="alert alert-warning">
   No s’ha trobat el programa associat a <code>{{ $key }}</code>. Actualitza la configuració del contingut.

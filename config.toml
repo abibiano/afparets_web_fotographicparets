@@ -1,5 +1,5 @@
 baseURL = "https://fotographicparets.com/"
-languageCode = "ca"
+locale = "ca"
 defaultContentLanguage = "ca"
 title = "FOTOgraphic Parets 2025"
 
