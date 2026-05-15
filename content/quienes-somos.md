@@ -5,7 +5,7 @@ menu: "main"
 weight: 90
 ---
 
-{{< image-resize src="img/logos/logo-afparets-350.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
+{{< image-resize src="img/logos/logo-afparets.png" size="100x" alt="Logo AFParets" class="rounded mx-auto d-block py-3" >}}
 
 FOTOgraphic Parets és una proposta iniciada el 2013 per un grup de fotògrafs i aficionats a la fotografia que pertanyem a l'Associació Fotogràfica Parets (AFP) amb la il·lusió de promoure l'interès per la fotografia. Això origina la idea de fer un Festival que integri ponències de professionals de la fotografia, esdeveniments, exposicions i altres activitats culturals.
 
@@ -32,3 +32,5 @@ A **2016**, el saló es va consolidar canviant la seva ubicació a un nou espai 
 **2023** va assumir el repte de congelar el moviment amb la temàtica *Dansa Festival*. El 21 d'octubre Parets del Vallès es va omplir de coreografies, tallers i sessions fotogràfiques enfocades a immortalitzar l'expressivitat dels ballarins, ampliant el ventall de disciplines que el FOTOgraphic explora.
 
 **2024** va celebrar l'onzena edició amb un homenatge al circ. El parc de la Llinera es va transformar en una carpa plena d'acròbates, malabaristes i artistes convidats que van facilitar escenes espectaculars perquè els participants experimentessin amb la llum, el dinamisme i la narrativa visual pròpia d'aquest univers.
+
+**2025** va arribar a la dotzena edició amb el món del *skate* com a fil conductor. El 29 de novembre Ca n'Oms va acollir ponències i tallers a càrrec de [Danny Vela](/ponencias/danny-vela/) — fotògraf d'acció especialitzat en motociclisme i projectes urbans — amb shootings amb flaix d'alta velocitat, llum contínua i una sessió nocturna especial. La jornada va ser també el dia oficial de captura del **VII Concurs Nacional de Fotografia «4t Memorial CHUSSA MULÀ»**.

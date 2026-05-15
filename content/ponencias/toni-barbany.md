@@ -1,24 +1,31 @@
 ---
 title: "Toni Barbany"
-description: "Bodegó amb transparents: retroil·luminació amb cartolina per ressaltar perfils i siluetes."
+description: "Fotògraf de llarga trajectòria, MFCF Diamant i Premi Catalunya 2021. Un dels referents actuals de la fotografia de bodegó."
 draft: false
 ---
 
-## Tècnica de transparents: retroil·luminació i siluetes
+## Qui és
 
-Toni Barbany portarà al FOTOgraphic 2026 la seva **tècnica de transparents** — un mètode propi basat en la retroil·luminació amb cartolina difusora per ressaltar perfils i siluetes d'ampolles i copes de vidre.
+Toni Barbany i Bosch (Riells del Fai) és un dels referents actuals de la fotografia de bodegó al circuit català i espanyol. Es va iniciar en la fotografia analògica de ben jove i, des del salt al digital, ha desenvolupat una trajectòria intensa a través de concursos i salons internacionals, on ha trobat un llenguatge molt personal.
 
-Fotògraf de llarga trajectòria i membre de l'Associació Fotogràfica Parets, Toni acumula diversos reconeixements en concursos nacionals: dues obres finalistes al VI Concurs FOTOgraphic 2024 ("Diabol" i "Anelles") i finalista al VII Concurs 2025 amb una obra seleccionada. La seva ponència cobrirà:
+És un dels noms habituals de la **Lliga Catalana de la FCF** i la **Lliga Espanyola de la CEF**, on porta anys puntuant a les primeres posicions.
 
-- Muntatge del set d'ampolles i copes de vidre
-- Retroil·luminació: cartolina darrere del set per ressaltar perfils i siluetes
-- Variacions de composició i comparativa en pantalla
-- Control de la contaminació lluminosa entre sets
+**Enllaços:** [Instagram @toni_barbany](https://www.instagram.com/toni_barbany/)
 
-Al **set Transparents**, treballareu amb ampolles d'ambre i vidre transparent, copes de vi i copes de cristall, explorant la profunditat i el relleu que ofereix la retroil·luminació en bodegó.
+## Reconeixements
 
-{{< image-resize src="img/instructors/barbany01.jpeg" size="1200x" alt="Toni Barbany · tècnica de transparents" class="rounded-4 shadow-sm mb-4 w-100" >}}
+Entre les seves distincions i premis destaquen:
 
-{{< image-resize src="img/instructors/barbany02.jpeg" size="1200x" alt="Toni Barbany · tècnica de transparents" class="rounded-4 shadow-sm mb-4 w-100" >}}
+- **MFCFd** (Mestre FCF Diamant) i **MCEF/p** (Mestre CEF Platí), distincions reservades a la trajectòria sostinguda al màxim nivell federatiu.
+- **AFIAP** i **5 Pin Blau FIAP** en concursos internacionals.
+- **Premi Catalunya 2021** de la FCF — màxim guardó al conjunt de la trajectòria.
+- Més de **60 medalles d'or**, una quarantena de plates i una trentena de bronzes en concursos federats; finalista al **Premi Nacional al Millor Fotògraf 2023**.
+- **Millor Autor** del Certamen Internacional **Premi Procopi Llucià** 2023 (Igualada).
+- **Premi Quillat d'Honor** i Pin Blau FIAP a la 51a edició dels Premis Fotogràfics Internacionals Quillat (2024).
+- **Jurat del 6è Concurs Internacional de Fotografia de Bodegó de La Rioja** (2022), un dels salons FIAP de referència del gènere.
 
-{{< image-resize src="img/instructors/barbany03.jpeg" size="1200x" alt="Toni Barbany · tècnica de transparents" class="rounded-4 shadow-sm mb-4 w-100" >}}
+## Què veureu al FOTOgraphic 2026
+
+Al FOTOgraphic Parets 2026 el Toni ensenyarà en directe a fer **bodegons amb vidres retroil·luminats**, una de les seves aproximacions habituals. Veurem el muntatge del set d'ampolles i copes, la col·locació de la cartolina darrere com a font de llum, les variacions de composició per ressaltar perfils i siluetes, i l'anàlisi de la imatge en pantalla.
+
+{{< image-resize src="img/instructors/barbany01.jpeg" size="1200x" alt="Toni Barbany" class="rounded-4 shadow-sm mb-4 w-100" >}}

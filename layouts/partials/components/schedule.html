@@ -22,8 +22,25 @@
               {{ with .title }}
               <h3 class="h5 fw-semibold mb-3">{{ . }}</h3>
               {{ end }}
+              {{ $groups := .groups }}
+              {{ with $groups }}
+              <div class="schedule-groups row g-3">
+                <div class="col-12 col-md-6">
+                  <div class="schedule-group-label fw-semibold text-uppercase text-accent mb-2">Grup A</div>
+                  {{ with .a.body }}
+                  <div class="schedule-body content-styles">{{ . | markdownify }}</div>
+                  {{ end }}
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="schedule-group-label fw-semibold text-uppercase text-accent mb-2">Grup B</div>
+                  {{ with .b.body }}
+                  <div class="schedule-body content-styles">{{ . | markdownify }}</div>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
               {{ with .body }}
-              <div class="schedule-body content-styles">
+              <div class="schedule-body content-styles{{ if $groups }} mt-3{{ end }}">
                 {{ . | markdownify }}
               </div>
               {{ end }}
@@ -48,8 +65,25 @@
               {{ with .title }}
               <h3 class="h5 fw-semibold mb-3">{{ . }}</h3>
               {{ end }}
+              {{ $groups := .groups }}
+              {{ with $groups }}
+              <div class="schedule-groups row g-3">
+                <div class="col-12 col-md-6">
+                  <div class="schedule-group-label fw-semibold text-uppercase text-accent mb-2">Grup A</div>
+                  {{ with .a.body }}
+                  <div class="schedule-body content-styles">{{ . | markdownify }}</div>
+                  {{ end }}
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="schedule-group-label fw-semibold text-uppercase text-accent mb-2">Grup B</div>
+                  {{ with .b.body }}
+                  <div class="schedule-body content-styles">{{ . | markdownify }}</div>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
               {{ with .body }}
-              <div class="schedule-body content-styles">
+              <div class="schedule-body content-styles{{ if $groups }} mt-3{{ end }}">
                 {{ . | markdownify }}
               </div>
               {{ end }}

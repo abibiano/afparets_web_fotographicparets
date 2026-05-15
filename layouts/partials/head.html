@@ -4,7 +4,7 @@
   {{ $title := cond .IsHome $site.Title (printf "%s | %s" .Title $site.Title) }}
   {{ $rawDescription := or .Params.seo.description .Params.description .Description .Summary $site.Params.description }}
   {{ $description := plainify (default $site.Params.description $rawDescription) }}
-  {{ $defaultOg := default "img/logos/logo-fotographic.png" $site.Params.seo.default_image }}
+  {{ $defaultOg := default "img/logos/logo-afparets.png" $site.Params.seo.default_image }}
   {{ $imageParam := or .Params.og_image .Params.image .Params.featured_image $defaultOg }}
   {{ $ogImage := "" }}
   {{ if hasPrefix $imageParam "http" }}

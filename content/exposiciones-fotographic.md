@@ -15,7 +15,7 @@ Durant el FOTOgraphic Parets 2026 es podrà veure l'exposició de les **fotograf
 ## Guanyadors
 
 - **1r Premi:** "Ressorgint de la Penombra" — *Ignasi Pallisa (FCF 1534/117)*
-- **2n Premi:** "Rastre de Fum" — *Juanjose Carrasco (AFParets)*
+- **2n Premi:** "Rastre de Fum" — *Juan Jose Carrasco (AFParets)*
 - **3r Premi:** "Contrallum" — *Montse Dolz (FCF 3107/95)*
 
 ---
@@ -41,7 +41,7 @@ Durant el FOTOgraphic Parets 2026 es podrà veure l'exposició de les **fotograf
 
 ---
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div id="expoCarousel" class="carousel slide expo-carousel" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       {{< image-fit src="img/concurso-resultado-2025/49.- ressorgint de la penombra.jpg" size="1024x1024" class="d-block w-100">}}
@@ -49,17 +49,41 @@ Durant el FOTOgraphic Parets 2026 es podrà veure l'exposició de les **fotograf
     </div>
     <div class="carousel-item">
       {{< image-fit src="img/concurso-resultado-2025/29.- Rastre de fum.jpg" size="1024x1024" class="d-block w-100">}}
-      <div class="carousel-caption d-none d-md-block"><h5>Rastre de Fum</h5><p>Juanjose Carrasco</p></div>
+      <div class="carousel-caption d-none d-md-block"><h5>Rastre de Fum</h5><p>Juan Jose Carrasco</p></div>
     </div>
     <div class="carousel-item">
       {{< image-fit src="img/concurso-resultado-2025/21.- Contrallum.jpg" size="1024x1024" class="d-block w-100">}}
       <div class="carousel-caption d-none d-md-block"><h5>Contrallum</h5><p>Montse Dolz</p></div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/47.- desafio.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Desafio</h5><p>Aurora Padilla</p></div>
+    </div>
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/31.- SKATE_PARETS_1.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Skate Parets 1</h5><p>Toni Barbany</p></div>
+    </div>
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/17.- Foscor B.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Foscor B</h5><p>Pere Ninou</p></div>
+    </div>
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/14.- Equilibrio en Suspenso.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Equilibrio en Suspenso</h5><p>Alejandro Bibiano</p></div>
+    </div>
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/13.- Chispa de Control.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Chispa de Control</h5><p>Alejandro Bibiano</p></div>
+    </div>
+    <div class="carousel-item">
+      {{< image-fit src="img/concurso-resultado-2025/7.- Força i equilibri.jpg" size="1024x1024" class="d-block w-100">}}
+      <div class="carousel-caption d-none d-md-block"><h5>Força i equilibri</h5><p>Ramon Maria Sauri Navarro</p></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#expoCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Anterior</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#expoCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Següent</span>
     </button>

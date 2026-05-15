@@ -1,9 +1,15 @@
 title: "Dissabte 6 de juny de 2026"
 items:
+  - time: "Tot el dia"
+    body: |
+      [Concurs fotogràfic del FOTOgraphic Parets 2026](/concurso/)<br><br>
+      **6 de juny de 2026:** Jornada oficial de captura — durant el FOTOgraphic.<br>
+      **Fins al 30 de juny de 2026:** Termini de presentació d'imatges.<br>
+      **Juliol de 2026:** Veredicte del jurat.
   - time: "09:30–10:00"
     title: "Recepció i acreditació"
     body: |
-      Pagament de **10 € en metàl·lic** · Lliurament del passaport de sets (grup A o B + 3 sets assignats amb horari exacte).
+      Pagament de **10 € en metàl·lic**.
   - time: "10:00–10:30"
     title: "Inauguració oficial"
     body: |
@@ -11,36 +17,51 @@ items:
   - time: "10:30–12:00"
     title: "Ponències teòriques"
     body: |
-      **Alex Bibiano + Toni Barbany** · Tots els participants junts, ~1 h 30 min amb pausa intermèdia.
+      **Toni Barbany + Alex Bibiano** · Tots els participants junts, ~1 h 30 min amb pausa intermèdia.
 
       Temes: bodegó fine art vs. fotografia de producte, composició (protagonista, plans Z, solapament), la llum com a eina narrativa, tècnica de transparents, focus stacking i tethering amb Capture One.
-  - time: "12:00–12:20"
-    title: "Pausa i presentació dels sets"
+  - time: "12:00–12:10"
+    title: "Pausa"
+    body: ""
+  - time: "12:10–12:20"
+    title: "Presentació dels sets"
     body: |
-      Breu recorregut pels 3 sets amb instruccions de rotació i funcionament del passaport de sets.
+      Breu recorregut pels 3 sets amb instruccions de rotació.
   - time: "12:20–13:00"
     title: "Primer bloc simultani"
-    body: |
-      **Grup A** ★ Shooting A1 — 1 set × 40 min\
-      **Grup B** ✦ Demo al set central — Alex Bibiano + Toni Barbany, 40 min
+    groups:
+      a:
+        body: |
+          ★ Shooting (1 set, 40 minuts)
+      b:
+        body: |
+          ✦ Demo al set central — Toni Barbany + Alex Bibiano
   - time: "13:00–15:30"
     title: "Dinar"
     body: |
       Pausa lliure per dinar. Visita a l'exposició del VII Concurs «4t Memorial CHUSSA MULÀ» (FOTOgraphic 2025).
   - time: "15:30–16:50"
     title: "Segon bloc simultani"
-    body: |
-      **Grup A** ★ Shooting A2 — 2 sets × 40 min\
-      **Grup B** ✦ Demo al set central — Alex Bibiano + Toni Barbany, 80 min
+    groups:
+      a:
+        body: |
+          ★ Shooting (2 sets, 40 minuts per set)
+      b:
+        body: |
+          ✦ Demo al set central — Toni Barbany + Alex Bibiano
   - time: "16:50–17:00"
     title: "Pausa"
     body: ""
   - time: "17:00–19:00"
     title: "Tercer bloc simultani"
+    groups:
+      a:
+        body: |
+          ✦ Demo al set central — Toni Barbany + Alex Bibiano
+      b:
+        body: |
+          ★ Shooting (3 sets, 40 minuts per set)
     body: |
-      **Grup A** ✦ Demo al set central — Alex Bibiano + Toni Barbany, 120 min\
-      **Grup B** ★ Shooting B — 3 sets × 40 min
-
       _La demostració es repeteix íntegrament per a cada grup._
   - time: "19:00"
     title: "Clausura"

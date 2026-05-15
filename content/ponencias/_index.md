@@ -9,19 +9,10 @@ description: "Descobreix la programació completa del FOTOgraphic Parets 2026: p
 
 ### FOTOgraphic Parets 2026
 
-La jornada del **6 de juny de 2026** combinarà formació teòrica i pràctica al voltant de la **fotografia de bodegons**. Els ponents [Alex Bibiano](/ponencias/alex-bibiano/) (clau baixa, llum LED lateral 45°) i [Toni Barbany](/ponencias/toni-barbany/) (tècnica de transparents amb retroil·luminació) compartiran les seves tècniques en ponències i en una demostració en directe al set central.
+La jornada del **6 de juny de 2026** estarà dedicada íntegrament a la fotografia de bodegons, amb un format molt més participatiu i experiencial. Enguany, FOTOgraphic Parets vol anar més enllà de la ponència tradicional i convertir-se en un espai viu d'aprenentatge, interacció i pràctica fotogràfica compartida.
 
-Cada participant rebrà un **passaport de sets** en el moment de l'acreditació, amb el grup assignat (A o B) i els 3 sets que farà al llarg del dia, cadascun amb l'hora exacta. Sense temps morts, sense cues: tot organitzat de bestreta.
+Els fotògrafs [Toni Barbany](/ponencias/toni-barbany/) i [Alex Bibiano](/ponencias/alex-bibiano/) oferiran una ponència conjunta on compartiran conceptes generals sobre fotografia de bodegó, processos creatius, control de la llum, composició i recursos visuals. La sessió combinarà explicacions, comentaris d'imatges, anàlisi de fotografies i demostracions en directe al set central.
 
-### Els 3 sets de shooting
+Després de la ponència, la jornada es convertirà en una experiència pràctica contínua. Els assistents podran treballar directament en diferents sets de bodegó especialment preparats perquè cadascú pugui realitzar les seves pròpies fotografies i experimentar amb diferents plantejaments creatius.
 
-Cada set està desdoblat en 2 taules (6 taules en total). Màxim **4 fotògraf·es per set i franja de 40 minuts**.
-
-**Bodegó barroc**
-Ceràmica artesanal, fruita, flors, drapeig de lli i gerres. Tècnica principal: composició clàssica amb llum LED contínua.
-
-**Clau baixa** _(tècnica Alex Bibiano)_
-Metalls patinats, llautó, coure, eines amb mànec i fons fosc. Tècnica principal: llum lateral 45°, gestió d'ombres i tridimensionalitat.
-
-**Transparents** _(tècnica Toni Barbany)_
-Ampolles d'ambre i vidre transparent, copes de vi i copes de cristall. Tècnica principal: retroil·luminació amb cartolina per ressaltar perfils i siluetes.
+Per mantenir el dinamisme i afavorir la interacció constant, mentre els participants realitzen els shootings als diferents espais, Toni Barbany i Alex Bibiano desenvoluparan simultàniament una demostració pràctica en viu de creació d'un bodegó, mostrant diferents maneres de construir, il·luminar i interpretar una escena.

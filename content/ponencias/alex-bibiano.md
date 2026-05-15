@@ -1,24 +1,24 @@
 ---
 title: "Alex Bibiano"
-description: "Bodegó en clau baixa: objectes, llum LED lateral 45° i gestió d'ombres."
+description: "Soci de l'AFParets, aficionat al bodegó i apassionat de la fotografia."
 draft: false
 ---
 
-## Bodegó en clau baixa: llum, ombra i matèria
+## Qui sóc
 
-Al FOTOgraphic Parets 2026, Alex Bibiano presentarà la seva tècnica de bodegó en **clau baixa** — una aproximació precisa a la llum contínua LED lateral a 45°, la gestió d'ombres i el tethering en directe amb Capture One.
+Sóc l'Alex Bibiano, aficionat a la fotografia i soci de l'Associació Fotogràfica Parets des de 2014. Durant aquests anys he anat provant gèneres ben diferents — paisatge, esportiva, retrat, gastronomia — fins que el **bodegó** s'ha acabat convertint en el terreny on em trobo més còmode i on dedico la major part del temps.
 
-Soci de l'Associació Fotogràfica Parets i guanyador del VI Concurs FOTOgraphic 2024 amb "La Dansa del Moviment", Alex combina una mirada pictòrica amb un workflow tècnic rigorós. La seva ponència cobrirà:
+La meva evolució cap al bodegó ha estat gradual. Va començar com un exercici per controlar millor la llum en condicions estables i, mica en mica, s'ha transformat en una manera d'explicar petites històries amb objectes quotidians: eines velles, gastronomia catalana, vanitas i altres referències properes. **Els darrers dos anys m'hi he dedicat de manera gairebé exclusiva**, explorant a fons aquest llenguatge. Treballo amb tècniques de **light painting inspirades en el mètode Harold Ross**, compostant múltiples preses amb capes a Photoshop a partir d'un revelat fet amb Capture One.
 
-- Selecció d'objectes i construcció del bodegó: protagonista, plans Z i solapament
-- Configuració de la llum LED lateral a 45°: control d'ombres i volum
-- Focus stacking bàsic (Focus Bracket → Helicon Focus)
-- Tethering en directe amb Capture One i anàlisi de la imatge en pantalla
+**Enllaços:** [bibiano.es](https://bibiano.es) · [Instagram @abibiano](https://www.instagram.com/abibiano/)
 
-Al **set Clau baixa**, treballareu amb metalls patinats, llautó, coure i eines amb mànec sobre fons fosc, posant en pràctica la gestió de reflexos i la tridimensionalitat de la llum rasant.
+## Què veureu al FOTOgraphic 2026
 
-{{< image-resize src="img/instructors/bibiano01.jpg" size="1200x" alt="Alex Bibiano · bodegó clau baixa" class="rounded-4 shadow-sm mb-4 w-100" >}}
+Tot i que en el meu treball habitual utilitzo el mètode **Harold Ross** (light painting amb múltiples preses i compositing), per les limitacions de temps i de control de la llum pròpies d'una jornada com aquesta, **no podré ensenyar la tècnica completa de light painting**. El que faré serà:
 
-{{< image-resize src="img/instructors/bibiano02.jpg" size="1200x" alt="Alex Bibiano · bodegó clau baixa" class="rounded-4 shadow-sm mb-4 w-100" >}}
+- Compartir **conceptes generals de bodegó**: tria del subjecte, construcció de l'escena, control de la llum lateral, gestió d'ombres i lectura de la imatge.
+- Replicar **en una sola presa amb llum contínua** allò que normalment construeixo capa a capa, perquè els assistents pugueu treure resultats a casa amb un equip senzill.
 
-{{< image-resize src="img/instructors/bibiano03.jpg" size="1200x" alt="Alex Bibiano · bodegó clau baixa" class="rounded-4 shadow-sm mb-4 w-100" >}}
+L'objectiu no és tant ensenyar una tècnica concreta com posar sobre la taula les decisions que hi ha darrere d'un bodegó: per què aquest objecte, per què aquesta llum, per què aquest enquadrament. La resta, com sempre, és pràctica.
+
+{{< image-resize src="img/instructors/bibiano01.jpg" size="1200x" alt="Alex Bibiano · bodegó" class="rounded-4 shadow-sm mb-4 w-100" >}}

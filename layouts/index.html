@@ -58,7 +58,12 @@
             {{ with resources.Get $img.src }}
             {{ $processed := .Resize "900x" | fingerprint }}
             <div class="carousel-item{{ if $first }} active{{ end }}">
-              <img class="d-block w-100 hero-carousel-img" src="{{ $processed.RelPermalink }}" alt="{{ $img.alt }}">
+              <figure class="hero-carousel-figure mb-0 position-relative">
+                <img class="d-block w-100 hero-carousel-img" src="{{ $processed.RelPermalink }}" alt="{{ $img.alt }}">
+                {{ with $img.author }}
+                <figcaption class="hero-carousel-caption text-center">{{ . }}</figcaption>
+                {{ end }}
+              </figure>
             </div>
             {{ $first = false }}
             {{ end }}
