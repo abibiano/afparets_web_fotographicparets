@@ -12,10 +12,9 @@ hero:
     - label: "Consulta el programa 2026"
       url: "/ponencias"
       variant: "primary"
-    - label: "Inscripció properament"
-      url: "https://forms.gle/gtqsTHoPMVgTZaVz5"
+    - label: "Inscriu-te"
+      url: "https://forms.gle/Eo7t6WZtt3TeKDzD8"
       variant: "outline-primary"
-      disabled: true
   meta:
     - label: "Data"
       value: "6 de juny de 2026"
