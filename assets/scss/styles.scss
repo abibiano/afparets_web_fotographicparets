@@ -412,6 +412,13 @@ h6 {
   object-fit: cover;
 }
 
+// Speaker profile portrait — small circular avatar aligned with the ponencia title
+.ponencia-profile-photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
 .schedule-day-title {
   letter-spacing: 0.24em;
 }

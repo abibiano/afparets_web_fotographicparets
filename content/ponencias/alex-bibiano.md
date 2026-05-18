@@ -1,10 +1,9 @@
 ---
 title: "Alex Bibiano"
 description: "Soci de l'AFParets, aficionat al bodegó i apassionat de la fotografia."
+profile_image: "originales/abibiano-perfil.jpg"
 draft: false
 ---
-
-## Qui sóc
 
 Sóc l'Alex Bibiano, aficionat a la fotografia i soci de l'Associació Fotogràfica Parets des de 2014. Durant aquests anys he anat provant gèneres ben diferents — paisatge, esportiva, retrat, gastronomia — fins que el **bodegó** s'ha acabat convertint en el terreny on em trobo més còmode i on dedico la major part del temps.
 

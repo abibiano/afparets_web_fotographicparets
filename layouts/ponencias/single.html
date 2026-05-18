@@ -5,10 +5,19 @@
   <div class="container">
     <div class="row justify-content-center">
       <article class="col-lg-10 col-xl-8">
-        <header class="page-header mb-5">
-          <h1 class="page-title">{{ .Title }}</h1>
+        <header class="page-header mb-4">
+          <div class="d-flex align-items-end gap-3 flex-wrap">
+            {{ with .Params.profile_image }}
+              {{ $img := resources.Get . }}
+              {{ with $img }}
+                {{ $thumb := .Resize "160x" | fingerprint }}
+                <img src="{{ $thumb.RelPermalink }}" alt="Retrat de {{ $page.Title }}" class="ponencia-profile-photo rounded-circle shadow-sm flex-shrink-0">
+              {{ end }}
+            {{ end }}
+            <h1 class="page-title mb-0 flex-grow-1">{{ .Title }}</h1>
+          </div>
           {{ with .Description }}
-          <p class="page-lead text-muted">{{ . }}</p>
+          <p class="page-lead text-muted mt-3">{{ . }}</p>
           {{ end }}
           {{ $hasMeta := or (isset .Params "horario_dia") (isset .Params "ponentes") (isset .Params "moderador") }}
           {{ if $hasMeta }}

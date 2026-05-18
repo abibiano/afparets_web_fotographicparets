@@ -1,10 +1,9 @@
 ---
 title: "Toni Barbany"
 description: "Fotògraf de llarga trajectòria, MFCF Diamant i Premi Catalunya 2021. Un dels referents actuals de la fotografia de bodegó."
+profile_image: "originales/toni-perfil.jpg"
 draft: false
 ---
-
-## Qui és
 
 Toni Barbany i Bosch (Riells del Fai) és un dels referents actuals de la fotografia de bodegó al circuit català i espanyol. Es va iniciar en la fotografia analògica de ben jove i, des del salt al digital, ha desenvolupat una trajectòria intensa a través de concursos i salons internacionals, on ha trobat un llenguatge molt personal.
 
