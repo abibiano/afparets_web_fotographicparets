@@ -1,5 +1,5 @@
 ---
-title: "Concurs Fotogràfic FOTOgraphic Parets 2026"
+title: "Concurs FOTOgraphic Parets 2026"
 LinkTitle: "Concurs"
 menu: "main"
 weight: 40
