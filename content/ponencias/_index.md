@@ -16,3 +16,13 @@ Els fotògrafs [Toni Barbany](/ponencias/toni-barbany/) i [Alex Bibiano](/ponenc
 Després de la ponència, la jornada es convertirà en una experiència pràctica contínua. Els assistents podran treballar directament en diferents sets de bodegó especialment preparats perquè cadascú pugui realitzar les seves pròpies fotografies i experimentar amb diferents plantejaments creatius.
 
 Per mantenir el dinamisme i afavorir la interacció constant, mentre els participants realitzen els shootings als diferents espais, Toni Barbany i Alex Bibiano desenvoluparan simultàniament una demostració pràctica en viu de creació d'un bodegó, mostrant diferents maneres de construir, il·luminar i interpretar una escena.
+
+<div class="alert alert-info mt-4">
+  <h4 class="alert-heading h6 fw-bold mb-3">Material que cal portar al shooting</h4>
+  <ul class="mb-0">
+    <li><strong>Càmera</strong></li>
+    <li><strong>Trípode</strong></li>
+    <li><strong>Objectiu</strong> recomanat entre 70 mm i 200 mm equivalent a fotograma complet</li>
+    <li><strong>Disparador remot</strong> (recomanat; si no en tens, podràs usar el temporitzador de la càmera)</li>
+  </ul>
+</div>
