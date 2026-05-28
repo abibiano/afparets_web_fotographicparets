@@ -18,7 +18,7 @@ Després de la ponència, la jornada es convertirà en una experiència pràctic
 Per mantenir el dinamisme i afavorir la interacció constant, mentre els participants realitzen els shootings als diferents espais, Toni Barbany i Alex Bibiano desenvoluparan simultàniament una demostració pràctica en viu de creació d'un bodegó, mostrant diferents maneres de construir, il·luminar i interpretar una escena.
 
 <div class="alert alert-info mt-4">
-  <h4 class="alert-heading h6 fw-bold mb-3">Material que cal portar al shooting</h4>
+  <h4 class="alert-heading h6 fw-bold mt-0 mb-3">Material que cal portar al shooting</h4>
   <ul class="mb-0">
     <li><strong>Càmera</strong></li>
     <li><strong>Trípode</strong></li>
