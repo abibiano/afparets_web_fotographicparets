@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #1A1410; }
+    .label { fill: #F5F0EA; font-size: 18px; font-weight: 500; }
+    .label-small { fill: #D0C0A8; font-size: 14px; }
+    .ray { stroke: #C4945A; stroke-width: 2.5; fill: none; }
+    .ray-end { fill: #C4945A; }
+    .shadow { fill: #000000; opacity: 0.35; }
+    .subject { fill: #D4B896; stroke: #8B6E4E; stroke-width: 2; }
+    .camera { fill: #333333; stroke: #ffffff; stroke-width: 2; }
+    .light { fill: #C4945A; stroke: #8B6E4E; stroke-width: 2; }
+    .axis { stroke: #555555; stroke-dasharray: 4 4; stroke-width: 1; }
+  </style>
+  <rect class="bg" width="800" height="600"/>
+
+  <text x="400" y="40" text-anchor="middle" class="label" font-size="22" font-weight="700">Llum frontal</text>
+
+  <line class="axis" x1="400" y1="100" x2="400" y2="560"/>
+  <line class="axis" x1="150" y1="320" x2="650" y2="320"/>
+
+  <!-- subject -->
+  <ellipse class="subject" cx="400" cy="320" rx="40" ry="55"/>
+  <text x="460" y="320" class="label-small">subjecte</text>
+
+  <!-- minimal shadow behind subject -->
+  <ellipse class="shadow" cx="400" cy="260" rx="30" ry="10"/>
+
+  <!-- light source next to camera -->
+  <circle class="light" cx="350" cy="510" r="18"/>
+  <text x="350" y="555" text-anchor="middle" class="label-small">llum</text>
+
+  <!-- camera (bottom) -->
+  <rect class="camera" x="420" y="495" width="60" height="40" rx="4"/>
+  <circle class="camera" cx="450" cy="515" r="10"/>
+  <text x="450" y="558" text-anchor="middle" class="label-small">càmera</text>
+
+  <!-- rays toward subject -->
+  <line class="ray" x1="350" y1="492" x2="386" y2="372"/>
+  <polygon class="ray-end" points="383,370 388,371 387,376"/>
+
+  <text x="400" y="100" text-anchor="middle" class="label-small" font-style="italic">Aplana els volums · ombres invisibles · falta de relleu</text>
+</svg>

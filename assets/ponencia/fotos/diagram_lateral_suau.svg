@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #1A1410; }
+    .label { fill: #F5F0EA; font-size: 18px; font-weight: 500; }
+    .label-small { fill: #D0C0A8; font-size: 14px; }
+    .ray { stroke: #C4945A; stroke-width: 2.5; fill: none; }
+    .ray-end { fill: #C4945A; }
+    .shadow { fill: #000000; opacity: 0.30; }
+    .subject { fill: #D4B896; stroke: #8B6E4E; stroke-width: 2; }
+    .camera { fill: #333333; stroke: #ffffff; stroke-width: 2; }
+    .softbox { fill: #F5F0EA; opacity: 0.85; stroke: #b8b8b8; stroke-width: 2; }
+    .light { fill: #C4945A; stroke: #8B6E4E; stroke-width: 2; }
+    .axis { stroke: #555555; stroke-dasharray: 4 4; stroke-width: 1; }
+  </style>
+  <rect class="bg" width="800" height="600"/>
+
+  <text x="400" y="40" text-anchor="middle" class="label" font-size="22" font-weight="700">Llum lateral suau (softbox / difusor)</text>
+
+  <line class="axis" x1="400" y1="100" x2="400" y2="500"/>
+  <line class="axis" x1="150" y1="320" x2="650" y2="320"/>
+
+  <ellipse class="subject" cx="400" cy="320" rx="40" ry="55"/>
+  <text x="400" y="395" text-anchor="middle" class="label-small">subjecte</text>
+
+  <!-- softer shadow -->
+  <ellipse class="shadow" cx="490" cy="320" rx="100" ry="22"/>
+
+  <!-- softbox (large surface) -->
+  <rect class="softbox" x="155" y="240" width="50" height="160" rx="4"/>
+  <!-- small bulb behind softbox -->
+  <circle class="light" cx="130" cy="320" r="14"/>
+  <text x="180" y="225" text-anchor="middle" class="label-small">softbox / paper vegetal</text>
+  <text x="180" y="425" text-anchor="middle" class="label-small">(font gran)</text>
+
+  <!-- diffused rays -->
+  <line class="ray" x1="205" y1="280" x2="365" y2="300"/>
+  <line class="ray" x1="205" y1="320" x2="358" y2="320"/>
+  <line class="ray" x1="205" y1="360" x2="365" y2="340"/>
+  <polygon class="ray-end" points="358,316 366,320 358,324"/>
+
+  <!-- camera -->
+  <rect class="camera" x="370" y="500" width="60" height="40" rx="4"/>
+  <circle class="camera" cx="400" cy="520" r="10"/>
+  <text x="400" y="565" text-anchor="middle" class="label-small">càmera</text>
+
+  <text x="400" y="100" text-anchor="middle" class="label-small" font-style="italic">Ombres graduals · volum modelat · textura visible sense crit</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #1A1410; }
+    .title { fill: #F5F0EA; font-size: 22px; font-weight: 700; }
+    .label { fill: #F5F0EA; font-size: 18px; font-weight: 600; }
+    .label-small { fill: #D0C0A8; font-size: 14px; }
+    .ray { stroke: #C4945A; stroke-width: 2; fill: none; }
+    .shadow-hard { fill: #000000; opacity: 0.85; }
+    .shadow-soft-1 { fill: #000000; opacity: 0.55; }
+    .shadow-soft-2 { fill: #000000; opacity: 0.30; }
+    .shadow-soft-3 { fill: #000000; opacity: 0.15; }
+    .subject { fill: #D4B896; stroke: #8B6E4E; stroke-width: 2; }
+    .light { fill: #C4945A; stroke: #8B6E4E; stroke-width: 2; }
+    .softbox { fill: #F5F0EA; opacity: 0.85; stroke: #b8b8b8; stroke-width: 2; }
+    .divider { stroke: #555555; stroke-width: 1; }
+  </style>
+  <rect class="bg" width="800" height="600"/>
+
+  <text x="400" y="40" text-anchor="middle" class="title">Qualitat de la llum: dura vs difosa</text>
+
+  <line class="divider" x1="400" y1="80" x2="400" y2="580"/>
+
+  <!-- LEFT: hard light -->
+  <text x="200" y="100" text-anchor="middle" class="label">Llum dura</text>
+  <text x="200" y="122" text-anchor="middle" class="label-small">font petita i/o llunyana</text>
+
+  <!-- small bulb -->
+  <circle class="light" cx="80" cy="320" r="12"/>
+  <text x="80" y="350" text-anchor="middle" class="label-small">font petita</text>
+
+  <!-- single ray -->
+  <line class="ray" x1="92" y1="320" x2="170" y2="320"/>
+
+  <!-- subject -->
+  <ellipse class="subject" cx="200" cy="320" rx="30" ry="40"/>
+
+  <!-- hard shadow -->
+  <ellipse class="shadow-hard" cx="265" cy="320" rx="55" ry="12"/>
+  <text x="280" y="360" class="label-small">ombra tallant</text>
+
+  <!-- RIGHT: soft light -->
+  <text x="600" y="100" text-anchor="middle" class="label">Llum difosa</text>
+  <text x="600" y="122" text-anchor="middle" class="label-small">font gran i/o propera</text>
+
+  <!-- softbox (large) -->
+  <rect class="softbox" x="450" y="240" width="40" height="160" rx="4"/>
+  <text x="470" y="425" text-anchor="middle" class="label-small">font gran</text>
+
+  <!-- multiple rays -->
+  <line class="ray" x1="490" y1="280" x2="565" y2="305"/>
+  <line class="ray" x1="490" y1="320" x2="570" y2="320"/>
+  <line class="ray" x1="490" y1="360" x2="565" y2="335"/>
+
+  <!-- subject -->
+  <ellipse class="subject" cx="600" cy="320" rx="30" ry="40"/>
+
+  <!-- soft shadow gradient (3 ellipses) -->
+  <ellipse class="shadow-soft-1" cx="665" cy="320" rx="35" ry="10"/>
+  <ellipse class="shadow-soft-2" cx="685" cy="320" rx="50" ry="13"/>
+  <ellipse class="shadow-soft-3" cx="705" cy="320" rx="65" ry="16"/>
+  <text x="690" y="360" class="label-small">ombra gradual</text>
+</svg>
