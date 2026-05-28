@@ -26,7 +26,7 @@ Imatges del tema o l'estil que cada participant vulgui, fetes en qualsevol momen
 
 | Categoria | 1r premi | 2n premi | 3r premi |
 |-----------|----------|----------|----------|
-| Bodegó fine art | Sopar valorat en **125 €** | Sopar valorat en **100 €** | Sopar valorat en **75 €** |
+| Bodegó fine art | Sopar valorat en **150 €** | Sopar valorat en **100 €** | Sopar valorat en **75 €** |
 | Lliure | Sopar valorat en **100 €** | Sopar valorat en **75 €** | — |
 
 ---
