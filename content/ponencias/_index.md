@@ -23,6 +23,7 @@ Per mantenir el dinamisme i afavorir la interacció constant, mentre els partici
     <li><strong>Càmera</strong></li>
     <li><strong>Trípode</strong></li>
     <li><strong>Objectiu</strong> recomanat entre 70 mm i 200 mm equivalent a fotograma complet</li>
+    <li><strong>Targeta de memòria</strong></li>
     <li><strong>Disparador remot</strong> (recomanat; si no en tens, podràs usar el temporitzador de la càmera)</li>
   </ul>
 </div>
